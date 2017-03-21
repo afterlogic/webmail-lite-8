@@ -8,9 +8,10 @@ During installation process you will need:
 * [Node.js + NPM](https://nodejs.org/en/)
 
 1. Download and unpack the latest version of aurora-framework into your installation root directory (currently it's version 0.3.1)
-`https://github.com/afterlogic/aurora-framework/archive/0.3.1.zip`
+`https://github.com/afterlogic/aurora-framework/archive/master.zip`
 
-2. Download `modules.json` from `https://raw.githubusercontent.com/afterlogic/aurora-cloud/master/modules.json` and override existing `modules.json` in root directory.
+2. Download `modules.json` from `https://raw.githubusercontent.com/afterlogic/webmail-lite-next
+/master/modules.json` and override existing `modules.json` in root directory.
 
 3. Download `composer.phar` from `https://getcomposer.org/composer.phar`
 
@@ -43,13 +44,13 @@ gulp styles --themes Default,Funny
 gulp js:min --output app
 ```
 
-Upon installing the product, you'll need to [configure your installation](http://afterlogic.com/docs/aurora-cloud/configuration).
+Upon installing the product, you'll need to [configure your installation](https://afterlogic.com/docs/aurora-cloud/configuration).
 
 **IMPORTANT:**
 
 1. Make sure data directory is writable by web server. For example:
 ```bash
-chown -R www-data:www-data /var/www/aurora/cloud
+chown -R www-data:www-data /var/www/webmail/data
 ```
 
 2. It is strongly recommended to runs the product under **https**. If you run it under **http**, the majority of features will still be available, but some functionality aspects, such as authentication with Google account, won't work.
