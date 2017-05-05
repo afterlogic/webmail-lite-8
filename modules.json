@@ -23,13 +23,14 @@
 		{"type": "git", "url":"https://github.com/afterlogic/aurora-module-webclient-oauth-integrator"},
 		{"type": "git", "url":"https://github.com/afterlogic/aurora-module-webclient-session-timeout"},
 		{"type": "git", "url":"https://github.com/afterlogic/aurora-module-webclient-settings"},
-		{"type": "git", "url":"https://github.com/afterlogic/aurora-module-standard-auth"},
-		{"type": "git", "url":"https://github.com/afterlogic/aurora-module-webclient-standard-auth"},
 		{"type": "git", "url":"https://github.com/afterlogic/aurora-module-webclient-standard-login-form"},
 		{"type": "git", "url":"https://github.com/afterlogic/aurora-module-webclient-standard-register-form"},
 		{"type": "git", "url":"https://github.com/afterlogic/aurora-module-eav-object-viewer"},
 		{"type": "git", "url":"https://github.com/afterlogic/aurora-module-mail-change-password-poppassd-plugin"},
-		{"type": "git", "url":"https://github.com/afterlogic/aurora-module-office-document-viewer"}
+		{"type": "git", "url":"https://github.com/afterlogic/aurora-module-office-document-viewer"},
+		{"type": "git", "url":"https://github.com/afterlogic/aurora-module-webclient-mail-tnef-plugin"},
+		{"type": "git", "url":"https://github.com/afterlogic/aurora-module-webclient-mail-zip-plugin"},
+		{"type": "git", "url":"https://github.com/afterlogic/aurora-module-mail-save-message-as-pdf-plugin"}
     ],
 	"require": {
 		"afterlogic/aurora-module-admin-auth": "dev-master",
@@ -55,12 +56,13 @@
 		"afterlogic/aurora-module-webclient-oauth-integrator": "dev-master",
 		"afterlogic/aurora-module-webclient-session-timeout": "dev-master",
 		"afterlogic/aurora-module-webclient-settings": "dev-master",
-		"afterlogic/aurora-module-standard-auth": "dev-master",
-		"afterlogic/aurora-module-webclient-standard-auth": "dev-master",
 		"afterlogic/aurora-module-webclient-standard-login-form": "dev-master",
 		"afterlogic/aurora-module-webclient-standard-register-form": "dev-master",
 		"afterlogic/aurora-module-eav-object-viewer": "dev-master",
 		"afterlogic/aurora-module-mail-change-password-poppassd-plugin": "dev-master",
-		"afterlogic/aurora-module-office-document-viewer": "dev-master"
+		"afterlogic/aurora-module-office-document-viewer": "dev-master",
+		"afterlogic/aurora-module-webclient-mail-tnef-plugin": "dev-master",
+		"afterlogic/aurora-module-webclient-mail-zip-plugin": "dev-master",
+		"afterlogic/aurora-module-mail-save-message-as-pdf-plugin": "dev-master"
 	}
 }
