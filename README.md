@@ -1,4 +1,4 @@
-# Webmail Lite Next
+# Webmail Lite 8
 
 ## Installation instructions
 
