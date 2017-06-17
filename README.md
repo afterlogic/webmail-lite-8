@@ -44,7 +44,7 @@ gulp styles --themes Default,Funny
 gulp js:min
 ```
 
-Upon installing the product, you'll need to [configure your installation](https://afterlogic.com/docs/aurora-cloud/configuration).
+Upon installing the product, you'll need to [configure your installation](https://afterlogic.com/docs/webmail-lite-8/configuring-webmail).
 
 **IMPORTANT:**
 
