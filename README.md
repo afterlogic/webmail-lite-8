@@ -1,4 +1,6 @@
 # Webmail Lite 8
+Open-source webmail script for your existing IMAP server
+[Online demo](https://lite8.afterlogic.com)
 
 ## Installation instructions
 
