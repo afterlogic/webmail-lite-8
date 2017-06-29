@@ -1,8 +1,8 @@
 # Afterlogic WebMail Lite 8
 Open-source webmail script for your existing IMAP server.
-For more informaition please visit WebMail Lite [home page](https://afterlogic.org/webmail-lite-8). Look at WebMail Lite 8 [live demo](https://lite8.afterlogic.com)
+For more informaition please visit WebMail Lite [home page](https://afterlogic.org/webmail-lite-8). Look at WebMail Lite 8 [live demo](https://lite8.afterlogic.com).
 
-![Afterlogic Webmail Pro 8: Message List](https://afterlogic.org/images/products/wml8/screens/afterlogic-webmail-lite-8-message-list.png)
+![Afterlogic Webmail Pro 8: Message List](https://afterlogic.org/images/products/wml8/afterlogic-webmail-lite-8-message-list.png)
 
 ## Installation instructions
 
@@ -52,9 +52,9 @@ Upon installing the product, you'll need to [configure your installation](https:
 **IMPORTANT:**
 
 1. Make sure data directory is writable by web server. For example:
-```bash
-chown -R www-data:www-data /var/www/webmail/data
-```
+  ```bash
+  chown -R www-data:www-data /var/www/webmail/data
+  ```
 
 2. It is strongly recommended to runs the product under **https**. If you run it under **http**, the majority of features will still be available, but some functionality aspects, such as authentication with Google account, won't work.
 
