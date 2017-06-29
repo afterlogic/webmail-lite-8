@@ -1,6 +1,8 @@
-# Webmail Lite 8
+# Afterlogic WebMail Lite 8
 Open-source webmail script for your existing IMAP server.
-Look at Webmsil Lite 8 [live demo](https://lite8.afterlogic.com)
+For more informaition please visit WebMail Lite [home page](https://afterlogic.org/webmail-lite-8). Look at WebMail Lite 8 [live demo](https://lite8.afterlogic.com)
+
+![Afterlogic Webmail Pro 8: Message List](https://afterlogic.org/images/products/wml8/screens/afterlogic-webmail-lite-8-message-list.png)
 
 ## Installation instructions
 
@@ -57,3 +59,7 @@ chown -R www-data:www-data /var/www/webmail/data
 2. It is strongly recommended to runs the product under **https**. If you run it under **http**, the majority of features will still be available, but some functionality aspects, such as authentication with Google account, won't work.
 
 To enable automatic redirect from **http** to **https**, set **RedirectToHttps** to **On** in **data/settings/config.json** file.
+
+**Protecting data directory**
+
+All configuration files of the application and user data are stored in data directory, so it's important to [protect data directory](https://afterlogic.com/docs/webmail-lite-8/security/protecting-data-directory) to make sure that users cannot access that directory over the Internet directly. 
