@@ -1,0 +1,25 @@
+{
+	"config": {
+		"minimum-stability": "dev"
+	},
+	"repositories": [
+	],
+	"require": {
+		"oomphinc/composer-installers-extender": "^1.1",
+		"wikimedia/composer-merge-plugin": "^1.3"
+	},
+	"extra": {
+		"installer-types": ["aurora-module", "aurora-framework", "aurora-builder"],
+		"installer-paths": {
+			"special/package/": ["my/package"],
+			"modules/{$name}/": ["type:aurora-module"],
+			"system/": ["type:aurora-framework"],
+			"build/": ["type:aurora-builder"]
+		},
+		"merge-plugin": {
+			"include": [
+				"modules.json"
+			]
+		}
+	}
+}

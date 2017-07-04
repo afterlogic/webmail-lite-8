@@ -1,0 +1,14 @@
+/.idea
+/nbproject
+/node_modules
+/vendor
+/data
+/tenants
+/modules
+/static
+/build
+/system
+/npm-debug.log
+/composer.phar
+/composer.lock
+/_composer_cache
