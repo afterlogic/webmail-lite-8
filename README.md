@@ -45,7 +45,7 @@ During installation process you will need:
   
 7. Now you are ready to open a URL pointing to the installation directory in your favorite web browser.
 
-8. Upon installing the product, you'll need to [configure your installation](https://afterlogic.com/docs/webmail-lite-8/configuration).
+8. Upon installing the product, you'll need to [configure your installation](https://afterlogic.com/docs/webmail-lite-8/configuring-webmail).
 
 **IMPORTANT:**
 
