@@ -12,7 +12,7 @@ During installation process you will need:
 * [Node.js + NPM](https://nodejs.org/en/)
 
 1. Download and unpack the latest version of Webmail Lite 8 into your installation root directory (currently it's version 0.5.0)
-`https://github.com/afterlogic/aurora-files/archive/0.5.0.zip`
+`https://github.com/afterlogic/webmail-lite-8/archive/0.5.0.zip`
 
 2. Download `composer.phar` from `https://getcomposer.org/composer.phar`
 
