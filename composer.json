@@ -9,7 +9,7 @@
 		"wikimedia/composer-merge-plugin": "^1.3"
 	},
 	"scripts": {
-        	"post-update-cmd": "Aurora\\Installer::postUpdate"
+        	"post-install-cmd": "Aurora\\Installer::postUpdate"
     	},
 	"extra": {
 		"aurora-installer-pre-config": "pre-config.json",
