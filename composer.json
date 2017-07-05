@@ -8,7 +8,11 @@
 		"oomphinc/composer-installers-extender": "^1.1",
 		"wikimedia/composer-merge-plugin": "^1.3"
 	},
+	"scripts": {
+        	"post-update-cmd": "Aurora\\Installer::postUpdate"
+    	},
 	"extra": {
+		"aurora-installer-pre-config": "pre-config.json",
 		"installer-types": ["aurora-module", "aurora-framework", "aurora-builder"],
 		"installer-paths": {
 			"special/package/": ["my/package"],
