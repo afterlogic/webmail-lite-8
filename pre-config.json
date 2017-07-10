@@ -1,0 +1,30 @@
+{
+	"system": {
+	},
+	"modules": {
+		"CoreWebclient": {
+			"HeaderModulesOrder": ["mail", "contacts"],
+			"EntryModule": "mail"
+		},
+		"DropboxAuthWebclient": {
+			"Scopes": "auth"
+		},
+		"Mail": {
+			"AllowChangeEmailSettings": false,
+			"AllowFetchers": false,
+			"AllowNewUsersRegister": true
+		},
+		"OAuthIntegratorWebclient": {
+			"AllowNewUsersRegister": false
+		},
+		"MailChangePasswordPoppassdPlugin": {
+			"Disabled": true
+		},
+		"MailSaveMessageAsPdfPlugin": {
+			"Disabled": true
+		},
+		"MailTnefWebclientPlugin": {
+			"Disabled": true
+		}
+	}
+}
