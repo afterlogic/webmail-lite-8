@@ -9,16 +9,16 @@
 		"wikimedia/composer-merge-plugin": "^1.3"
 	},
 	"scripts": {
-        	"post-update-cmd": "Aurora\\Installer::postUpdate"
-    	},
+        "post-install-cmd": "Aurora\\Installer::postUpdate"
+    },
 	"extra": {
 		"aurora-installer-pre-config": "pre-config.json",
-		"installer-types": ["aurora-module", "aurora-framework", "aurora-builder"],
+		"installer-types": ["aurora-module", "aurora-framework", "aurora-dev-tools"],
 		"installer-paths": {
 			"special/package/": ["my/package"],
 			"modules/{$name}/": ["type:aurora-module"],
 			"system/": ["type:aurora-framework"],
-			"build/": ["type:aurora-builder"]
+			"dev/": ["type:aurora-dev-tools"]
 		},
 		"merge-plugin": {
 			"include": [
