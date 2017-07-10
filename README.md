@@ -10,6 +10,8 @@ During installation process you will need:
 * [Git](https://git-scm.com/downloads)
 * [Composer](https://getcomposer.org/download/)
 * [Node.js + NPM](https://nodejs.org/en/)
+    
+    **Note!** Version of npm above 3 is required
 
 1. Download and unpack the latest version of Webmail Lite 8 into your installation root directory (currently it's version 0.5.0)
 `https://github.com/afterlogic/webmail-lite-8/archive/0.5.0.zip`
@@ -58,6 +60,6 @@ During installation process you will need:
 
 To enable automatic redirect from **http** to **https**, set **RedirectToHttps** to **On** in **data/settings/config.json** file.
 
-**Protecting data directory**
+**Protecting data directory:**
 
 All configuration files of the application and user data are stored in data directory, so it's important to [protect data directory](https://afterlogic.com/docs/webmail-lite-8/security/protecting-data-directory) to make sure that users cannot access that directory over the Internet directly. 
