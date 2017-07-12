@@ -6,7 +6,7 @@
 /tenants
 /modules
 /static
-/build
+/dev
 /system
 /npm-debug.log
 /composer.phar
