@@ -2,7 +2,7 @@
 Open-source webmail script for your existing IMAP server.
 For more informaition please visit WebMail Lite [home page](https://afterlogic.org/webmail-lite-8). Look at WebMail Lite 8 [live demo](https://lite8.afterlogic.com).
 
-![Afterlogic Webmail Pro 8: Message List](https://afterlogic.org/images/products/wml8/afterlogic-webmail-lite-8-message-list.png)
+![Afterlogic Webmail Lite 8: Message List](https://afterlogic.org/images/products/wml8/afterlogic-webmail-lite-8-message-list.png)
 
 ## Installation instructions
 
