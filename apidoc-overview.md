@@ -1,7 +1,7 @@
 # Overview
 Afterlogic WebMail Lite 8 is an open-source webmail script for your existing IMAP server, Plesk or cPanel.
 
-![Afterlogic Webmail Lite 8: Message List](https://afterlogic.org/images/products/aurora-files/aurora-files-folder-list.png)
+![Afterlogic Webmail Lite 8: Message List](https://afterlogic.org/images/products/wml8/afterlogic-webmail-lite-8-message-list.png)
 
 ## Usefull links
 - [Afterlogic WebMail Lite 8 home page](https://afterlogic.org/webmail-lite-8)
