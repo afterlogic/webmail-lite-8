@@ -17,6 +17,9 @@
 		"OAuthIntegratorWebclient": {
 			"AllowNewUsersRegister": false
 		},
+		"ChangePasswordWebclient": {
+			"Disabled": true
+		},
 		"MailChangePasswordPoppassdPlugin": {
 			"Disabled": true
 		},
