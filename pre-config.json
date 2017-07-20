@@ -25,6 +25,9 @@
 		},
 		"MailTnefWebclientPlugin": {
 			"Disabled": true
+		},
+		"MailAuthCpanel": {
+			"Disabled": true
 		}
 	}
 }

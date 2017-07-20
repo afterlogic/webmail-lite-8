@@ -36,6 +36,7 @@
 		"afterlogic/aurora-module-office-document-viewer": "0.5.x",
 		"afterlogic/aurora-module-webclient-mail-tnef-plugin": "0.5.x",
 		"afterlogic/aurora-module-webclient-mail-zip-plugin": "0.5.x",
-		"afterlogic/aurora-module-mail-save-message-as-pdf-plugin": "0.5.x"
+		"afterlogic/aurora-module-mail-save-message-as-pdf-plugin": "0.5.x",
+		"afterlogic/aurora-module-mail-auth-cpanel": "0.5.x"
 	}
 }
