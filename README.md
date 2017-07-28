@@ -66,3 +66,8 @@ To enable automatic redirect from **http** to **https**, set **RedirectToHttps**
 **Protecting data directory:**
 
 All configuration files of the application and user data are stored in data directory, so it's important to [protect data directory](https://afterlogic.com/docs/webmail-lite-8/security/protecting-data-directory) to make sure that users cannot access that directory over the Internet directly. 
+
+# Licensing
+This product is licensed under AGPLv3. The modules and other packages included in this product as dependencies are licensed under their own licenses.
+
+NB: Afterlogic Aurora modules which have dual licensing are licensed under AGPLv3 within this product.
