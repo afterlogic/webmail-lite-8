@@ -26,6 +26,7 @@
 		"afterlogic/aurora-module-webclient-mail": "0.6.x",
 		"afterlogic/aurora-module-webclient-mail-sensitivity-plugin": "0.6.x",
 		"afterlogic/aurora-module-webclient-change-password": "0.6.x",
+		"afterlogic/aurora-module-mail-notes-plugin": "0.6.x",
 		"afterlogic/aurora-module-min": "0.6.x",
 		"afterlogic/aurora-module-webclient-session-timeout": "0.6.x",
 		"afterlogic/aurora-module-webclient-settings": "0.6.x",
