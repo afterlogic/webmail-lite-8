@@ -12,7 +12,14 @@
 		"post-update-cmd": "@pre-config",
 		"pre-config": [
 			"[ -d data ] || mkdir data",
-			"Aurora\\Installer::postUpdate"
+			"Aurora\\Installer::preConfigSafe"
+		],
+		"force-config": [
+			"[ -d data ] || mkdir data",
+			"Aurora\\Installer::preConfigForce"
+		],
+		"update-configs": [
+			"Aurora\\Installer::updateConfigs"
 		]
 	},
 	"extra": {
