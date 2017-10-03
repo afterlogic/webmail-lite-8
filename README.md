@@ -16,8 +16,8 @@ During installation process you will need:
     
     **Note!** Version of npm above 3 is required
 
-1. Download and unpack the latest version of Webmail Lite 8 into your installation root directory (currently it's version 0.6.0)
-`https://github.com/afterlogic/webmail-lite-8/archive/0.6.0.zip`
+1. Download and unpack the latest version of Webmail Lite 8 into your installation root directory (currently it's version 0.6.1)
+`https://github.com/afterlogic/webmail-lite-8/archive/0.6.1.zip`
 
 2. Download `composer.phar` from `https://getcomposer.org/composer.phar`
 
@@ -41,7 +41,7 @@ During installation process you will need:
 
 6. Now you can build static files
     ```bash
-    gulp styles --themes Default,Funny
+    gulp styles --themes Default,DeepForest,Funny
     ```
 
     ```bash
