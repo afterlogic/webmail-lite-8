@@ -1,4 +1,6 @@
-# Afterlogic Webmail Lite 8
+[![Build Status](https://travis-ci.org/afterlogic/webmail-lite-8.svg?branch=master)](https://travis-ci.org/afterlogic/webmail-lite-8)
+
+# Afterlogic Webmail Lite 8 (beta)
 Open-source webmail script for your existing IMAP server.
 
 - For more information, please visit Webmail Lite [home page](https://afterlogic.org/webmail-lite-8).
