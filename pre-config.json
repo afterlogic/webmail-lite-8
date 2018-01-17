@@ -33,6 +33,9 @@
 		},
 		"MailChangePasswordCpanelPlugin": {
 			"Disabled": true
+		},
+		"StandardLoginFormWebclient": {
+			"UseDropdownLanguagesView": true
 		}
 	}
 }
