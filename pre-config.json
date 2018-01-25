@@ -11,7 +11,7 @@
 		},
 		"Mail": {
 			"AllowChangeEmailSettings": false,
-			"AllowNewUsersRegister": true
+			"AutocreateMailAccountOnNewUserFirstLogin": true
 		},
 		"OAuthIntegratorWebclient": {
 			"AllowNewUsersRegister": false
