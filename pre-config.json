@@ -4,7 +4,8 @@
 	"modules": {
 		"CoreWebclient": {
 			"HeaderModulesOrder": ["mail", "contacts"],
-			"EntryModule": "mail"
+			"EntryModule": "mail",
+			"ThemeList": ["Default","DeepForest","Funny"],
 		},
 		"DropboxAuthWebclient": {
 			"Scopes": "auth"
