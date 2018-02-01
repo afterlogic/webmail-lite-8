@@ -37,6 +37,9 @@
 		},
 		"StandardLoginFormWebclient": {
 			"UseDropdownLanguagesView": true
+		},
+		"MailNotesPlugin": {
+			"Disabled": true
 		}
 	}
 }
