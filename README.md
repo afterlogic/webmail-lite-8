@@ -4,7 +4,7 @@
 Open-source webmail script for your existing IMAP server.
 
 - For more information, please visit Webmail Lite [home page](https://afterlogic.org/webmail-lite-8).
-- You can check WebMail Lite 8 [live demo](https://lite8.afterlogic.com).
+- You can check WebMail Lite 8 [live demo](https://lite.afterlogic.com).
 - [Central issue tracker for the Aurora products family](https://github.com/afterlogic/aurora-platform/issues)
 
 ![Afterlogic Webmail Lite 8: Message List](https://afterlogic.org/images/products/wml8/afterlogic-webmail-lite-8-message-list.png)
