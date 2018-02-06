@@ -2,8 +2,8 @@
   "name": "Afterlogic WebMail Lite 8 Web API Reference",
   "version": "0.1.0",
   "description": "",
-  "url" : "https://afterlogic.org/webmail-lite-8",
-  "sampleUrl" : "https://lite8.afterlogic.com/",
+  "url" : "https://afterlogic.org/webmail-lite",
+  "sampleUrl" : "https://lite.afterlogic.com/",
   "template": {
 	  "forceLanguage": "en"
   },

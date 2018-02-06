@@ -4,8 +4,8 @@ Afterlogic WebMail Lite 8 is an open-source webmail script for your existing IMA
 ![Afterlogic Webmail Lite 8: Message List](https://afterlogic.org/images/products/wml8/afterlogic-webmail-lite-8-message-list.png)
 
 ## Useful links
-- [Afterlogic WebMail Lite 8 home page](https://afterlogic.org/webmail-lite-8)
-- [Live demo](https://lite8.afterlogic.com)
+- [Afterlogic WebMail Lite 8 home page](https://afterlogic.org/webmail-lite)
+- [Live demo](https://lite.afterlogic.com)
 - [Documentation](https://afterlogic.com/docs/webmail-lite-8)
 - [Github repository](https://github.com/afterlogic/webmail-lite-8)
 - [Central issue tracker for the Aurora products family](https://github.com/afterlogic/aurora-platform/issues)
