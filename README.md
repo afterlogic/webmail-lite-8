@@ -1,13 +1,13 @@
 [![Build Status](https://travis-ci.org/afterlogic/webmail-lite-8.svg?branch=master)](https://travis-ci.org/afterlogic/webmail-lite-8)
 
-# Afterlogic Webmail Lite 8 (beta)
+# Afterlogic WebMail Lite 8
 Open-source webmail script for your existing IMAP server.
 
-- For more information, please visit Webmail Lite [home page](https://afterlogic.org/webmail-lite-8).
+- For more information, please visit WebMail Lite [home page](https://afterlogic.org/webmail-lite).
 - You can check WebMail Lite 8 [live demo](https://lite.afterlogic.com).
 - [Central issue tracker for the Aurora products family](https://github.com/afterlogic/aurora-platform/issues)
 
-![Afterlogic Webmail Lite 8: Message List](https://afterlogic.org/images/products/wml8/afterlogic-webmail-lite-8-message-list.png)
+![Afterlogic WebMail Lite 8: Message List](https://afterlogic.org/images/products/wml8/afterlogic-webmail-lite-8-message-list.png)
 
 ## Installation instructions
 
@@ -18,8 +18,8 @@ During installation process you will need:
     
     **Note!** npm 3.0 or later is required.
 
-1. Download and unpack the latest version of Webmail Lite 8 into your installation root directory (it's version 0.6.1 at the moment of writing)
-`https://github.com/afterlogic/webmail-lite-8/archive/0.6.1.zip`
+1. Download and unpack the latest version of WebMail Lite 8 into your installation root directory (it's version 0.7.0 at the moment of writing)
+`https://github.com/afterlogic/webmail-lite-8/archive/0.7.0.zip`
 
 2. Download `composer.phar` from `https://getcomposer.org/composer.phar`
 
