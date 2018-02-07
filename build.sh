@@ -7,7 +7,4 @@ gulp js:build
 gulp js:min
 gulp test
 
-now=$(date +"%Y-%m-%d")
-echo $now > VERSION
-
 zip -r ${PRODUCT_NAME}.zip data/settings/modules modules static system vendor dev ".htaccess" dav.php index.php LICENSE VERSION README.md favicon.ico robots.txt composer.json modules.json gulpfile.js pre-config.json -x **/*.bak *.git*
