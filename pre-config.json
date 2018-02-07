@@ -36,10 +36,14 @@
 			"Disabled": true
 		},
 		"StandardLoginFormWebclient": {
-			"UseDropdownLanguagesView": true
+			"UseDropdownLanguagesView": true,
+			"BottomInfoHtmlText": "Powered by <a href=\"https:\/\/afterlogic.org\/webmail-lite-8\" target=\"_blank\" style=\"color:#fff;\">Afterlogic Webmail Lite 8</a>"
+		},
+		"StandardRegisterFormWebclient": {
+			"BottomInfoHtmlText": "Powered by <a href=\"https:\/\/afterlogic.org\/webmail-lite-8\" target=\"_blank\" style=\"color:#fff;\">Afterlogic Webmail Lite 8</a>"
 		},
 		"MailNotesPlugin": {
 			"Disabled": true
-		}
+		},
 	}
 }
