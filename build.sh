@@ -7,4 +7,6 @@ gulp js:build
 gulp js:min
 gulp test
 
-zip -r ${PRODUCT_NAME}.zip data/settings/modules modules static system vendor dev ".htaccess" dav.php index.php LICENSE VERSION README.md favicon.ico robots.txt composer.json modules.json gulpfile.js pre-config.json -x **/*.bak *.git*
+PRODUCT_VERSION=`cat VERSION`
+
+zip -r ${PRODUCT_NAME}-${PRODUCT_VERSION}.zip data/settings/modules modules static system vendor dev ".htaccess" dav.php index.php LICENSE VERSION README.md favicon.ico robots.txt composer.json modules.json gulpfile.js pre-config.json -x **/*.bak *.git*
