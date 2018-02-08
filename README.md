@@ -31,6 +31,11 @@ During installation process you will need:
 
     **NB:** It is strongly advised to run composer as non-root user. Otherwise, third-party scripts will be run with root permissions and composer issues a warning that it's not safe. We recommend running the script under the same user web server runs under.
 
+4. Set up initial config values
+    ```bash
+    php composer.phar run pre-config
+    ```
+
 5. Next, you need to build static files for the current module set.
 
     First of all, install all npm modules via
