@@ -5,7 +5,7 @@
 		"CoreWebclient": {
 			"HeaderModulesOrder": ["mail", "contacts"],
 			"EntryModule": "mail",
-			"ThemeList": ["Default","DeepForest","Funny"],
+			"ThemeList": ["Default","DeepForest","Funny"]
 		},
 		"DropboxAuthWebclient": {
 			"Scopes": "auth"
@@ -37,13 +37,13 @@
 		},
 		"StandardLoginFormWebclient": {
 			"UseDropdownLanguagesView": true,
-			"BottomInfoHtmlText": "Powered by <a href=\"https:\/\/afterlogic.org\/webmail-lite-8\" target=\"_blank\" style=\"color:#fff;\">Afterlogic Webmail Lite 8</a>"
+			"BottomInfoHtmlText": "Powered by <a href=\"https:\/\/afterlogic.org\/webmail-lite\" target=\"_blank\" style=\"color:#fff;\">Afterlogic WebMail Lite</a>"
 		},
 		"StandardRegisterFormWebclient": {
-			"BottomInfoHtmlText": "Powered by <a href=\"https:\/\/afterlogic.org\/webmail-lite-8\" target=\"_blank\" style=\"color:#fff;\">Afterlogic Webmail Lite 8</a>"
+			"BottomInfoHtmlText": "Powered by <a href=\"https:\/\/afterlogic.org\/webmail-lite\" target=\"_blank\" style=\"color:#fff;\">Afterlogic WebMail Lite</a>"
 		},
 		"MailNotesPlugin": {
 			"Disabled": true
-		},
+		}
 	}
 }
