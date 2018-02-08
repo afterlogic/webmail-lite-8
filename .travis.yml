@@ -12,8 +12,9 @@ install:
 script:
 - php ./travis.php
 - chmod +x ./build.sh
-- ./build.sh
-after_success: curl --ftp-create-dirs -T $PRODUCT_NAME.zip -u $FTP_USER:$FTP_PASSWORD ftp://afterlogic.com/
+- ./travis.sh -t build
+after_success: 
+- ./travis.sh -t upload
 env:
   global:
   - PRODUCT_NAME=webmail-lite-8
