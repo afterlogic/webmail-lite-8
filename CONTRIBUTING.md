@@ -1,2 +1,2 @@
-Please direct all the issue reports, comments and questions to central issue tracker for Aurora product family:
-[https://github.com/afterlogic/aurora-platform/issues](https://github.com/afterlogic/aurora-platform/issues)
+Please direct all the issue reports, comments and questions to issue tracker for Afterlogic WebMail Lite 8:
+[https://github.com/afterlogic/webmail-lite-8/issues](https://github.com/afterlogic/webmail-lite-8/issues)
