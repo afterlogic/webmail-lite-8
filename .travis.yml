@@ -11,7 +11,7 @@ install:
 - npm install -g newman
 script:
 - php ./travis.php
-- chmod +x ./build.sh
+- chmod +x ./travis.sh
 - ./travis.sh -t build
 after_success: 
 - ./travis.sh -t upload
