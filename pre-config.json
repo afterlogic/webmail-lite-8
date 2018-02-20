@@ -11,7 +11,7 @@
 			"Scopes": "auth"
 		},
 		"Mail": {
-			"AllowChangeEmailSettings": false,
+			"AllowDefaultAccountForUser": true,
 			"AutocreateMailAccountOnNewUserFirstLogin": true
 		},
 		"OAuthIntegratorWebclient": {
@@ -37,10 +37,10 @@
 		},
 		"StandardLoginFormWebclient": {
 			"UseDropdownLanguagesView": true,
-			"BottomInfoHtmlText": "Powered by <a href=\"https:\/\/afterlogic.org\/webmail-lite\" target=\"_blank\" style=\"color:#fff;\">Afterlogic WebMail Lite</a>"
+			"BottomInfoHtmlText": "Powered by <a href=\"https:\/\/afterlogic.org\/webmail-lite\" target=\"_blank\">Afterlogic WebMail Lite</a>"
 		},
 		"StandardRegisterFormWebclient": {
-			"BottomInfoHtmlText": "Powered by <a href=\"https:\/\/afterlogic.org\/webmail-lite\" target=\"_blank\" style=\"color:#fff;\">Afterlogic WebMail Lite</a>"
+			"BottomInfoHtmlText": "Powered by <a href=\"https:\/\/afterlogic.org\/webmail-lite\" target=\"_blank\">Afterlogic WebMail Lite</a>"
 		},
 		"MailNotesPlugin": {
 			"Disabled": true
