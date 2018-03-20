@@ -19,8 +19,8 @@ During installation process you will need:
     
     **Note!** npm 3.0 or later is required.
 
-1. Download and unpack the latest version of WebMail Lite 8 into your installation root directory (it's version 0.7.0 at the moment of writing)
-`https://github.com/afterlogic/webmail-lite-8/archive/0.7.0.zip`
+1. Download and unpack the latest version of WebMail Lite 8 into your installation root directory
+`https://github.com/afterlogic/webmail-lite-8/archive/latest.zip`
 
 2. Download `composer.phar` from `https://getcomposer.org/composer.phar`
 
