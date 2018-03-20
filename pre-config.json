@@ -7,6 +7,9 @@
 			"EntryModule": "mail",
 			"ThemeList": ["Default","DeepForest","Funny"]
 		},
+		"Dropbox": {
+			"Disabled": true
+		},
 		"DropboxAuthWebclient": {
 			"Scopes": "auth"
 		},
