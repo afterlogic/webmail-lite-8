@@ -2,6 +2,9 @@
 	"system": {
 	},
 	"modules": {
+		"Core": {
+			"ProductName": "Afterlogic WebMail Lite PHP"
+		},
 		"CoreWebclient": {
 			"HeaderModulesOrder": ["mail", "contacts"],
 			"EntryModule": "mail",
