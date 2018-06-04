@@ -10,6 +10,8 @@ Open-source webmail script for your existing IMAP server.
 
 ![Afterlogic WebMail Lite 8: Message List](https://afterlogic.org/images/products/wml8/afterlogic-webmail-lite-8-message-list.png)
 
+You can download WebMail Lite 8 from our website, unzip the package and configure the installation as described at [this documentation page](https://afterlogic.com/docs/webmail-lite-8/installation/installation-instructions). This is a simple approach convenient for those who simply wish to install the product. But if you're looking for building and adding custom modules or skins, installing from Git repository is recommended per the instructions below.
+
 ## Installation instructions
 
 During installation process you will need:
