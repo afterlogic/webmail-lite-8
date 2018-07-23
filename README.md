@@ -24,6 +24,24 @@ During installation process you will need:
 1. Download and unpack the latest version of WebMail Lite 8 into your installation root directory
 `https://github.com/afterlogic/webmail-lite-8/archive/latest.zip`
 
+We're assuming that you wish to install the latest stable version of the product. If you're looking for the latest code (e.g., to contribute changes), the following steps needs to be taken:
+
+- Instead of unpacking the archive, clone the repository into the installation directory:
+```
+git clone https://github.com/afterlogic/webmail-pro-8.git INSTALL_FOLDER_PATH
+```
+- change modules' versions in `modules.json` file to "dev-master"
+- make sure that composer is configured to prefer sources:
+```
+{
+	"config": {
+		"minimum-stability": "dev",
+		"preferred-install": {
+			"afterlogic/*": "source"
+		}
+	}.......
+```
+
 2. Download `composer.phar` from `https://getcomposer.org/composer.phar`
 
 3. Start the composer installation process by running the following from the command line:
