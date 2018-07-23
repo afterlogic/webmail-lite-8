@@ -28,10 +28,10 @@ We're assuming that you wish to install the latest stable version of the product
 
 - Instead of unpacking the archive, clone the repository into the installation directory:
 ```
-git clone https://github.com/afterlogic/webmail-pro-8.git INSTALL_FOLDER_PATH
+git clone https://github.com/afterlogic/webmail-lite-8.git INSTALL_FOLDER_PATH
 ```
 - change modules' versions in `modules.json` file to "dev-master"
-- make sure that composer is configured to prefer sources:
+- adjust `composer.json` configuration file so that sources are preferred:
 ```
 {
 	"config": {
