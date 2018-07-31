@@ -6,7 +6,7 @@ Instructions on updating the product translations can be found here: [Improving 
 
 Upon making changes to WebMail Lite 8 code, you can send us a Pull Request. Please bear in mind that the product has a modular structure, so you'll need to send a Pull Request in each repository where you made any changes.
 
-Also, you can create a module for our product, and you might wish to use one of the existing modules from a [Modules Directory](https://afterlogic.com/docs/webmail-lite-8/modules-directory) as a ground. You can upload it to your own repository of course. And if you believe other users of WebMail Lite 8 could benefit from such a module, please [let us know](https://afterlogic.com/contact) about it!
+Also, you can create a module for our product, and you might wish to use one of the existing modules as a ground. You can upload it to your own repository of course. And if you believe other users of WebMail Lite 8 could benefit from such a module, please [let us know](https://afterlogic.com/contact) about it!
 
 - [Github repository](https://github.com/afterlogic/webmail-lite-8)
 - [Issue tracker](https://github.com/afterlogic/webmail-lite-8/issues)
