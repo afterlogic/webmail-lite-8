@@ -1,6 +1,9 @@
 {
 	"config": {
-		"minimum-stability": "dev"
+		"minimum-stability": "dev",
+		"preferred-install": {
+			"afterlogic/*": "source"
+		}
 	},
 	"repositories": [
 	],
