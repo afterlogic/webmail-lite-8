@@ -16,20 +16,13 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
 
-$sCurrentFile = \basename(__FILE__);
-$sRequestUri = empty($_SERVER['REQUEST_URI']) ? '' : \trim($_SERVER['REQUEST_URI']);
-
 include_once 'system/autoload.php';
 
-\Aurora\System\Api::GrantAdminPrivileges();
 \Aurora\System\Api::Init();
 
 \set_time_limit(3000);
 \set_error_handler(function ($errno, $errstr, $errfile, $errline) {
-	throw new \ErrorException($errstr, 0, $errno, $errfile, $errline);
-});
-
-$sBaseUri = \substr($sRequestUri, 0, \strpos($sRequestUri,'/'.$sCurrentFile)).'/'.$sCurrentFile.'/';
-	
-\Afterlogic\DAV\Server::getInstance($sBaseUri)->exec();
-
+    throw new \ErrorException($errstr, 0, $errno, $errfile, $errline);
+    });
+    
+    \Afterlogic\DAV\Server::getInstance()->exec();
