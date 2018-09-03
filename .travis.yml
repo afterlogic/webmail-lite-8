@@ -23,6 +23,7 @@ after_success:
 env:
   global:
   - PRODUCT_NAME=webmail-lite
+  - PRODUCT_TITLE="Afterlogic WebMail Lite"
   - PRODUCT_WEBSITE=https://afterlogic.org/webmail-lite
   - PRODUCT_DOWNLOAD=https://afterlogic.org/download/webmail-lite-php
   - PRODUCT_ZIP_URL=https://afterlogic.org/download/webmail_php.zip

@@ -2,6 +2,7 @@
 
 # external config variables:
 # - PRODUCT_NAME
+# - PRODUCT_TITLE
 # - PRODUCT_WEBSITE
 # - PRODUCT_DOWNLOAD
 # - PRODUCT_ZIP_URL
@@ -9,6 +10,8 @@
 # - FTP_PASSWORD
 
 # dev
+# PRODUCT_NAME="webmail-lite"
+# PRODUCT_TITLE="Afterlogic WebMail Lite"
 # PRODUCT_WEBSITE=https://afterlogic.org/webmail-lite
 # PRODUCT_DOWNLOAD=https://afterlogic.org/download/webmail-lite-php
 # PRODUCT_ZIP_URL=https://afterlogic.org/download/webmail_php.zip
@@ -66,7 +69,7 @@ if [ "$TASK" = "build" ]; then
 		
 		# sed -i "s/%PRODUCT_FULLNAME%/$PRODUCT_FULLNAME/g" ./template/APP-META.xml
 		# sed -i "s/%PRODUCT_PACKAGE%/$PRODUCT_PACKAGE/g" ./template/APP-META.xml
-		sed -i "s/%PRODUCT_NAME%/${PRODUCT_NAME}/g" ./template/APP-META.xml
+		sed -i "s/%PRODUCT_NAME%/${PRODUCT_TITLE}/g" ./template/APP-META.xml
 		sed -i "s/%PRODUCT_VERSION%/$PRODUCT_VERNUM/g" ./template/APP-META.xml
 		sed -i "s/%PRODUCT_RELEASE%/$PRODUCT_RELEASE/g" ./template/APP-META.xml
 		sed -i "s|%PRODUCT_WEBSITE%|${PRODUCT_WEBSITE}|g" ./template/APP-META.xml
@@ -96,7 +99,7 @@ fi
 
 if [ "$TASK" = "log" ]; then	
 	echo GENERATE CHANGELOG
-		cat ./CHANGELOG.md | ./build.sh -t xmllog > ./changelog.xml
+		cat ./CHANGELOG.md | ./travis-plesk-builder.sh -t xmllog > ./changelog.xml
 		
 		sed -i -e "/%PRODUCT_CHANGELOG%/ {r ./changelog.xml
 		d}" ./template/APP-META.xml
