@@ -45,14 +45,13 @@ if [ "$TASK" = "build" ]; then
 		# wget ${PRODUCT_ZIP_URL} -nv
 
 	echo POPULATE TEMPLATE
-		PRODUCT_VERSION=`cat ./template/htdocs/VERSION`
+		PRODUCT_VERSION=`cat VERSION`
 		
 		mkdir ./template
 		# unzip -q ./plesk-package-template.zip -d ./template
 		unzip -q ./plesk-package-template.zip
 		cp -r ./plesk-package-template-latest/* ./template
 
-		
 		unzip -q ./${PRODUCT_NAME}_${PRODUCT_VERSION}.zip -d ./template/htdocs
     
 	echo POPULATE APP-META.XML
@@ -106,7 +105,7 @@ if [ "$TASK" = "log" ]; then
 fi	
 	
 if [ "$TASK" = "zip" ]; then
-	PRODUCT_VERSION=`cat ./template/htdocs/VERSION`
+	PRODUCT_VERSION=`cat VERSION`
 	
 	echo BUILD ARCHIVE
 		cd ./template
@@ -116,7 +115,7 @@ if [ "$TASK" = "zip" ]; then
 fi
 
 if [ "$TASK" = "upload" ]; then
-	PRODUCT_VERSION=`cat ./template/htdocs/VERSION`
+	PRODUCT_VERSION=`cat VERSION`
 
 	echo UPLOAD ZIP FILE: "${PRODUCT_NAME}-plesk_${PRODUCT_VERSION}.zip"
 	
