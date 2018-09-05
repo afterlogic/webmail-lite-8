@@ -1,12 +1,11 @@
-# [8.1.4]
+[8.1.4]
+[+] Current Beta release.
 
-- [+] Current Beta release.
-
-# [8.1.0]
-- [+] Bugfixes.
+[8.1.0]
+[+] Bugfixes.
 
 [8.0.0]
-- [+] Beta release on Aurora platform.
+[+] Beta release on Aurora platform.
 
 [7.7.5]
 [+] Added SQLite support (experimental)
