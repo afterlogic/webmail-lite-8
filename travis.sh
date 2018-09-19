@@ -1,5 +1,6 @@
 #!/bin/bash
 
+DIR=$(cd `dirname $0` && pwd)
 TASK="build"
 
 POSITIONAL=()
@@ -24,6 +25,8 @@ set -- "${POSITIONAL[@]}" # restore positional parameters
 echo TASK: "$TASK"
 
 if [ "$TASK" = "build" ]; then
+	cd ${DIR}
+	
 	npm install -g gulp-cli
 	npm install ./modules/CoreWebclient
 
@@ -36,14 +39,15 @@ if [ "$TASK" = "build" ]; then
 	
 	echo CREATE ZIP FILE: "${PRODUCT_NAME}_${PRODUCT_VERSION}.zip"
 	
-	zip -rq ${PRODUCT_NAME}_${PRODUCT_VERSION}.zip data/settings/modules modules static system vendor dev ".htaccess" dav.php index.php LICENSE VERSION README.md favicon.ico robots.txt composer.json modules.json gulpfile.js pre-config.json -x **/*.bak *.git*
+	zip -rq ${PRODUCT_NAME}_${PRODUCT_VERSION}.zip data/settings/modules modules static system vendor dev ".htaccess" dav.php index.php LICENSE VERSION README.md favicon.ico robots.txt composer.json composer.lock modules.json gulpfile.js pre-config.json -x **/*.bak *.git*
 fi
 
 if [ "$TASK" = "upload" ]; then
+	cd ${DIR}
+	
 	PRODUCT_VERSION=`cat VERSION`
-
+	
 	echo UPLOAD ZIP FILE: "${PRODUCT_NAME}_${PRODUCT_VERSION}.zip"
 	
 	curl --ftp-create-dirs -T ${PRODUCT_NAME}_${PRODUCT_VERSION}.zip -u ${FTP_USER}:${FTP_PASSWORD} ftp://afterlogic.com/
 fi
-
