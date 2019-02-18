@@ -1,4 +1,4 @@
-<Files *.config.json>
+<Files *config.json*>
 	order allow,deny
 	deny from all
 </Files>
