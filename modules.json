@@ -41,6 +41,8 @@
 		"afterlogic/aurora-module-mail-save-message-as-pdf-plugin": "0.9.x",
 		"afterlogic/aurora-module-mail-auth-cpanel": "0.9.x",
 		"afterlogic/aurora-module-mail-change-password-cpanel-plugin": "0.9.x",
-		"afterlogic/aurora-module-two-factor-auth": "0.9.x"
+		"afterlogic/aurora-module-two-factor-auth": "0.9.x",
+		
+		"afterlogic/aurora-module-override-user-settings": "0.9.x"
 	}
 }
