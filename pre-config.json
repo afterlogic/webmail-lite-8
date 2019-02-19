@@ -51,6 +51,9 @@
 		},
 		"MailNotesPlugin": {
 			"Disabled": true
+		},
+		"OverrideUserSettings": {
+			"Disabled": true
 		}
 	}
 }
