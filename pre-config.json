@@ -39,7 +39,7 @@
 		"MailAuthCpanel": {
 			"Disabled": true
 		},
-		"MailChangePasswordCpanelPlugin": {
+		"CpanelIntegrator": {
 			"Disabled": true
 		},
 		"StandardLoginFormWebclient": {
