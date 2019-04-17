@@ -8,7 +8,7 @@ $bAdminPrivileges = true;
 $DbHost = '127.0.0.1';
 $DbLogin = 'root';
 $DbPassword = '';
-$DbName = 'aurora';
+$DbName = '';
 
 $oCoreDecorator = \Aurora\System\Api::GetModuleDecorator('Core');
 
