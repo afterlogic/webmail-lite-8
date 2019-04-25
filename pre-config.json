@@ -18,6 +18,7 @@
 			"Scopes": "auth"
 		},
 		"Mail": {
+			"UseSortImapForDateMode": true,
 			"AllowDefaultAccountForUser": true,
 			"AutocreateMailAccountOnNewUserFirstLogin": true
 		},
