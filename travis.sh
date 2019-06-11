@@ -28,7 +28,7 @@ if [ "$TASK" = "build" ]; then
 	cd ${DIR}
 	
 	npm install -g gulp-cli
-	npm install ./modules/CoreWebclient
+	npm install
 
 	gulp styles --themes Default,DeepForest,Funny,Sand --build a
 	gulp js:build --build a

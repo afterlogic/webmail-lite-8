@@ -60,7 +60,7 @@ git clone https://github.com/afterlogic/webmail-lite-8.git INSTALL_FOLDER_PATH
 
     First of all, install all npm modules via
     ```bash
-    npm install ./modules/CoreWebclient
+    npm install
     ```
     and install gulp-cli module globaly 
     ```bash

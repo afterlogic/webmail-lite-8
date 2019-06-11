@@ -13,7 +13,7 @@
 		"afterlogic/aurora-module-webclient-contacts": "0.9.x",
 		"afterlogic/aurora-module-personal-contacts": "0.9.x",
 		"afterlogic/aurora-module-core": "0.9.x",
-		"afterlogic/aurora-module-webclient-core": "0.9.x",
+		"afterlogic/aurora-module-webclient-core": "^0.9.38",
 		"afterlogic/aurora-module-dropbox": "0.9.x",
 		"afterlogic/aurora-module-webclient-dropbox-auth": "0.9.x",
 		"afterlogic/aurora-module-facebook": "0.9.x",
