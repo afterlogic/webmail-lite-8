@@ -98,7 +98,7 @@ fi
 
 if [ "$TASK" = "log" ]; then
   echo GENERATE CHANGELOG
-    cat ./CHANGELOG.md | ./travis-plesk-builder.sh -t xmllog > ./changelog.xml
+    cat ./CHANGELOG.txt | ./travis-plesk-builder.sh -t xmllog > ./changelog.xml
 
     sed -i -e "/%PRODUCT_CHANGELOG%/ {r ./changelog.xml
     d}" ./template/APP-META.xml
