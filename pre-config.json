@@ -18,7 +18,12 @@
 			"Scopes": "auth"
 		},
 		"Mail": {
-			"UseSortImapForDateMode": true,
+			"MessagesSortBy": {
+				"Allow": true,
+				"List": [],
+				"DefaultSortBy": "arrival",
+				"DefaultSortOrder": "desc"
+			},
 			"AllowDefaultAccountForUser": true,
 			"AutocreateMailAccountOnNewUserFirstLogin": true
 		},
