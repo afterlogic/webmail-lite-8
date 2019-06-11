@@ -50,6 +50,9 @@
 		"StandardRegisterFormWebclient": {
 			"BottomInfoHtmlText": "Powered by <a href=\"https:\/\/afterlogic.org\/webmail-lite\" target=\"_blank\">Afterlogic WebMail Lite</a>"
 		},
+		"RecaptchaWebclientPlugin": {
+			"Disabled": true
+		},
 		"MailNotesPlugin": {
 			"Disabled": true
 		},
