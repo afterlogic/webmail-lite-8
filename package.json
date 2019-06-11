@@ -1,0 +1,21 @@
+{
+  "title": "Afterlogic Aurora Core Webclient module",
+  "description": "",
+  "name": "aurora-platform",
+  "version": "8.0.0",
+  "main": "gulpfile.js",
+  "homepage": "https://afterlogic.com/webmail-client",
+  "repository": "https://github.com/afterlogic/webmail-pro-8",
+  "license": "AGPL-3.0",
+  "author": {
+    "name": "Afterlogic Corp.",
+    "email": "support@afterlogic.com",
+    "web": "http://afterlogic.com"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "corewebclient": "file:./modules/CoreWebclient"
+  }
+}
