@@ -30,7 +30,7 @@ if [ "$TASK" = "build" ]; then
 	npm install -g gulp-cli
 	npm install ./modules/CoreWebclient
 
-	gulp styles --themes Default,DeepForest,Funny --build a
+	gulp styles --themes Default,DeepForest,Funny,Sand --build a
 	gulp js:build --build a
 	gulp js:min --build a
 	gulp test

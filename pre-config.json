@@ -9,7 +9,7 @@
 			"HeaderModulesOrder": ["mail", "contacts"],
 			"DefaultAnonymScreenHash": "login",
 			"DefaultUserScreenHash": "mail",
-			"ThemeList": ["Default","DeepForest","Funny"]
+			"ThemeList": ["Default", "DeepForest", "Funny", "Sand"]
 		},
 		"Dropbox": {
 			"Disabled": true

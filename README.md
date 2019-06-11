@@ -69,7 +69,7 @@ git clone https://github.com/afterlogic/webmail-lite-8.git INSTALL_FOLDER_PATH
 
 6. Now you can build static files
     ```bash
-    gulp styles --themes Default,DeepForest,Funny
+    gulp styles --themes Default,DeepForest,Funny,Sand
     ```
 
     ```bash
