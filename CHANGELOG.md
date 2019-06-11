@@ -659,7 +659,7 @@
 4.9.0
 [+] PHP: LDAP support added (LDAP authentication and server contact list). This is custom-project only option.
 [+] JS, PHP, .NET: filter list interface beautified.
-[+] PHP: AfterLogic Outlook Sync Plugin support added.
+[+] PHP: Afterlogic Outlook Sync Plugin support added.
 [+] JS, PHP, .NET: Visual indication as to the priority and confidentiality of the message. This option available in Message List, Preview and Full pane.
 [+] JS: Syntax check of email addresses before sending a message.
 [+] JS: Cancel message composing ability.
@@ -824,7 +824,7 @@
 
 4.7.4
 [+] PHP: Migration to PHP 5.1.0 (added "clone" operator using in Admin Panel + install script now checks if PHP version is >= 5.1.0). PHP 4.X and 5.0 is not supported anymore.
-[*] .NET: Some optimizations in native AfterLogic XMail Server mode.
+[*] .NET: Some optimizations in native Afterlogic XMail Server mode.
 [*] .NET: Bugfix: inc.calendar-settings.js was not loaded.
 [*] PHP: Bugfix: "Enable to open site" in Admin Panel in IE.
 [+] PHP: Additional condition for detecting attachments in BODYSTRUCTURE queries added.
