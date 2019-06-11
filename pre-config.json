@@ -53,6 +53,9 @@
 		"RecaptchaWebclientPlugin": {
 			"Disabled": true
 		},
+		"MailMasterPassword": {
+			"Disabled": true
+		},
 		"MailNotesPlugin": {
 			"Disabled": true
 		},
