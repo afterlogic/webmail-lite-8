@@ -1,3 +1,6 @@
+[8.3.1]
+[*] Various bugfixes
+
 [8.3.0]
 [+] Custom mail sorting option
 [+] cPanel filters, autoresponder, forwarding, aliases
