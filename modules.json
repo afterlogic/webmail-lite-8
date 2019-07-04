@@ -45,6 +45,7 @@
 		"afterlogic/aurora-module-import-export-mail-plugin": "0.9.x",
 		"afterlogic/aurora-module-webclient-recaptcha-plugin": "0.9.x",
 		"afterlogic/aurora-module-mail-master-password": "0.9.x",
+		"afterlogic/aurora-module-webclient-mail-login-form": "0.9.x",
 		
 		"afterlogic/aurora-module-override-user-settings": "0.9.x"
 	}

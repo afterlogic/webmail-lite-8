@@ -64,6 +64,11 @@
 		"MailNotesPlugin": {
 			"Disabled": true
 		},
+		"MailLoginFormWebclient": {
+			"Disabled": true,
+			"UseDropdownLanguagesView": true,
+			"BottomInfoHtmlText": "Powered by <a href=\"https:\/\/afterlogic.com\/webmail-lite\" target=\"_blank\">Afterlogic WebMail Lite</a>"
+		},
 		"OverrideUserSettings": {
 			"Disabled": true
 		},
