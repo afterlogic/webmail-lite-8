@@ -1,3 +1,8 @@
+[8.3.4]
+[*] Various bugfixes
+[*] Minor keyboard shortcuts improvements
+[*] IE bugfixes
+
 [8.3.3]
 [+] Ability to store AuthToken in database
 [+] Mail module authentication form added
