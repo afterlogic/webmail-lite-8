@@ -1,3 +1,6 @@
+RewriteEngine on
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization},L]
+
 <Files *config.json*>
 	order allow,deny
 	deny from all
