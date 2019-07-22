@@ -32,7 +32,6 @@
 		"afterlogic/aurora-module-webclient-session-timeout": "0.9.x",
 		"afterlogic/aurora-module-webclient-settings": "0.9.x",
 		"afterlogic/aurora-module-webclient-standard-login-form": "0.9.x",
-		"afterlogic/aurora-module-webclient-standard-register-form": "0.9.x",
 		"afterlogic/aurora-module-eav-object-viewer": "0.9.x",
 		"afterlogic/aurora-module-mail-change-password-poppassd-plugin": "0.9.x",
 		"afterlogic/aurora-module-office-document-viewer": "0.9.x",
