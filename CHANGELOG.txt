@@ -1,3 +1,12 @@
+[8.3.6]
+[*] Message parsing performance is improved (PHP)
+[*] Prefetch for messages is improved
+[*] Reducing the amount of memory leaks in JS
+[+] Security header for all cookies
+[+] Delete all users that belong to the mail server to be deleted.
+[+] SieveCheckScript setting is added
+[*] Minor bugfixes
+
 [8.3.5]
 [+] Authorization header adjustments in .htaccess file
 [*] Minor bugfixes
