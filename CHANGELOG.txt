@@ -1,3 +1,10 @@
+[8.3.7]
+[+] Methods of handling contacts and groups rewritten and improved
+[+] OnlyUserEmailsInIdentities setting that allows only user emails in identities
+[+] AlwaysTryUseImageWhilePasting setting is added
+[*] Web API of Core module for admin panel entities management improved
+[*] Various bugfixes
+
 [8.3.6]
 [*] Message parsing performance is improved (PHP)
 [*] Prefetch for messages is improved
