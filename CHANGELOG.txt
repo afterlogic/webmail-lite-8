@@ -1,3 +1,9 @@
+[8.3.9]
+[+] Password changes are recorded in user activity log
+[*] Autocreating accounts fixed for mail login form
+[*] LDAP password change plugin updated
+[*] Various bugfixes
+
 [8.3.8]
 [+] Implemented HTTP Digest Authentication on DAV-server
 [*] Various bugfixes
