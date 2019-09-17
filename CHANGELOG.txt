@@ -1,3 +1,8 @@
+[8.3.10]
+[*] Various bugfixes
+[+] User activity logs: password change
+[*] Closed CVE-2019-16238 vulnerability
+
 [8.3.9]
 [+] Password changes are recorded in user activity log
 [*] Autocreating accounts fixed for mail login form
