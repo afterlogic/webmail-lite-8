@@ -1,3 +1,8 @@
+[8.3.14]
+[*] BUG - Remote Stored XSS in attachment’s name
+[*] BUG - Sometimes Reply All adds sender in CC field
+[*] BUG - Attachments are not attached on compose
+
 [8.3.10]
 [*] Various bugfixes
 [+] User activity logs: password change
