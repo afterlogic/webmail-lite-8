@@ -1,3 +1,13 @@
+[8.3.15]
+[*] French and Spanish translations updated
+[*] Mail login form corrected for mobile version
+[*] Corrected handling of IMAP quota values exceeding Int32 limit
+[*] Fixed issue with collected addresses not suggested in autocompletion
+[*] Fixed issue with contacts duplication in global address book
+[*] Fixed issue with sharing contacts
+[*] Fixed issue with LogStackTrace setting being ignored
+[*] Minor bugfixes
+
 [8.3.14]
 [*] BUG - Remote Stored XSS in attachment’s name
 [*] BUG - Sometimes Reply All adds sender in CC field
