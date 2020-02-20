@@ -1,3 +1,13 @@
+[8.3.16]
+[+] S3 storage is supported for personal and corporate files
+[*] Recaptcha enabled in mobile version now
+[*] Fixed issue with Recaptcha used in mail login form
+[*] Fixed issue with sending mail in mobile version using linked account
+[*] Fixed issue with clicking external link in mobile version
+[*] Public links to files are now correctly retained upon moving the file
+[*] For shared files, owner is now displayed correctly
+[*] Various bugfixes
+
 [8.3.15]
 [*] French and Spanish translations updated
 [*] Mail login form corrected for mobile version
