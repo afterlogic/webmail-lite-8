@@ -11,6 +11,9 @@
 			"DefaultUserScreenHash": "mail",
 			"ThemeList": ["Default", "DeepForest", "Funny", "Sand"]
 		},
+		"SessionTimeoutWebclient": {
+			"Disabled": true
+		},
 		"Dropbox": {
 			"Disabled": true
 		},
