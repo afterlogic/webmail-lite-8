@@ -1,3 +1,15 @@
+[8.3.18]
+[+] Storing last login info for user account
+[+] Added DAV support for login matching username rather than email
+[+] X-Originating-IP header name is now configurable
+[+] Branding module now allows for enabling custom Iframe
+[+] ReCaptcha functionality configuration extended
+[+] Users counter added in admin interface
+[*] Mail login form issues fixed
+[*] PHP 7.3 compatibility issues corrected
+[*] User activity logs were not updated on login
+[*] External links corrected in mobile version
+
 [8.3.16]
 [+] S3 storage is supported for personal and corporate files
 [*] Recaptcha enabled in mobile version now
