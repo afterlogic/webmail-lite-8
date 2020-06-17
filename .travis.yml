@@ -8,11 +8,12 @@ services:
 install:
 - mysql -e 'CREATE DATABASE aurora;'
 - composer install
-- npm install -g newman
 script:
 - php ./travis.php
 - chmod +x ./travis.sh
+- ./travis.sh -t npm
 - ./travis.sh -t build
+- ./travis.sh -t pack
 - chmod +x ./travis-plesk-builder.sh
 - ./travis-plesk-builder.sh -t build
 - ./travis-plesk-builder.sh -t log

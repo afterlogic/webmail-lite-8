@@ -24,16 +24,22 @@ set -- "${POSITIONAL[@]}" # restore positional parameters
 
 echo TASK: "$TASK"
 
-if [ "$TASK" = "build" ]; then
+if [ "$TASK" = "npm" ]; then
 	cd ${DIR}
 	
 	npm install -g gulp-cli
 	npm install
+fi
 
+if [ "$TASK" = "build" ]; then
+	cd ${DIR}
 	gulp styles --themes Default,DeepForest,Funny,Sand --build a
 	gulp js:build --build a
 	gulp js:min --build a
-	gulp test
+	#gulp test
+fi
+	
+if [ "$TASK" = "pack" ]; then
 	
 	PRODUCT_VERSION=`cat VERSION`
 	
@@ -49,5 +55,5 @@ if [ "$TASK" = "upload" ]; then
 	
 	echo UPLOAD ZIP FILE: "${PRODUCT_NAME}_${PRODUCT_VERSION}.zip"
 	
-	curl --ftp-create-dirs --retry 6 -T ${PRODUCT_NAME}_${PRODUCT_VERSION}.zip -u ${FTP_USER}:${FTP_PASSWORD} ftp://afterlogic.com/
+	curl -v --ftp-create-dirs --retry 6 -T ${PRODUCT_NAME}_${PRODUCT_VERSION}.zip -u ${FTP_USER}:${FTP_PASSWORD} ftp://afterlogic.com/
 fi
