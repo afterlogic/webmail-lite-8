@@ -1,5 +1,5 @@
 dist: trusty
-sudo: false
+os: linux
 language: php
 php:
 - '7.1.14'
@@ -8,6 +8,7 @@ services:
 install:
 - mysql -e 'CREATE DATABASE aurora;'
 - composer install
+- composer run pre-config
 script:
 - php ./travis.php
 - chmod +x ./travis.sh
