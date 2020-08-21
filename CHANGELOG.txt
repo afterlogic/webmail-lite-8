@@ -1,3 +1,10 @@
+[8.5.0]
+[+] Added conditional forwarding option for Sieve filters
+[+] Added an option for disabling RTL rendering
+[*] Fixed issue with getting iOS profile in mobile layout
+[*] Fixed issue with IMAP and SMTP hosts for external mail clients specified when creating mail server
+[*] Various bugfixes
+
 [8.3.20]
 [*] Minor bugfixes
 
