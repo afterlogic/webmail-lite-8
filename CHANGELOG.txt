@@ -1,3 +1,9 @@
+[8.5.1]
+[+] MultipleFilesUploadLimit setting is added
+[+] Improvements related to storing PGP keys in Contacts
+[+] VCF export includes contact groups now
+[*] Various bugfixes
+
 [8.5.0]
 [+] Added conditional forwarding option for Sieve filters
 [+] Added an option for disabling RTL rendering
