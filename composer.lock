@@ -111,16 +111,16 @@
         },
         {
             "name": "afterlogic/aurora-module-core",
-            "version": "0.9.75",
+            "version": "0.9.77",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-core",
-                "reference": "tags/0.9.75"
+                "reference": "tags/0.9.77"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-core/archive/0.9.75.zip",
-                "reference": "tags/0.9.75",
+                "url": "https://github.com/afterlogic/aurora-module-core/archive/0.9.77.zip",
+                "reference": "tags/0.9.77",
                 "shasum": null
             },
             "require": {
@@ -131,20 +131,20 @@
             "extra": {
                 "installer-name": "Core"
             },
-            "time": "2020-09-01 11:57:54"
+            "time": "2020-09-21 10:33:46"
         },
         {
             "name": "afterlogic/aurora-module-cpanel-integrator",
-            "version": "0.9.36",
+            "version": "0.9.37",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-cpanel-integrator",
-                "reference": "tags/0.9.36"
+                "reference": "tags/0.9.37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-cpanel-integrator/archive/0.9.36.zip",
-                "reference": "tags/0.9.36",
+                "url": "https://github.com/afterlogic/aurora-module-cpanel-integrator/archive/0.9.37.zip",
+                "reference": "tags/0.9.37",
                 "shasum": null
             },
             "require": {
@@ -157,7 +157,7 @@
             "extra": {
                 "installer-name": "CpanelIntegrator"
             },
-            "time": "2020-09-11 10:01:02"
+            "time": "2020-09-15 13:30:42"
         },
         {
             "name": "afterlogic/aurora-module-dropbox",
