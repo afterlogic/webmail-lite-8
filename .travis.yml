@@ -26,6 +26,6 @@ env:
   global:
   - PRODUCT_NAME=webmail-lite
   - PLESK_PRODUCT_TITLE="WebMail Lite"
-  - PLESK_PRODUCT_FULLTITLE="Afterlogic WebMail Lite 8"
+  - PLESK_PRODUCT_FULLTITLE="Afterlogic WebMail Lite"
   - PLESK_PRODUCT_WEBSITE=https://www.afterlogic.com/webmail-lite
   - PLESK_PRODUCT_DOWNLOAD=https://www.afterlogic.com/download/webmail-lite
