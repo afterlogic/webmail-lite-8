@@ -1,9 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
+    "hash": "c44680bd219aa6718bf08db5adfbb283",
     "content-hash": "c10847f34fb2ab41f65ac9253d2a6853",
     "packages": [
         {
@@ -26,20 +27,20 @@
                 "squizlabs/php_codesniffer": "^2.0"
             },
             "type": "aurora-dev-tools",
-            "time": "2020-05-21T07:48:04+00:00"
+            "time": "2020-05-21 07:48:04"
         },
         {
             "name": "afterlogic/aurora-framework",
-            "version": "0.9.118",
+            "version": "0.9.119",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-framework",
-                "reference": "tags/0.9.118"
+                "reference": "tags/0.9.119"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-framework/archive/0.9.118.zip",
-                "reference": "tags/0.9.118",
+                "url": "https://github.com/afterlogic/aurora-framework/archive/0.9.119.zip",
+                "reference": "tags/0.9.119",
                 "shasum": null
             },
             "require": {
@@ -57,7 +58,7 @@
                     "Installer.php"
                 ]
             },
-            "time": "2020-09-10T13:42:49+00:00"
+            "time": "2020-10-09 12:27:45"
         },
         {
             "name": "afterlogic/aurora-module-admin-auth",
@@ -81,20 +82,20 @@
             "extra": {
                 "installer-name": "AdminAuth"
             },
-            "time": "2020-04-06T17:00:07+00:00"
+            "time": "2020-04-06 17:00:07"
         },
         {
             "name": "afterlogic/aurora-module-contacts",
-            "version": "0.9.69",
+            "version": "0.9.70",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-contacts",
-                "reference": "tags/0.9.69"
+                "reference": "tags/0.9.70"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.9.69.zip",
-                "reference": "tags/0.9.69",
+                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.9.70.zip",
+                "reference": "tags/0.9.70",
                 "shasum": null
             },
             "require": {
@@ -106,20 +107,20 @@
             "extra": {
                 "installer-name": "Contacts"
             },
-            "time": "2020-09-03T13:28:56+00:00"
+            "time": "2020-10-03 06:27:43"
         },
         {
             "name": "afterlogic/aurora-module-core",
-            "version": "0.9.77",
+            "version": "0.9.78",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-core",
-                "reference": "tags/0.9.77"
+                "reference": "tags/0.9.78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-core/archive/0.9.77.zip",
-                "reference": "tags/0.9.77",
+                "url": "https://github.com/afterlogic/aurora-module-core/archive/0.9.78.zip",
+                "reference": "tags/0.9.78",
                 "shasum": null
             },
             "require": {
@@ -130,20 +131,20 @@
             "extra": {
                 "installer-name": "Core"
             },
-            "time": "2020-09-21T10:33:46+00:00"
+            "time": "2020-10-09 12:36:51"
         },
         {
             "name": "afterlogic/aurora-module-cpanel-integrator",
-            "version": "0.9.37",
+            "version": "0.9.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-cpanel-integrator",
-                "reference": "tags/0.9.37"
+                "reference": "tags/0.9.38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-cpanel-integrator/archive/0.9.37.zip",
-                "reference": "tags/0.9.37",
+                "url": "https://github.com/afterlogic/aurora-module-cpanel-integrator/archive/0.9.38.zip",
+                "reference": "tags/0.9.38",
                 "shasum": null
             },
             "require": {
@@ -156,7 +157,7 @@
             "extra": {
                 "installer-name": "CpanelIntegrator"
             },
-            "time": "2020-09-15T13:30:42+00:00"
+            "time": "2020-09-30 10:52:48"
         },
         {
             "name": "afterlogic/aurora-module-dropbox",
@@ -182,7 +183,7 @@
             "extra": {
                 "installer-name": "Dropbox"
             },
-            "time": "2020-04-23T10:52:45+00:00"
+            "time": "2020-04-23 10:52:45"
         },
         {
             "name": "afterlogic/aurora-module-eav-object-viewer",
@@ -206,7 +207,7 @@
             "extra": {
                 "installer-name": "EavObjectViewer"
             },
-            "time": "2020-09-09T12:12:04+00:00"
+            "time": "2020-09-09 12:12:04"
         },
         {
             "name": "afterlogic/aurora-module-facebook",
@@ -230,7 +231,7 @@
             "extra": {
                 "installer-name": "Facebook"
             },
-            "time": "2020-04-23T10:51:35+00:00"
+            "time": "2020-04-23 10:51:35"
         },
         {
             "name": "afterlogic/aurora-module-google",
@@ -255,7 +256,7 @@
             "extra": {
                 "installer-name": "Google"
             },
-            "time": "2020-04-23T10:51:08+00:00"
+            "time": "2020-04-23 10:51:08"
         },
         {
             "name": "afterlogic/aurora-module-import-export-mail-plugin",
@@ -282,20 +283,20 @@
             "extra": {
                 "installer-name": "ImportExportMailPlugin"
             },
-            "time": "2019-12-18T08:57:31+00:00"
+            "time": "2019-12-18 08:57:31"
         },
         {
             "name": "afterlogic/aurora-module-mail",
-            "version": "0.9.94",
+            "version": "0.9.95",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-mail",
-                "reference": "tags/0.9.94"
+                "reference": "tags/0.9.95"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-mail/archive/0.9.94.zip",
-                "reference": "tags/0.9.94",
+                "url": "https://github.com/afterlogic/aurora-module-mail/archive/0.9.95.zip",
+                "reference": "tags/0.9.95",
                 "shasum": null
             },
             "require": {
@@ -308,7 +309,7 @@
             "extra": {
                 "installer-name": "Mail"
             },
-            "time": "2020-09-10T13:46:14+00:00"
+            "time": "2020-10-09 12:02:29"
         },
         {
             "name": "afterlogic/aurora-module-mail-auth-cpanel",
@@ -333,7 +334,7 @@
             "extra": {
                 "installer-name": "MailAuthCpanel"
             },
-            "time": "2019-08-07T11:58:29+00:00"
+            "time": "2019-08-07 11:58:29"
         },
         {
             "name": "afterlogic/aurora-module-mail-change-password-poppassd-plugin",
@@ -357,7 +358,7 @@
             "extra": {
                 "installer-name": "MailChangePasswordPoppassdPlugin"
             },
-            "time": "2019-12-18T08:59:14+00:00"
+            "time": "2019-12-18 08:59:14"
         },
         {
             "name": "afterlogic/aurora-module-mail-master-password",
@@ -381,7 +382,7 @@
             "extra": {
                 "installer-name": "MailMasterPassword"
             },
-            "time": "2020-04-06T11:36:16+00:00"
+            "time": "2020-04-06 11:36:16"
         },
         {
             "name": "afterlogic/aurora-module-mail-notes-plugin",
@@ -405,7 +406,7 @@
             "extra": {
                 "installer-name": "MailNotesPlugin"
             },
-            "time": "2020-04-10T15:13:05+00:00"
+            "time": "2020-04-10 15:13:05"
         },
         {
             "name": "afterlogic/aurora-module-mail-save-message-as-pdf-plugin",
@@ -429,7 +430,7 @@
             "extra": {
                 "installer-name": "MailSaveMessageAsPdfPlugin"
             },
-            "time": "2019-12-18T09:00:16+00:00"
+            "time": "2019-12-18 09:00:16"
         },
         {
             "name": "afterlogic/aurora-module-min",
@@ -453,7 +454,7 @@
             "extra": {
                 "installer-name": "Min"
             },
-            "time": "2020-03-10T07:10:45+00:00"
+            "time": "2020-03-10 07:10:45"
         },
         {
             "name": "afterlogic/aurora-module-office-document-viewer",
@@ -477,7 +478,7 @@
             "extra": {
                 "installer-name": "OfficeDocumentViewer"
             },
-            "time": "2020-06-26T12:56:04+00:00"
+            "time": "2020-06-26 12:56:04"
         },
         {
             "name": "afterlogic/aurora-module-override-user-settings",
@@ -501,20 +502,20 @@
             "extra": {
                 "installer-name": "OverrideUserSettings"
             },
-            "time": "2019-07-29T15:16:15+00:00"
+            "time": "2019-07-29 15:16:15"
         },
         {
             "name": "afterlogic/aurora-module-personal-contacts",
-            "version": "0.9.19",
+            "version": "0.9.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-personal-contacts",
-                "reference": "tags/0.9.19"
+                "reference": "tags/0.9.20"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-personal-contacts/archive/0.9.19.zip",
-                "reference": "tags/0.9.19",
+                "url": "https://github.com/afterlogic/aurora-module-personal-contacts/archive/0.9.20.zip",
+                "reference": "tags/0.9.20",
                 "shasum": null
             },
             "require": {
@@ -526,7 +527,7 @@
             "extra": {
                 "installer-name": "PersonalContacts"
             },
-            "time": "2020-04-07T08:39:54+00:00"
+            "time": "2020-10-03 06:29:10"
         },
         {
             "name": "afterlogic/aurora-module-two-factor-auth",
@@ -551,7 +552,7 @@
             "extra": {
                 "installer-name": "TwoFactorAuth"
             },
-            "time": "2020-04-06T10:44:17+00:00"
+            "time": "2020-04-06 10:44:17"
         },
         {
             "name": "afterlogic/aurora-module-webclient-adminpanel",
@@ -575,7 +576,7 @@
             "extra": {
                 "installer-name": "AdminPanelWebclient"
             },
-            "time": "2020-09-09T07:14:05+00:00"
+            "time": "2020-09-09 07:14:05"
         },
         {
             "name": "afterlogic/aurora-module-webclient-change-password",
@@ -599,20 +600,20 @@
             "extra": {
                 "installer-name": "ChangePasswordWebclient"
             },
-            "time": "2020-04-06T11:32:24+00:00"
+            "time": "2020-04-06 11:32:24"
         },
         {
             "name": "afterlogic/aurora-module-webclient-contacts",
-            "version": "0.9.41",
+            "version": "0.9.43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-contacts",
-                "reference": "tags/0.9.41"
+                "reference": "tags/0.9.43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/0.9.41.zip",
-                "reference": "tags/0.9.41",
+                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/0.9.43.zip",
+                "reference": "tags/0.9.43",
                 "shasum": null
             },
             "require": {
@@ -623,7 +624,7 @@
             "extra": {
                 "installer-name": "ContactsWebclient"
             },
-            "time": "2020-09-03T08:28:15+00:00"
+            "time": "2020-10-03 06:32:43"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
@@ -647,7 +648,7 @@
             "extra": {
                 "installer-name": "CoreWebclient"
             },
-            "time": "2020-09-21T12:18:10+00:00"
+            "time": "2020-09-21 12:18:10"
         },
         {
             "name": "afterlogic/aurora-module-webclient-dropbox-auth",
@@ -671,7 +672,7 @@
             "extra": {
                 "installer-name": "DropboxAuthWebclient"
             },
-            "time": "2020-04-23T10:52:03+00:00"
+            "time": "2020-04-23 10:52:03"
         },
         {
             "name": "afterlogic/aurora-module-webclient-facebook-auth",
@@ -695,7 +696,7 @@
             "extra": {
                 "installer-name": "FacebookAuthWebclient"
             },
-            "time": "2020-03-05T14:33:25+00:00"
+            "time": "2020-03-05 14:33:25"
         },
         {
             "name": "afterlogic/aurora-module-webclient-google-auth",
@@ -719,7 +720,7 @@
             "extra": {
                 "installer-name": "GoogleAuthWebclient"
             },
-            "time": "2020-04-23T10:50:32+00:00"
+            "time": "2020-04-23 10:50:32"
         },
         {
             "name": "afterlogic/aurora-module-webclient-logs-viewer",
@@ -743,20 +744,20 @@
             "extra": {
                 "installer-name": "LogsViewerWebclient"
             },
-            "time": "2019-12-18T08:58:44+00:00"
+            "time": "2019-12-18 08:58:44"
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail",
-            "version": "0.9.115",
+            "version": "0.9.116",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-mail",
-                "reference": "tags/0.9.115"
+                "reference": "tags/0.9.116"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.9.115.zip",
-                "reference": "tags/0.9.115",
+                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.9.116.zip",
+                "reference": "tags/0.9.116",
                 "shasum": null
             },
             "require": {
@@ -766,7 +767,7 @@
             "extra": {
                 "installer-name": "MailWebclient"
             },
-            "time": "2020-09-03T08:31:52+00:00"
+            "time": "2020-10-09 12:07:14"
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail-login-form",
@@ -790,7 +791,7 @@
             "extra": {
                 "installer-name": "MailLoginFormWebclient"
             },
-            "time": "2020-04-27T15:43:35+00:00"
+            "time": "2020-04-27 15:43:35"
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail-sensitivity-plugin",
@@ -813,7 +814,7 @@
             "extra": {
                 "installer-name": "MailSensitivityWebclientPlugin"
             },
-            "time": "2020-04-06T10:39:30+00:00"
+            "time": "2020-04-06 10:39:30"
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail-tnef-plugin",
@@ -837,7 +838,7 @@
             "extra": {
                 "installer-name": "MailTnefWebclientPlugin"
             },
-            "time": "2019-05-15T11:55:38+00:00"
+            "time": "2019-05-15 11:55:38"
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail-zip-plugin",
@@ -861,7 +862,7 @@
             "extra": {
                 "installer-name": "MailZipWebclientPlugin"
             },
-            "time": "2019-12-18T09:01:36+00:00"
+            "time": "2019-12-18 09:01:36"
         },
         {
             "name": "afterlogic/aurora-module-webclient-oauth-integrator",
@@ -885,20 +886,20 @@
             "extra": {
                 "installer-name": "OAuthIntegratorWebclient"
             },
-            "time": "2020-09-01T13:06:19+00:00"
+            "time": "2020-09-01 13:06:19"
         },
         {
             "name": "afterlogic/aurora-module-webclient-openpgp",
-            "version": "0.9.46",
+            "version": "0.9.47",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp",
-                "reference": "tags/0.9.46"
+                "reference": "tags/0.9.47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp/archive/0.9.46.zip",
-                "reference": "tags/0.9.46",
+                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp/archive/0.9.47.zip",
+                "reference": "tags/0.9.47",
                 "shasum": null
             },
             "require": {
@@ -909,7 +910,7 @@
             "extra": {
                 "installer-name": "OpenPgpWebclient"
             },
-            "time": "2020-09-21T13:10:14+00:00"
+            "time": "2020-09-22 13:39:14"
         },
         {
             "name": "afterlogic/aurora-module-webclient-recaptcha-plugin",
@@ -934,7 +935,7 @@
             "extra": {
                 "installer-name": "RecaptchaWebclientPlugin"
             },
-            "time": "2020-04-14T11:41:08+00:00"
+            "time": "2020-04-14 11:41:08"
         },
         {
             "name": "afterlogic/aurora-module-webclient-session-timeout",
@@ -958,7 +959,7 @@
             "extra": {
                 "installer-name": "SessionTimeoutWebclient"
             },
-            "time": "2020-04-08T07:07:33+00:00"
+            "time": "2020-04-08 07:07:33"
         },
         {
             "name": "afterlogic/aurora-module-webclient-settings",
@@ -982,7 +983,7 @@
             "extra": {
                 "installer-name": "SettingsWebclient"
             },
-            "time": "2020-07-02T17:33:00+00:00"
+            "time": "2020-07-02 17:33:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-standard-login-form",
@@ -1006,7 +1007,7 @@
             "extra": {
                 "installer-name": "StandardLoginFormWebclient"
             },
-            "time": "2020-06-11T08:24:47+00:00"
+            "time": "2020-06-11 08:24:47"
         },
         {
             "name": "afterlogic/googleauthenticator",
@@ -1049,7 +1050,7 @@
                 "rfc6238",
                 "totp"
             ],
-            "time": "2018-12-07T09:25:54+00:00"
+            "time": "2018-12-07 09:25:54"
         },
         {
             "name": "afterlogic/mailso",
@@ -1090,7 +1091,7 @@
             ],
             "description": "Afterlogic MailSo",
             "homepage": "https://github.com/afterlogic/mailso",
-            "time": "2020-06-03T13:58:11+00:00"
+            "time": "2020-06-03 13:58:11"
         },
         {
             "name": "composer/installers",
@@ -1217,7 +1218,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2020-04-07T06:57:05+00:00"
+            "time": "2020-04-07 06:57:05"
         },
         {
             "name": "google/apiclient",
@@ -1260,7 +1261,7 @@
             "keywords": [
                 "google"
             ],
-            "time": "2016-02-02T18:50:42+00:00"
+            "time": "2016-02-02 18:50:42"
         },
         {
             "name": "google/recaptcha",
@@ -1307,7 +1308,7 @@
                 "recaptcha",
                 "spam"
             ],
-            "time": "2020-03-31T17:50:54+00:00"
+            "time": "2020-03-31 17:50:54"
         },
         {
             "name": "gufy/cpanel-php",
@@ -1348,7 +1349,7 @@
             ],
             "description": "Cpanel/WHM API for PHP",
             "abandoned": true,
-            "time": "2016-02-26T14:17:18+00:00"
+            "time": "2016-02-26 14:17:18"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -1415,27 +1416,27 @@
                 "rest",
                 "web service"
             ],
-            "time": "2020-06-16T21:01:06+00:00"
+            "time": "2020-06-16 21:01:06"
         },
         {
             "name": "guzzlehttp/promises",
-            "version": "v1.3.1",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
-                "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646"
+                "reference": "60d379c243457e073cff02bc323a2a86cb355631"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/a59da6cf61d80060647ff4d3eb2c03a2bc694646",
-                "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/60d379c243457e073cff02bc323a2a86cb355631",
+                "reference": "60d379c243457e073cff02bc323a2a86cb355631",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5.0"
+                "php": ">=5.5"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.0"
+                "symfony/phpunit-bridge": "^4.4 || ^5.1"
             },
             "type": "library",
             "extra": {
@@ -1466,20 +1467,20 @@
             "keywords": [
                 "promise"
             ],
-            "time": "2016-12-20T10:07:11+00:00"
+            "time": "2020-09-30 07:37:28"
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.6.1",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "239400de7a173fe9901b9ac7c06497751f00727a"
+                "reference": "53330f47520498c0ae1f61f7e2c90f55690c06a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/239400de7a173fe9901b9ac7c06497751f00727a",
-                "reference": "239400de7a173fe9901b9ac7c06497751f00727a",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/53330f47520498c0ae1f61f7e2c90f55690c06a3",
+                "reference": "53330f47520498c0ae1f61f7e2c90f55690c06a3",
                 "shasum": ""
             },
             "require": {
@@ -1492,15 +1493,15 @@
             },
             "require-dev": {
                 "ext-zlib": "*",
-                "phpunit/phpunit": "~4.8.36 || ^5.7.27 || ^6.5.8"
+                "phpunit/phpunit": "~4.8.36 || ^5.7.27 || ^6.5.14 || ^7.5.20 || ^8.5.8 || ^9.3.10"
             },
             "suggest": {
-                "zendframework/zend-httphandlerrunner": "Emit PSR-7 responses"
+                "laminas/laminas-httphandlerrunner": "Emit PSR-7 responses"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.6-dev"
+                    "dev-master": "1.7-dev"
                 }
             },
             "autoload": {
@@ -1537,7 +1538,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2019-07-01T23:21:34+00:00"
+            "time": "2020-09-30 07:37:11"
         },
         {
             "name": "intervention/image",
@@ -1607,7 +1608,7 @@
                 "thumbnail",
                 "watermark"
             ],
-            "time": "2019-11-02T09:15:47+00:00"
+            "time": "2019-11-02 09:15:47"
         },
         {
             "name": "knplabs/knp-snappy",
@@ -1672,7 +1673,7 @@
                 "thumbnail",
                 "wkhtmltopdf"
             ],
-            "time": "2015-11-17T13:16:27+00:00"
+            "time": "2015-11-17 13:16:27"
         },
         {
             "name": "kunalvarma05/dropbox-php-sdk",
@@ -1720,7 +1721,7 @@
                 "sdk",
                 "unofficial"
             ],
-            "time": "2017-06-26T09:37:16+00:00"
+            "time": "2017-06-26 09:37:16"
         },
         {
             "name": "maennchen/zipstream-php",
@@ -1772,7 +1773,7 @@
                 "stream",
                 "zip"
             ],
-            "time": "2018-02-09T09:26:57+00:00"
+            "time": "2018-02-09 09:26:57"
         },
         {
             "name": "oomphinc/composer-installers-extender",
@@ -1814,7 +1815,7 @@
             ],
             "description": "Extend the composer/installers plugin to accept any arbitrary package type.",
             "homepage": "http://www.oomphinc.com/",
-            "time": "2017-03-31T16:57:39+00:00"
+            "time": "2017-03-31 16:57:39"
         },
         {
             "name": "paragonie/random_compat",
@@ -1859,7 +1860,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2018-07-02T15:55:56+00:00"
+            "time": "2018-07-02 15:55:56"
         },
         {
             "name": "pear/net_idna2",
@@ -1907,7 +1908,7 @@
                 }
             ],
             "description": "More info available on: https://pear.php.net/package/Net_IDNA2",
-            "time": "2017-03-06T20:46:41+00:00"
+            "time": "2017-03-06 20:46:41"
         },
         {
             "name": "pear/pear_exception",
@@ -1962,7 +1963,7 @@
             "keywords": [
                 "exception"
             ],
-            "time": "2019-12-10T10:24:42+00:00"
+            "time": "2019-12-10 10:24:42"
         },
         {
             "name": "phpcompatibility/php-compatibility",
@@ -2020,7 +2021,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2019-12-27T09:44:58+00:00"
+            "time": "2019-12-27 09:44:58"
         },
         {
             "name": "phpixie/cache",
@@ -2083,7 +2084,7 @@
                 "psr-6",
                 "redis"
             ],
-            "time": "2019-12-25T09:07:49+00:00"
+            "time": "2019-12-25 09:07:49"
         },
         {
             "name": "phpixie/filesystem",
@@ -2134,7 +2135,7 @@
                 "file",
                 "filesystem"
             ],
-            "time": "2019-12-25T20:27:03+00:00"
+            "time": "2019-12-25 20:27:03"
         },
         {
             "name": "phpixie/slice",
@@ -2183,7 +2184,7 @@
                 "data",
                 "parameters"
             ],
-            "time": "2016-06-12T08:07:30+00:00"
+            "time": "2016-06-12 08:07:30"
         },
         {
             "name": "psr/cache",
@@ -2229,7 +2230,7 @@
                 "psr",
                 "psr-6"
             ],
-            "time": "2016-08-06T20:24:11+00:00"
+            "time": "2016-08-06 20:24:11"
         },
         {
             "name": "psr/http-message",
@@ -2279,7 +2280,7 @@
                 "request",
                 "response"
             ],
-            "time": "2016-08-06T14:39:51+00:00"
+            "time": "2016-08-06 14:39:51"
         },
         {
             "name": "psr/log",
@@ -2326,7 +2327,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2020-03-23T09:12:05+00:00"
+            "time": "2020-03-23 09:12:05"
         },
         {
             "name": "psr/simple-cache",
@@ -2374,7 +2375,7 @@
                 "psr-16",
                 "simple-cache"
             ],
-            "time": "2016-12-09T08:51:20+00:00"
+            "time": "2016-12-09 08:51:20"
         },
         {
             "name": "rakit/validation",
@@ -2414,7 +2415,7 @@
                 }
             ],
             "description": "PHP Laravel like standalone validation library",
-            "time": "2018-11-10T03:57:56+00:00"
+            "time": "2018-11-10 03:57:56"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -2454,7 +2455,7 @@
                 }
             ],
             "description": "A polyfill for getallheaders.",
-            "time": "2019-03-08T08:55:37+00:00"
+            "time": "2019-03-08 08:55:37"
         },
         {
             "name": "sabre/dav",
@@ -2537,7 +2538,7 @@
                 "framework",
                 "iCalendar"
             ],
-            "time": "2018-10-19T09:58:27+00:00"
+            "time": "2018-10-19 09:58:27"
         },
         {
             "name": "sabre/event",
@@ -2594,7 +2595,7 @@
                 "promise",
                 "signal"
             ],
-            "time": "2015-11-05T20:14:39+00:00"
+            "time": "2015-11-05 20:14:39"
         },
         {
             "name": "sabre/http",
@@ -2650,7 +2651,7 @@
             "keywords": [
                 "http"
             ],
-            "time": "2018-02-23T11:10:29+00:00"
+            "time": "2018-02-23 11:10:29"
         },
         {
             "name": "sabre/uri",
@@ -2701,7 +2702,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2017-02-20T19:59:28+00:00"
+            "time": "2017-02-20 19:59:28"
         },
         {
             "name": "sabre/vobject",
@@ -2797,7 +2798,7 @@
                 "xCal",
                 "xCard"
             ],
-            "time": "2020-01-14T10:18:45+00:00"
+            "time": "2020-01-14 10:18:45"
         },
         {
             "name": "sabre/xml",
@@ -2860,7 +2861,7 @@
                 "dom",
                 "xml"
             ],
-            "time": "2019-01-09T13:51:57+00:00"
+            "time": "2019-01-09 13:51:57"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -2938,7 +2939,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2018-11-07T22:31:41+00:00"
+            "time": "2018-11-07 22:31:41"
         },
         {
             "name": "symfony/filesystem",
@@ -2988,7 +2989,7 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2018-11-11T11:18:13+00:00"
+            "time": "2018-11-11 11:18:13"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -3050,7 +3051,7 @@
                 "polyfill",
                 "portable"
             ],
-            "time": "2020-07-14T12:35:20+00:00"
+            "time": "2020-07-14 12:35:20"
         },
         {
             "name": "symfony/polyfill-intl-idn",
@@ -3121,7 +3122,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-08-04T06:02:08+00:00"
+            "time": "2020-08-04 06:02:08"
         },
         {
             "name": "symfony/polyfill-intl-normalizer",
@@ -3188,7 +3189,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-07-14T12:35:20+00:00"
+            "time": "2020-07-14 12:35:20"
         },
         {
             "name": "symfony/polyfill-php70",
@@ -3251,7 +3252,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-07-14T12:35:20+00:00"
+            "time": "2020-07-14 12:35:20"
         },
         {
             "name": "symfony/polyfill-php72",
@@ -3310,20 +3311,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-07-14T12:35:20+00:00"
+            "time": "2020-07-14 12:35:20"
         },
         {
             "name": "symfony/process",
-            "version": "v3.4.44",
+            "version": "v3.4.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "af8d812d75fcdf2eae30928b42396fe17df137e4"
+                "reference": "46a862d0f334e51c1ed831b49cbe12863ffd5475"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/af8d812d75fcdf2eae30928b42396fe17df137e4",
-                "reference": "af8d812d75fcdf2eae30928b42396fe17df137e4",
+                "url": "https://api.github.com/repos/symfony/process/zipball/46a862d0f334e51c1ed831b49cbe12863ffd5475",
+                "reference": "46a862d0f334e51c1ed831b49cbe12863ffd5475",
                 "shasum": ""
             },
             "require": {
@@ -3359,7 +3360,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2020-07-16T09:41:49+00:00"
+            "time": "2020-09-02 16:06:40"
         },
         {
             "name": "tightenco/collect",
@@ -3409,7 +3410,7 @@
                 "collection",
                 "laravel"
             ],
-            "time": "2018-01-25T19:26:27+00:00"
+            "time": "2018-01-25 19:26:27"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -3453,7 +3454,7 @@
             ],
             "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
             "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
-            "time": "2014-05-05T09:15:31+00:00"
+            "time": "2014-05-05 09:15:31"
         },
         {
             "name": "wikimedia/composer-merge-plugin",
@@ -3502,7 +3503,7 @@
                 }
             ],
             "description": "Composer plugin to merge multiple composer.json files",
-            "time": "2017-04-25T02:31:25+00:00"
+            "time": "2017-04-25 02:31:25"
         }
     ],
     "packages-dev": [],
