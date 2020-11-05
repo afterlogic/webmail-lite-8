@@ -1,6 +1,7 @@
 [8.5.2]
 [+] Added lang parameter to SSO entry point
 [+] Added ability to insert template into HTML on compose screen
+[*] Various bugfixes
 
 [8.5.1]
 [+] MultipleFilesUploadLimit setting is added
