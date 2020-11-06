@@ -1,6 +1,9 @@
 [8.5.2]
 [+] Added lang parameter to SSO entry point
-[+] Added ability to insert template into HTML on compose screen
+[+] Added ability to insert template into HTML editor on compose screen
+[*] Data directory protection improved
+[*] "Update configuration" now handles main config.json file as well
+[*] Dropbox integration updated
 [*] Various bugfixes
 
 [8.5.1]
