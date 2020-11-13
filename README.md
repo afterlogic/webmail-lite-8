@@ -42,7 +42,7 @@ git clone https://github.com/afterlogic/webmail-lite-8.git INSTALL_FOLDER_PATH
 	}.......
 ```
 
-2. Download `composer.phar` from `https://getcomposer.org/composer-1.phar`
+2. Download `composer.phar` from [`https://getcomposer.org/composer-1.phar`](https://getcomposer.org/composer-1.phar)
 
 3. Start the composer installation process by running the following from the command line:
     ```bash
