@@ -1,5 +1,14 @@
 [8.5.3]
-[*] Various bugfixes
+[+] ContentSecurityPolicy feature revised, modules can add their handlers for it
+[+] 2FA revised, security keys and backup codes are now supported
+[*] Fixed an issue with double quote character in Sieve rules
+[*] Fixed an issue when pressing R added that character to the reply
+[*] Fixed an issue with displaying inline images with "image/jpg" content type
+[*] Fixed an issue with link URL getting replaced upon changing visual style
+[*] Fixed group names autocompletion issue
+[*] Fixed visual issue with Sieve redirect feature
+[*] Fixed an issue with plaintext part of message cut off
+[*] Minor bugfixes and improvements
 
 [8.5.2]
 [+] Added lang parameter to SSO entry point
