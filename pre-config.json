@@ -70,6 +70,14 @@
 			"UseDropdownLanguagesView": true,
 			"BottomInfoHtmlText": "Powered by <a href=\"https:\/\/afterlogic.com\/webmail-lite\" target=\"_blank\">Afterlogic WebMail Lite</a>"
 		},
+		"TwoFactorAuth": {
+			"Disabled": true,
+			"FacetIds": [
+				"android:apk-key-hash:fbENTvCSeR-AwJV5rrrBsb98p-jEw0c5SSOMul_KwaI",
+				"android:apk-key-hash:ruyLw8eJtT5fZ1ZusXSCHTp0yMZIlr6CVx5kq76ApiQ",
+				"android:apk-key-hash:aEdaWviMajF83fPsXVc1yaZVUy1OiKakbZqP62f5D48"
+			]
+		},
 		"OverrideUserSettings": {
 			"Disabled": true
 		},
