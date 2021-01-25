@@ -31,6 +31,9 @@
 			"AllowDefaultAccountForUser": true,
 			"AutocreateMailAccountOnNewUserFirstLogin": true
 		},
+		"MailWebclient": {
+			"AllowSearchMessagesBySubject": true
+		},
 		"OAuthIntegratorWebclient": {
 			"AllowNewUsersRegister": false
 		},
