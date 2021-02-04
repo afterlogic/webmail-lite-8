@@ -1,3 +1,6 @@
+[8.5.5]
+[*] Various bugfixes
+
 [8.5.3]
 [+] ContentSecurityPolicy feature revised, modules can add their handlers for it
 [+] 2FA revised, security keys and backup codes are now supported
