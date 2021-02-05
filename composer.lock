@@ -603,16 +603,16 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
-            "version": "0.9.118",
+            "version": "0.9.120",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-core",
-                "reference": "tags/0.9.118"
+                "reference": "tags/0.9.120"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.9.118.zip",
-                "reference": "tags/0.9.118"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.9.120.zip",
+                "reference": "tags/0.9.120"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0",
@@ -622,7 +622,7 @@
             "extra": {
                 "installer-name": "CoreWebclient"
             },
-            "time": "2021-02-03T11:55:43+00:00"
+            "time": "2021-02-05T10:09:17+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-dropbox-auth",
@@ -718,16 +718,16 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail",
-            "version": "0.9.122",
+            "version": "0.9.123",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-mail",
-                "reference": "tags/0.9.122"
+                "reference": "tags/0.9.123"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.9.122.zip",
-                "reference": "tags/0.9.122"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.9.123.zip",
+                "reference": "tags/0.9.123"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0"
@@ -736,7 +736,7 @@
             "extra": {
                 "installer-name": "MailWebclient"
             },
-            "time": "2021-02-04T09:11:08+00:00"
+            "time": "2021-02-05T10:10:08+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail-login-form",
