@@ -7,7 +7,7 @@ services:
 - mysql
 install:
 - mysql -e 'CREATE DATABASE aurora;'
-- composer self-update 1.10.17
+- composer self-update 1.10.20
 - composer install
 - composer run pre-config
 script:
