@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "77c6e7e124331d7b3ce39c613b02d32d",
+    "content-hash": "6244e09d6687ecf319755e39d96fc9cc",
     "packages": [
         {
             "name": "afterlogic/aurora-dev-tools",
@@ -275,20 +275,19 @@
         },
         {
             "name": "afterlogic/aurora-module-mail",
-            "version": "0.9.110",
+            "version": "0.9.111",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-mail",
-                "reference": "tags/0.9.110"
+                "reference": "tags/0.9.111"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-mail/archive/0.9.110.zip",
-                "reference": "tags/0.9.110"
+                "url": "https://github.com/afterlogic/aurora-module-mail/archive/0.9.111.zip",
+                "reference": "tags/0.9.111"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0",
-                "knplabs/knp-snappy": "0.4.3",
                 "php": ">=5.4.0",
                 "tijsverkoyen/css-to-inline-styles": "~1.3.0"
             },
@@ -296,7 +295,7 @@
             "extra": {
                 "installer-name": "Mail"
             },
-            "time": "2021-01-29T09:48:39+00:00"
+            "time": "2021-02-16T12:25:21+00:00"
         },
         {
             "name": "afterlogic/aurora-module-mail-auth-cpanel",
@@ -393,26 +392,27 @@
         },
         {
             "name": "afterlogic/aurora-module-mail-save-message-as-pdf-plugin",
-            "version": "0.9.7",
+            "version": "0.9.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-mail-save-message-as-pdf-plugin",
-                "reference": "tags/0.9.7"
+                "reference": "tags/0.9.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-mail-save-message-as-pdf-plugin/archive/0.9.7.zip",
-                "reference": "tags/0.9.7"
+                "url": "https://github.com/afterlogic/aurora-module-mail-save-message-as-pdf-plugin/archive/0.9.8.zip",
+                "reference": "tags/0.9.8"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0",
+                "knplabs/knp-snappy": "1.2.1",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "MailSaveMessageAsPdfPlugin"
             },
-            "time": "2019-12-18T09:00:16+00:00"
+            "time": "2021-02-16T12:26:09+00:00"
         },
         {
             "name": "afterlogic/aurora-module-min",
@@ -534,16 +534,16 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-adminpanel",
-            "version": "0.9.51",
+            "version": "0.9.52",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel",
-                "reference": "tags/0.9.51"
+                "reference": "tags/0.9.52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel/archive/0.9.51.zip",
-                "reference": "tags/0.9.51"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel/archive/0.9.52.zip",
+                "reference": "tags/0.9.52"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0",
@@ -553,7 +553,7 @@
             "extra": {
                 "installer-name": "AdminPanelWebclient"
             },
-            "time": "2020-12-21T17:36:53+00:00"
+            "time": "2021-02-15T10:03:17+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-change-password",
@@ -718,16 +718,16 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail",
-            "version": "0.9.126",
+            "version": "0.9.128",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-mail",
-                "reference": "tags/0.9.126"
+                "reference": "tags/0.9.128"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.9.126.zip",
-                "reference": "tags/0.9.126"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.9.128.zip",
+                "reference": "tags/0.9.128"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0"
@@ -736,7 +736,7 @@
             "extra": {
                 "installer-name": "MailWebclient"
             },
-            "time": "2021-02-11T06:15:56+00:00"
+            "time": "2021-02-19T09:21:51+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail-login-form",
@@ -1574,24 +1574,25 @@
         },
         {
             "name": "knplabs/knp-snappy",
-            "version": "0.4.3",
+            "version": "v1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/snappy.git",
-                "reference": "44f7a9b37d5686fd7db4c1e9569a802a5d16923f"
+                "reference": "7bac60fb729147b7ccd8532c07df3f52a4afa8a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/snappy/zipball/44f7a9b37d5686fd7db4c1e9569a802a5d16923f",
-                "reference": "44f7a9b37d5686fd7db4c1e9569a802a5d16923f",
+                "url": "https://api.github.com/repos/KnpLabs/snappy/zipball/7bac60fb729147b7ccd8532c07df3f52a4afa8a4",
+                "reference": "7bac60fb729147b7ccd8532c07df3f52a4afa8a4",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3",
-                "symfony/process": "~2.3|~3.0"
+                "php": ">=7.1",
+                "psr/log": "^1.0",
+                "symfony/process": "~3.4||~4.3||~5.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.7"
+                "phpunit/phpunit": "~7.4"
             },
             "suggest": {
                 "h4cc/wkhtmltoimage-amd64": "Provides wkhtmltoimage-amd64 binary for Linux-compatible machines, use version `~0.12` as dependency",
@@ -1603,12 +1604,12 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.5.x-dev"
+                    "dev-master": "1.x-dev"
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Knp\\Snappy": "src/"
+                "psr-4": {
+                    "Knp\\Snappy\\": "src/Knp/Snappy"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1635,7 +1636,7 @@
                 "thumbnail",
                 "wkhtmltopdf"
             ],
-            "time": "2015-11-17T13:16:27+00:00"
+            "time": "2020-01-20T08:30:30+00:00"
         },
         {
             "name": "kunalvarma05/dropbox-php-sdk",
