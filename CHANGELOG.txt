@@ -1,3 +1,6 @@
+[8.6.2]
+[*] Fixed an issue with adding message recipients
+
 [8.6.0]
 [*] Various bugfixes
 
