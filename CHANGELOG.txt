@@ -1,3 +1,10 @@
+[8.8.0]
+[+] IP whitelisting added for Recaptcha
+[+] EnableFailedLoginBlock records are now deleted after they expire
+[+] Added setting for hiding Logout link
+[*] Fixed issue with displaying angle brackets in server error messages
+[*] Fixed issue with adding contacts outside suggested list
+
 [8.6.2]
 [*] Fixed an issue with adding message recipients
 
