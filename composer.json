@@ -57,6 +57,7 @@
 		"afterlogic/aurora-module-override-user-settings": "0.9.x"
 	},
 	"scripts": {
+		"post-install-cmd": "@pre-config",
 		"post-update-cmd": "@pre-config",
 		"pre-config": [
 			"[ -d data ] || mkdir data",
