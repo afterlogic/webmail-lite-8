@@ -6,7 +6,7 @@
 		}
 	},
 	"repositories": [
-		{"type": "composer", "url":"https://afterlogic.com/composer/"}
+		{"type": "composer", "url":"https://afterlogic.com/composer_laravel/"}
 	],
 	"require": {
 		"oomphinc/composer-installers-extender": "^2.0",
