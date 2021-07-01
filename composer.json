@@ -9,7 +9,7 @@
 		{"type": "composer", "url":"https://afterlogic.com/composer/"}
 	],
 	"require": {
-		"oomphinc/composer-installers-extender": "^1.0",
+		"oomphinc/composer-installers-extender": "^2.0",
 		
 		"afterlogic/aurora-framework": "0.9.x",
 		"afterlogic/aurora-dev-tools": "0.9.x",
