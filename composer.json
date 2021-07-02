@@ -3,7 +3,8 @@
 		"minimum-stability": "dev",
 		"preferred-install": {
 			"afterlogic/*": "source"
-		}
+		},
+		"platform-check": false
 	},
 	"repositories": [
 		{"type": "composer", "url":"https://afterlogic.com/composer_laravel/"}
