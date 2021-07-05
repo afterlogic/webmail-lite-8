@@ -1,6 +1,8 @@
 #!/bin/bash
 
 DIR=$(cd `dirname $0` && pwd)
+DIR_VUE="${DIR}/modules/AdminPanelWebclient/vue"
+
 TASK="build"
 
 POSITIONAL=()
@@ -29,6 +31,13 @@ if [ "$TASK" = "npm" ]; then
 	
 	npm install -g gulp-cli
 	npm install
+
+	if [ -d "$DIR_VUE" ]; then
+		cd ${DIR_VUE}
+		npm install
+		npm install -g @quasar/cli
+	fi
+
 fi
 
 if [ "$TASK" = "build" ]; then
@@ -37,6 +46,11 @@ if [ "$TASK" = "build" ]; then
 	gulp js:build --build a
 	gulp js:min --build a
 	#gulp test
+
+	if [ -d "$DIR_VUE" ]; then
+		cd ${DIR_VUE}
+		npm run build-production
+	fi
 fi
 	
 if [ "$TASK" = "pack" ]; then
