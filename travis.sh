@@ -52,6 +52,13 @@ if [ "$TASK" = "build" ]; then
 		npm run build-production
 	fi
 fi
+
+if [ "$TASK" = "build-admin" ]; then
+	if [ -d "$DIR_VUE" ]; then
+		cd ${DIR_VUE}
+		npm run build-production
+	fi
+fi
 	
 if [ "$TASK" = "pack" ]; then
 
