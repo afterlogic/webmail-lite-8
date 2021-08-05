@@ -6,8 +6,8 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-20.04
+    if: "contains(github.event.head_commit.message, 'version')"
 
     steps:
     - uses: actions/checkout@v2
@@ -49,8 +49,8 @@ jobs:
         PRODUCT_NAME: ${{ secrets.PRODUCT_NAME }}
         PLESK_PRODUCT_TITLE: "WebMail Lite"
         PLESK_PRODUCT_FULLTITLE: "AfterLogic WebMail Lite"
-        PLESK_PRODUCT_WEBSITE: "https://www.afterlogic.com/webmail-lite"
-        PLESK_PRODUCT_DOWNLOAD: "https://www.afterlogic.com/download/webmail-lite"
+        PLESK_PRODUCT_WEBSITE: "https://www.afterlogic.org/webmail-lite"
+        PLESK_PRODUCT_DOWNLOAD: "https://www.afterlogic.org/download/webmail-lite-php"
 
     - name: PLESK - Generate changelog
       run: ./travis-plesk-builder.sh -t log
