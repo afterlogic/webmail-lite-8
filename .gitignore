@@ -9,6 +9,8 @@
 /static
 /dev
 /system
+/adminpanel
 /npm-debug.log
 /package-lock.json
 /_composer_cache
+/*.zip
