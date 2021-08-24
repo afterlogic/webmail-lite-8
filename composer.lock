@@ -28,15 +28,15 @@
         },
         {
             "name": "afterlogic/aurora-framework",
-            "version": "0.10.34",
+            "version": "0.10.37",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-framework",
-                "reference": "tags/0.10.34"
+                "reference": "tags/0.10.37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.34.zip"
+                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.37.zip"
             },
             "require": {
                 "afterlogic/mailso": "^1.4",
@@ -58,7 +58,7 @@
                     "Installer.php"
                 ]
             },
-            "time": "2021-08-23T15:36:37+00:00"
+            "time": "2021-08-24T11:41:22+00:00"
         },
         {
             "name": "afterlogic/aurora-module-admin-auth",
@@ -84,15 +84,15 @@
         },
         {
             "name": "afterlogic/aurora-module-contacts",
-            "version": "0.10.23",
+            "version": "0.10.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-contacts",
-                "reference": "tags/0.10.23"
+                "reference": "tags/0.10.24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.23.zip"
+                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.24.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -103,7 +103,7 @@
             "extra": {
                 "installer-name": "Contacts"
             },
-            "time": "2021-08-23T13:07:31+00:00"
+            "time": "2021-08-24T11:53:24+00:00"
         },
         {
             "name": "afterlogic/aurora-module-core",
