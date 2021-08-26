@@ -1,3 +1,11 @@
+[9.0.0]
+[+] Laravel Eloquent is now used for database layer
+[+] Migration script from EAV tables of v8 to v9 database structure
+[+] Admin panel redesigned with Vue.js framework
+[*] Stronger cryptography for storing passwords in database
+[*] Modules included into the product by default reviewed for compatibility
+[*] DirectAdmin and Plesk installers updated
+
 [8.8.0]
 [+] IP whitelisting added for Recaptcha
 [+] EnableFailedLoginBlock records are now deleted after they expire
