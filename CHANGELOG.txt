@@ -1,3 +1,7 @@
+[9.0.1]
+[+] Web-based migration script from v8
+[*] Various bugfixes
+
 [9.0.0]
 [+] Laravel Eloquent is now used for database layer
 [+] Migration script from EAV tables of v8 to v9 database structure
