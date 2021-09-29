@@ -28,15 +28,15 @@
         },
         {
             "name": "afterlogic/aurora-framework",
-            "version": "0.10.45",
+            "version": "0.10.46",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-framework",
-                "reference": "tags/0.10.45"
+                "reference": "tags/0.10.46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.45.zip"
+                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.46.zip"
             },
             "require": {
                 "afterlogic/mailso": "^1.4",
@@ -58,7 +58,7 @@
                     "Installer.php"
                 ]
             },
-            "time": "2021-09-08T13:22:47+00:00"
+            "time": "2021-09-29T12:30:34+00:00"
         },
         {
             "name": "afterlogic/aurora-module-admin-auth",
@@ -129,15 +129,15 @@
         },
         {
             "name": "afterlogic/aurora-module-cpanel-integrator",
-            "version": "0.10.15",
+            "version": "0.10.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-cpanel-integrator",
-                "reference": "tags/0.10.15"
+                "reference": "tags/0.10.16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-cpanel-integrator/archive/0.10.15.zip"
+                "url": "https://github.com/afterlogic/aurora-module-cpanel-integrator/archive/0.10.16.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -149,7 +149,7 @@
             "extra": {
                 "installer-name": "CpanelIntegrator"
             },
-            "time": "2021-09-24T08:35:44+00:00"
+            "time": "2021-09-29T12:28:48+00:00"
         },
         {
             "name": "afterlogic/aurora-module-dropbox",
@@ -269,15 +269,15 @@
         },
         {
             "name": "afterlogic/aurora-module-mail",
-            "version": "0.10.33",
+            "version": "0.10.34",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-mail",
-                "reference": "tags/0.10.33"
+                "reference": "tags/0.10.34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-mail/archive/0.10.33.zip"
+                "url": "https://github.com/afterlogic/aurora-module-mail/archive/0.10.34.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -288,7 +288,7 @@
             "extra": {
                 "installer-name": "Mail"
             },
-            "time": "2021-09-27T13:31:59+00:00"
+            "time": "2021-09-29T12:29:22+00:00"
         },
         {
             "name": "afterlogic/aurora-module-mail-auth-cpanel",
@@ -583,15 +583,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
-            "version": "0.10.17",
+            "version": "0.10.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-core",
-                "reference": "tags/0.10.17"
+                "reference": "tags/0.10.18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.17.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.18.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -601,7 +601,7 @@
             "extra": {
                 "installer-name": "CoreWebclient"
             },
-            "time": "2021-09-24T12:58:11+00:00"
+            "time": "2021-09-29T10:13:35+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-dropbox-auth",
