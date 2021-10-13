@@ -42,7 +42,7 @@ git clone https://github.com/afterlogic/webmail-lite-8.git INSTALL_FOLDER_PATH
 	}.......
 ```
 
-2. Download `composer.phar` from [`https://getcomposer.org/composer-1.phar`](https://getcomposer.org/composer-1.phar)
+2. `composer.phar` file is available in repository, but you can download its latest version 2 from [`https://getcomposer.org/composer.phar`](https://getcomposer.org/composer.phar)
 
 3. Start the composer installation process by running the following from the command line:
     ```bash
@@ -51,34 +51,39 @@ git clone https://github.com/afterlogic/webmail-lite-8.git INSTALL_FOLDER_PATH
 
     **NB:** It is strongly advised to run composer as non-root user. Otherwise, third-party scripts will be run with root permissions and composer issues a warning that it's not safe. We recommend running the script under the same user web server runs under.
 
-4. Set up initial config values
-    ```bash
-    php composer.phar run pre-config
-    ```
+4. Next, you need to build static files for the current module set.
 
-5. Next, you need to build static files for the current module set.
+      First of all, install all npm modules via
+      ```bash
+      npm install
+      ```
+      and install gulp-cli module globaly 
+      ```bash
+      npm install --global gulp-cli
+      ```
+      then install the modules required for adminpanel to work 
+      ```bash
+      cd modules/AdminPanelWebclient/vue
+      npm install
+      npm install -g @quasar/cli
+      ```
 
-    First of all, install all npm modules via
-    ```bash
-    npm install
-    ```
-    and install gulp-cli module globaly 
-    ```bash
-    npm install --global gulp-cli
-    ```
-
-6. Now you can build static files
-    ```bash
-    gulp styles --themes Default,DeepForest,Funny,Sand
-    ```
-
-    ```bash
-    gulp js:min
-    ```
+5. Now you can build static files. Run the following commands in main directory
+      ```bash
+      gulp styles --themes Default,DeepForest,Funny,Sand
+      ```
+      ```bash
+      gulp js:min
+      ```
+      and build adminpanel 
+      ```bash
+      cd modules/AdminPanelWebclient/vue
+      npm run build-production
+      ```
   
-7. Now you are ready to open a URL pointing to the installation directory in your favorite web browser.
+6. Now you are ready to open a URL pointing to the installation directory in your favorite web browser. Be sure to add `/adminpanel/` to main URL to access admin interface.
 
-8. Upon installing the product, you'll need to [configure your installation](https://afterlogic.com/docs/webmail-lite-8/configuring-webmail).
+7. Upon installing the product, you'll need to [configure your installation](https://afterlogic.com/docs/webmail-lite-8/configuring-webmail).
 
 **IMPORTANT:**
 
