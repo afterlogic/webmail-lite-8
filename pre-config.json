@@ -1,5 +1,6 @@
 {
 	"system": {
+		"XFrameOptions": "SAMEORIGIN"
 	},
 	"modules": {
 		"Core": {
