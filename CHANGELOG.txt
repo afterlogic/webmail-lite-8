@@ -1,3 +1,9 @@
+[9.1.1]
+[*] Mail login form bigfixes and layout improvements
+[*] Fixed password issue in two factor authentication module
+[*] Closed XSS vulnerability in Files
+[*] Various bugfixes
+
 [9.1.0]
 [+] Rocket.Chat integration (Aurora Corporate / Aurora Files only)
 [*] Corrected issues with user signup on cPanel
