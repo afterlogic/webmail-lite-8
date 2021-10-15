@@ -493,15 +493,15 @@
         },
         {
             "name": "afterlogic/aurora-module-two-factor-auth",
-            "version": "0.10.13",
+            "version": "0.10.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-two-factor-auth",
-                "reference": "tags/0.10.13"
+                "reference": "tags/0.10.14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-two-factor-auth/archive/0.10.13.zip"
+                "url": "https://github.com/afterlogic/aurora-module-two-factor-auth/archive/0.10.14.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -513,7 +513,7 @@
             "extra": {
                 "installer-name": "TwoFactorAuth"
             },
-            "time": "2021-08-23T11:07:38+00:00"
+            "time": "2021-10-14T17:02:48+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-adminpanel",
