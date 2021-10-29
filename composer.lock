@@ -28,15 +28,15 @@
         },
         {
             "name": "afterlogic/aurora-framework",
-            "version": "0.10.46",
+            "version": "0.10.47",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-framework",
-                "reference": "tags/0.10.46"
+                "reference": "tags/0.10.47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.46.zip"
+                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.47.zip"
             },
             "require": {
                 "afterlogic/mailso": "^1.4",
@@ -58,7 +58,7 @@
                     "Installer.php"
                 ]
             },
-            "time": "2021-09-29T12:30:34+00:00"
+            "time": "2021-10-21T08:59:06+00:00"
         },
         {
             "name": "afterlogic/aurora-module-admin-auth",
@@ -84,15 +84,15 @@
         },
         {
             "name": "afterlogic/aurora-module-contacts",
-            "version": "0.10.27",
+            "version": "0.10.29",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-contacts",
-                "reference": "tags/0.10.27"
+                "reference": "tags/0.10.29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.27.zip"
+                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.29.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -103,19 +103,19 @@
             "extra": {
                 "installer-name": "Contacts"
             },
-            "time": "2021-10-12T05:52:30+00:00"
+            "time": "2021-10-29T10:04:27+00:00"
         },
         {
             "name": "afterlogic/aurora-module-core",
-            "version": "0.10.24",
+            "version": "0.10.28",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-core",
-                "reference": "tags/0.10.24"
+                "reference": "tags/0.10.28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-core/archive/0.10.24.zip"
+                "url": "https://github.com/afterlogic/aurora-module-core/archive/0.10.28.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -125,7 +125,7 @@
             "extra": {
                 "installer-name": "Core"
             },
-            "time": "2021-08-23T09:03:41+00:00"
+            "time": "2021-10-28T07:46:05+00:00"
         },
         {
             "name": "afterlogic/aurora-module-cpanel-integrator",
@@ -269,15 +269,15 @@
         },
         {
             "name": "afterlogic/aurora-module-mail",
-            "version": "0.10.38",
+            "version": "0.10.50",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-mail",
-                "reference": "tags/0.10.38"
+                "reference": "tags/0.10.50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-mail/archive/0.10.38.zip"
+                "url": "https://github.com/afterlogic/aurora-module-mail/archive/0.10.50.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -288,7 +288,7 @@
             "extra": {
                 "installer-name": "Mail"
             },
-            "time": "2021-10-12T12:39:00+00:00"
+            "time": "2021-10-29T11:46:27+00:00"
         },
         {
             "name": "afterlogic/aurora-module-mail-auth-cpanel",
@@ -470,15 +470,15 @@
         },
         {
             "name": "afterlogic/aurora-module-personal-contacts",
-            "version": "0.10.3",
+            "version": "0.10.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-personal-contacts",
-                "reference": "tags/0.10.3"
+                "reference": "tags/0.10.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-personal-contacts/archive/0.10.3.zip"
+                "url": "https://github.com/afterlogic/aurora-module-personal-contacts/archive/0.10.4.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -489,7 +489,7 @@
             "extra": {
                 "installer-name": "PersonalContacts"
             },
-            "time": "2021-08-23T13:06:48+00:00"
+            "time": "2021-10-29T11:51:54+00:00"
         },
         {
             "name": "afterlogic/aurora-module-two-factor-auth",
@@ -583,15 +583,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
-            "version": "0.10.22",
+            "version": "0.10.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-core",
-                "reference": "tags/0.10.22"
+                "reference": "tags/0.10.23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.22.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.23.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -601,7 +601,7 @@
             "extra": {
                 "installer-name": "CoreWebclient"
             },
-            "time": "2021-10-14T11:29:39+00:00"
+            "time": "2021-10-28T08:27:53+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-dropbox-auth",
@@ -693,15 +693,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail",
-            "version": "0.10.11",
+            "version": "0.10.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-mail",
-                "reference": "tags/0.10.11"
+                "reference": "tags/0.10.13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.10.11.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.10.13.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0"
@@ -710,19 +710,19 @@
             "extra": {
                 "installer-name": "MailWebclient"
             },
-            "time": "2021-10-05T07:54:08+00:00"
+            "time": "2021-10-29T08:52:28+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail-login-form",
-            "version": "0.10.3",
+            "version": "0.10.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-mail-login-form",
-                "reference": "tags/0.10.3"
+                "reference": "tags/0.10.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-mail-login-form/archive/0.10.3.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-mail-login-form/archive/0.10.4.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -732,7 +732,7 @@
             "extra": {
                 "installer-name": "MailLoginFormWebclient"
             },
-            "time": "2021-10-11T18:54:56+00:00"
+            "time": "2021-10-21T11:31:44+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail-sensitivity-plugin",
@@ -823,15 +823,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-openpgp",
-            "version": "0.10.3",
+            "version": "0.10.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp",
-                "reference": "tags/0.10.3"
+                "reference": "tags/0.10.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp/archive/0.10.3.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp/archive/0.10.4.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -841,7 +841,7 @@
             "extra": {
                 "installer-name": "OpenPgpWebclient"
             },
-            "time": "2021-08-25T14:45:07+00:00"
+            "time": "2021-10-29T11:51:27+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-recaptcha-plugin",
@@ -1609,34 +1609,30 @@
         },
         {
             "name": "doctrine/inflector",
-            "version": "2.0.3",
+            "version": "2.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/inflector.git",
-                "reference": "9cf661f4eb38f7c881cac67c75ea9b00bf97b210"
+                "reference": "8b7ff3e4b7de6b2c84da85637b59fd2880ecaa89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/inflector/zipball/9cf661f4eb38f7c881cac67c75ea9b00bf97b210",
-                "reference": "9cf661f4eb38f7c881cac67c75ea9b00bf97b210",
+                "url": "https://api.github.com/repos/doctrine/inflector/zipball/8b7ff3e4b7de6b2c84da85637b59fd2880ecaa89",
+                "reference": "8b7ff3e4b7de6b2c84da85637b59fd2880ecaa89",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.2 || ^8.0"
             },
             "require-dev": {
-                "doctrine/coding-standard": "^7.0",
-                "phpstan/phpstan": "^0.11",
-                "phpstan/phpstan-phpunit": "^0.11",
-                "phpstan/phpstan-strict-rules": "^0.11",
-                "phpunit/phpunit": "^7.0 || ^8.0 || ^9.0"
+                "doctrine/coding-standard": "^8.2",
+                "phpstan/phpstan": "^0.12",
+                "phpstan/phpstan-phpunit": "^0.12",
+                "phpstan/phpstan-strict-rules": "^0.12",
+                "phpunit/phpunit": "^7.0 || ^8.0 || ^9.0",
+                "vimeo/psalm": "^4.10"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Doctrine\\Inflector\\": "lib/Doctrine/Inflector"
@@ -1684,7 +1680,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/inflector/issues",
-                "source": "https://github.com/doctrine/inflector/tree/2.0.x"
+                "source": "https://github.com/doctrine/inflector/tree/2.0.4"
             },
             "funding": [
                 {
@@ -1700,7 +1696,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-05-29T15:13:26+00:00"
+            "time": "2021-10-22T20:16:43+00:00"
         },
         {
             "name": "google/apiclient",
@@ -1919,16 +1915,16 @@
         },
         {
             "name": "guzzlehttp/promises",
-            "version": "1.5.0",
+            "version": "1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
-                "reference": "136a635e2b4a49b9d79e9c8fee267ffb257fdba0"
+                "reference": "fe752aedc9fd8fcca3fe7ad05d419d32998a06da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/136a635e2b4a49b9d79e9c8fee267ffb257fdba0",
-                "reference": "136a635e2b4a49b9d79e9c8fee267ffb257fdba0",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/fe752aedc9fd8fcca3fe7ad05d419d32998a06da",
+                "reference": "fe752aedc9fd8fcca3fe7ad05d419d32998a06da",
                 "shasum": ""
             },
             "require": {
@@ -1983,7 +1979,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/promises/issues",
-                "source": "https://github.com/guzzle/promises/tree/1.5.0"
+                "source": "https://github.com/guzzle/promises/tree/1.5.1"
             },
             "funding": [
                 {
@@ -1999,7 +1995,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-10-07T13:05:22+00:00"
+            "time": "2021-10-22T20:56:57+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -2600,24 +2596,28 @@
         },
         {
             "name": "knplabs/knp-snappy",
-            "version": "v1.2.1",
+            "version": "v1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/snappy.git",
-                "reference": "7bac60fb729147b7ccd8532c07df3f52a4afa8a4"
+                "reference": "349c2e872bbeb15dff825a17dd92ea9c6ae4120e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/snappy/zipball/7bac60fb729147b7ccd8532c07df3f52a4afa8a4",
-                "reference": "7bac60fb729147b7ccd8532c07df3f52a4afa8a4",
+                "url": "https://api.github.com/repos/KnpLabs/snappy/zipball/349c2e872bbeb15dff825a17dd92ea9c6ae4120e",
+                "reference": "349c2e872bbeb15dff825a17dd92ea9c6ae4120e",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.1",
-                "psr/log": "^1.0",
+                "psr/log": "^1.0||^2.0||^3.0",
                 "symfony/process": "~3.4||~4.3||~5.0"
             },
             "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.16",
+                "pedrotroller/php-cs-custom-fixer": "^2.19",
+                "phpstan/phpstan": "^0.12.7",
+                "phpstan/phpstan-phpunit": "^0.12.6",
                 "phpunit/phpunit": "~7.4"
             },
             "suggest": {
@@ -2644,7 +2644,7 @@
             ],
             "authors": [
                 {
-                    "name": "KnpLabs Team",
+                    "name": "KNP Labs Team",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -2652,7 +2652,7 @@
                     "homepage": "http://github.com/KnpLabs/snappy/contributors"
                 }
             ],
-            "description": "PHP5 library allowing thumbnail, snapshot or PDF generation from a url or a html page. Wrapper for wkhtmltopdf/wkhtmltoimage.",
+            "description": "PHP library allowing thumbnail, snapshot or PDF generation from a url or a html page. Wrapper for wkhtmltopdf/wkhtmltoimage.",
             "homepage": "http://github.com/KnpLabs/snappy",
             "keywords": [
                 "knp",
@@ -2664,9 +2664,9 @@
             ],
             "support": {
                 "issues": "https://github.com/KnpLabs/snappy/issues",
-                "source": "https://github.com/KnpLabs/snappy/tree/master"
+                "source": "https://github.com/KnpLabs/snappy/tree/v1.3.1"
             },
-            "time": "2020-01-20T08:30:30+00:00"
+            "time": "2021-10-22T11:40:26+00:00"
         },
         {
             "name": "kunalvarma05/dropbox-php-sdk",
@@ -3102,24 +3102,24 @@
         },
         {
             "name": "pimple/pimple",
-            "version": "v3.4.0",
+            "version": "v3.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silexphp/Pimple.git",
-                "reference": "86406047271859ffc13424a048541f4531f53601"
+                "reference": "a94b3a4db7fb774b3d78dad2315ddc07629e1bed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/86406047271859ffc13424a048541f4531f53601",
-                "reference": "86406047271859ffc13424a048541f4531f53601",
+                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/a94b3a4db7fb774b3d78dad2315ddc07629e1bed",
+                "reference": "a94b3a4db7fb774b3d78dad2315ddc07629e1bed",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2.5",
-                "psr/container": "^1.1"
+                "psr/container": "^1.1 || ^2.0"
             },
             "require-dev": {
-                "symfony/phpunit-bridge": "^5.0"
+                "symfony/phpunit-bridge": "^5.4@dev"
             },
             "type": "library",
             "extra": {
@@ -3149,9 +3149,9 @@
                 "dependency injection"
             ],
             "support": {
-                "source": "https://github.com/silexphp/Pimple/tree/v3.4.0"
+                "source": "https://github.com/silexphp/Pimple/tree/v3.5.0"
             },
-            "time": "2021-03-06T08:28:00+00:00"
+            "time": "2021-10-28T11:13:42+00:00"
         },
         {
             "name": "pragmarx/random",
@@ -4011,16 +4011,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v5.3.7",
+            "version": "v5.3.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "8b1008344647462ae6ec57559da166c2bfa5e16a"
+                "reference": "d4e409d9fbcfbf71af0e5a940abb7b0b4bad0bd3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/8b1008344647462ae6ec57559da166c2bfa5e16a",
-                "reference": "8b1008344647462ae6ec57559da166c2bfa5e16a",
+                "url": "https://api.github.com/repos/symfony/console/zipball/d4e409d9fbcfbf71af0e5a940abb7b0b4bad0bd3",
+                "reference": "d4e409d9fbcfbf71af0e5a940abb7b0b4bad0bd3",
                 "shasum": ""
             },
             "require": {
@@ -4090,7 +4090,7 @@
                 "terminal"
             ],
             "support": {
-                "source": "https://github.com/symfony/console/tree/v5.3.7"
+                "source": "https://github.com/symfony/console/tree/v5.3.10"
             },
             "funding": [
                 {
@@ -4106,7 +4106,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-08-25T20:02:16+00:00"
+            "time": "2021-10-26T09:30:15+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -5082,16 +5082,16 @@
         },
         {
             "name": "symfony/string",
-            "version": "v5.3.7",
+            "version": "v5.3.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
-                "reference": "8d224396e28d30f81969f083a58763b8b9ceb0a5"
+                "reference": "d70c35bb20bbca71fc4ab7921e3c6bda1a82a60c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/8d224396e28d30f81969f083a58763b8b9ceb0a5",
-                "reference": "8d224396e28d30f81969f083a58763b8b9ceb0a5",
+                "url": "https://api.github.com/repos/symfony/string/zipball/d70c35bb20bbca71fc4ab7921e3c6bda1a82a60c",
+                "reference": "d70c35bb20bbca71fc4ab7921e3c6bda1a82a60c",
                 "shasum": ""
             },
             "require": {
@@ -5145,7 +5145,7 @@
                 "utf8"
             ],
             "support": {
-                "source": "https://github.com/symfony/string/tree/v5.3.7"
+                "source": "https://github.com/symfony/string/tree/v5.3.10"
             },
             "funding": [
                 {
@@ -5161,20 +5161,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-08-26T08:00:08+00:00"
+            "time": "2021-10-27T18:21:46+00:00"
         },
         {
             "name": "symfony/translation",
-            "version": "v5.3.9",
+            "version": "v5.3.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "6e69f3551c1a3356cf6ea8d019bf039a0f8b6886"
+                "reference": "6ef197aea2ac8b9cd63e0da7522b3771714035aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/6e69f3551c1a3356cf6ea8d019bf039a0f8b6886",
-                "reference": "6e69f3551c1a3356cf6ea8d019bf039a0f8b6886",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/6ef197aea2ac8b9cd63e0da7522b3771714035aa",
+                "reference": "6ef197aea2ac8b9cd63e0da7522b3771714035aa",
                 "shasum": ""
             },
             "require": {
@@ -5240,7 +5240,7 @@
             "description": "Provides tools to internationalize your application",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/translation/tree/v5.3.9"
+                "source": "https://github.com/symfony/translation/tree/v5.3.10"
             },
             "funding": [
                 {
@@ -5256,7 +5256,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-08-26T08:22:53+00:00"
+            "time": "2021-10-10T06:43:24+00:00"
         },
         {
             "name": "symfony/translation-contracts",
