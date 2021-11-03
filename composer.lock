@@ -359,15 +359,15 @@
         },
         {
             "name": "afterlogic/aurora-module-mail-notes-plugin",
-            "version": "0.10.0",
+            "version": "0.10.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-mail-notes-plugin",
-                "reference": "tags/0.10.0"
+                "reference": "tags/0.10.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-mail-notes-plugin/archive/0.10.0.zip"
+                "url": "https://github.com/afterlogic/aurora-module-mail-notes-plugin/archive/0.10.2.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -377,7 +377,7 @@
             "extra": {
                 "installer-name": "MailNotesPlugin"
             },
-            "time": "2021-07-01T13:24:40+00:00"
+            "time": "2021-11-01T10:10:09+00:00"
         },
         {
             "name": "afterlogic/aurora-module-mail-save-message-as-pdf-plugin",
@@ -693,15 +693,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail",
-            "version": "0.10.13",
+            "version": "0.10.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-mail",
-                "reference": "tags/0.10.13"
+                "reference": "tags/0.10.18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.10.13.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.10.18.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0"
@@ -710,19 +710,19 @@
             "extra": {
                 "installer-name": "MailWebclient"
             },
-            "time": "2021-10-29T08:52:28+00:00"
+            "time": "2021-11-03T09:35:10+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail-login-form",
-            "version": "0.10.4",
+            "version": "0.10.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-mail-login-form",
-                "reference": "tags/0.10.4"
+                "reference": "tags/0.10.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-mail-login-form/archive/0.10.4.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-mail-login-form/archive/0.10.5.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -732,7 +732,7 @@
             "extra": {
                 "installer-name": "MailLoginFormWebclient"
             },
-            "time": "2021-10-21T11:31:44+00:00"
+            "time": "2021-11-02T09:30:01+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail-sensitivity-plugin",
@@ -912,15 +912,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-standard-login-form",
-            "version": "0.10.0",
+            "version": "0.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-standard-login-form",
-                "reference": "tags/0.10.0"
+                "reference": "tags/0.10.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-standard-login-form/archive/0.10.0.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-standard-login-form/archive/0.10.1.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -930,7 +930,7 @@
             "extra": {
                 "installer-name": "StandardLoginFormWebclient"
             },
-            "time": "2021-07-01T13:24:49+00:00"
+            "time": "2021-11-02T09:31:58+00:00"
         },
         {
             "name": "afterlogic/googleauthenticator",
@@ -2778,16 +2778,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.53.1",
+            "version": "2.54.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "f4655858a784988f880c1b8c7feabbf02dfdf045"
+                "reference": "eed83939f1aed3eee517d03a33f5ec587ac529b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/f4655858a784988f880c1b8c7feabbf02dfdf045",
-                "reference": "f4655858a784988f880c1b8c7feabbf02dfdf045",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/eed83939f1aed3eee517d03a33f5ec587ac529b5",
+                "reference": "eed83939f1aed3eee517d03a33f5ec587ac529b5",
                 "shasum": ""
             },
             "require": {
@@ -2798,6 +2798,7 @@
                 "symfony/translation": "^3.4 || ^4.0 || ^5.0"
             },
             "require-dev": {
+                "doctrine/dbal": "^2.0 || ^3.0",
                 "doctrine/orm": "^2.7",
                 "friendsofphp/php-cs-fixer": "^3.0",
                 "kylekatarnls/multi-tester": "^2.0",
@@ -2868,7 +2869,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-09-06T09:29:23+00:00"
+            "time": "2021-11-01T21:22:20+00:00"
         },
         {
             "name": "oomphinc/composer-installers-extender",
