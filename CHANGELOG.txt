@@ -1,5 +1,10 @@
+[9.2.0]
+[+] Search in multiple folders
+[+] Multiple themes support in Chat (Aurora only)
+[*] Various bugfixes in Mail and Calendar modules
+
 [9.1.1]
-[*] Mail login form bigfixes and layout improvements
+[*] Mail login form bugfixes and layout improvements
 [*] Fixed password issue in two factor authentication module
 [*] Closed XSS vulnerability in Files
 [*] Various bugfixes
