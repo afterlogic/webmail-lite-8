@@ -1,6 +1,6 @@
 [9.2.0]
 [+] Search in multiple folders
-[+] Multiple themes support in Chat (Aurora only)
+[+] Multiple themes support in Chat (Aurora Corporate / Aurora Files only)
 [*] Various bugfixes in Mail and Calendar modules
 
 [9.1.1]
