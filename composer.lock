@@ -269,15 +269,15 @@
         },
         {
             "name": "afterlogic/aurora-module-mail",
-            "version": "0.10.52",
+            "version": "0.10.53",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-mail",
-                "reference": "tags/0.10.52"
+                "reference": "tags/0.10.53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-mail/archive/0.10.52.zip"
+                "url": "https://github.com/afterlogic/aurora-module-mail/archive/0.10.53.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -288,7 +288,7 @@
             "extra": {
                 "installer-name": "Mail"
             },
-            "time": "2021-11-08T09:46:46+00:00"
+            "time": "2021-11-15T06:00:28+00:00"
         },
         {
             "name": "afterlogic/aurora-module-mail-auth-cpanel",
@@ -693,15 +693,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail",
-            "version": "0.10.20",
+            "version": "0.10.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-mail",
-                "reference": "tags/0.10.20"
+                "reference": "tags/0.10.21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.10.20.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.10.21.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0"
@@ -710,7 +710,7 @@
             "extra": {
                 "installer-name": "MailWebclient"
             },
-            "time": "2021-11-09T14:34:32+00:00"
+            "time": "2021-11-15T07:32:19+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail-login-form",
@@ -981,16 +981,16 @@
         },
         {
             "name": "afterlogic/mailso",
-            "version": "1.5.41",
+            "version": "1.5.42",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/MailSo.git",
-                "reference": "edba40235ef18aef0a46855dceac2d9077d8f2a8"
+                "reference": "4324dd2fdb3df199394963cfe9cda901037995dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/MailSo/zipball/edba40235ef18aef0a46855dceac2d9077d8f2a8",
-                "reference": "edba40235ef18aef0a46855dceac2d9077d8f2a8",
+                "url": "https://api.github.com/repos/afterlogic/MailSo/zipball/4324dd2fdb3df199394963cfe9cda901037995dd",
+                "reference": "4324dd2fdb3df199394963cfe9cda901037995dd",
                 "shasum": ""
             },
             "require": {
@@ -1020,9 +1020,9 @@
             "homepage": "https://github.com/afterlogic/mailso",
             "support": {
                 "issues": "https://github.com/afterlogic/MailSo/issues",
-                "source": "https://github.com/afterlogic/MailSo/tree/1.5.41"
+                "source": "https://github.com/afterlogic/MailSo/tree/1.5.42"
             },
-            "time": "2021-08-13T08:39:09+00:00"
+            "time": "2021-11-15T06:14:07+00:00"
         },
         {
             "name": "afterlogic/sabre-dav",
