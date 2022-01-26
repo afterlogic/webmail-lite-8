@@ -1,3 +1,9 @@
+[9.3.0]
+[+] File sharing rewritten: permissions system improved, shared files can be moved and renamed, recipient can leave share (Aurora Corporate and Aurora Files only)
+[*] Fixed "Over quota" issue when setting user space limit for Files
+[*] Quota-related fixes in MTA versions
+[*] Miscellaneouse bugfixes
+
 [9.2.0]
 [+] Search in multiple folders
 [+] Multiple themes support in Chat (Aurora Corporate / Aurora Files only)
