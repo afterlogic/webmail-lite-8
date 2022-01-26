@@ -4,7 +4,11 @@
 		"preferred-install": {
 			"afterlogic/*": "source"
 		},
-		"platform-check": false
+		"platform-check": false,
+		"allow-plugins": {
+			"composer/installers": true,
+			"oomphinc/composer-installers-extender": true
+		}
 	},
 	"repositories": [
 		{"type": "composer", "url":"https://afterlogic.com/composer/"}
