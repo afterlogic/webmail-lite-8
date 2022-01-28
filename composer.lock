@@ -84,15 +84,15 @@
         },
         {
             "name": "afterlogic/aurora-module-contacts",
-            "version": "0.10.38",
+            "version": "0.10.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-contacts",
-                "reference": "tags/0.10.38"
+                "reference": "tags/0.10.39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.38.zip"
+                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.39.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -103,7 +103,7 @@
             "extra": {
                 "installer-name": "Contacts"
             },
-            "time": "2022-01-28T07:12:04+00:00"
+            "time": "2022-01-28T09:50:11+00:00"
         },
         {
             "name": "afterlogic/aurora-module-core",
@@ -561,15 +561,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-contacts",
-            "version": "0.10.6",
+            "version": "0.10.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-contacts",
-                "reference": "tags/0.10.6"
+                "reference": "tags/0.10.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/0.10.6.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/0.10.7.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -579,7 +579,7 @@
             "extra": {
                 "installer-name": "ContactsWebclient"
             },
-            "time": "2022-01-27T07:51:43+00:00"
+            "time": "2022-01-28T08:13:41+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
@@ -823,15 +823,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-openpgp",
-            "version": "0.10.7",
+            "version": "0.10.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp",
-                "reference": "tags/0.10.7"
+                "reference": "tags/0.10.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp/archive/0.10.7.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp/archive/0.10.8.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -841,7 +841,7 @@
             "extra": {
                 "installer-name": "OpenPgpWebclient"
             },
-            "time": "2022-01-27T13:17:49+00:00"
+            "time": "2022-01-28T08:15:54+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-recaptcha-plugin",
