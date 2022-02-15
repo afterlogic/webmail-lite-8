@@ -1,3 +1,13 @@
+[9.3.1]
+[*] Fixed various issues with files and folders sharing
+[*] Corrected issues with deleting users, mailservers and email accounts
+[*] Dropbox integration issue corrected
+[*] GetAuthenticatedAccount method in Core module updated
+[*] Fixed encoding-related issues in Create/Update Tables
+[*] Corrected PHP 8.* compatibility issues
+[*] Translations corrected in IframeApp module
+[*] HorizontalLayoutByDefault setting in MailWebclient is now treated correctly
+
 [9.3.0]
 [+] File sharing rewritten: permissions system improved, shared files can be moved and renamed, recipient can leave share (Aurora Corporate and Aurora Files only)
 [*] Fixed "Over quota" issue when setting user space limit for Files
