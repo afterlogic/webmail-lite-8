@@ -84,15 +84,15 @@
         },
         {
             "name": "afterlogic/aurora-module-contacts",
-            "version": "0.10.46",
+            "version": "0.10.47",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-contacts",
-                "reference": "tags/0.10.46"
+                "reference": "tags/0.10.47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.46.zip"
+                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.47.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -103,7 +103,7 @@
             "extra": {
                 "installer-name": "Contacts"
             },
-            "time": "2022-02-16T07:01:41+00:00"
+            "time": "2022-02-18T13:01:10+00:00"
         },
         {
             "name": "afterlogic/aurora-module-core",
@@ -269,15 +269,15 @@
         },
         {
             "name": "afterlogic/aurora-module-mail",
-            "version": "0.10.65",
+            "version": "0.10.66",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-mail",
-                "reference": "tags/0.10.65"
+                "reference": "tags/0.10.66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-mail/archive/0.10.65.zip"
+                "url": "https://github.com/afterlogic/aurora-module-mail/archive/0.10.66.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -288,7 +288,7 @@
             "extra": {
                 "installer-name": "Mail"
             },
-            "time": "2022-02-15T09:02:38+00:00"
+            "time": "2022-02-18T12:50:36+00:00"
         },
         {
             "name": "afterlogic/aurora-module-mail-auth-cpanel",
@@ -693,15 +693,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail",
-            "version": "0.10.37",
+            "version": "0.10.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-mail",
-                "reference": "tags/0.10.37"
+                "reference": "tags/0.10.38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.10.37.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.10.38.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0"
@@ -710,7 +710,7 @@
             "extra": {
                 "installer-name": "MailWebclient"
             },
-            "time": "2022-02-16T09:44:17+00:00"
+            "time": "2022-02-17T07:59:49+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail-login-form",
@@ -2770,16 +2770,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.56.0",
+            "version": "2.57.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "626ec8cbb724cd3c3400c3ed8f730545b744e3f4"
+                "reference": "4a54375c21eea4811dbd1149fe6b246517554e78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/626ec8cbb724cd3c3400c3ed8f730545b744e3f4",
-                "reference": "626ec8cbb724cd3c3400c3ed8f730545b744e3f4",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/4a54375c21eea4811dbd1149fe6b246517554e78",
+                "reference": "4a54375c21eea4811dbd1149fe6b246517554e78",
                 "shasum": ""
             },
             "require": {
@@ -2862,7 +2862,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-01-21T17:08:38+00:00"
+            "time": "2022-02-13T18:13:33+00:00"
         },
         {
             "name": "oomphinc/composer-installers-extender",
