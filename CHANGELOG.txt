@@ -1,14 +1,16 @@
 [9.3.2]
-[+] Implemented user groups and sharing files with groups of users
-[+] Implemented Team user group, for file sharing purposes, automatically populated with Team contacts
-[*] Contacts and users management refactoring
-[*] IMAP and SMTP hosts for external mail clients are now used for iOS profile
-[*] Mobile layout for Onlyoffice is automatically enabled when viewing attachments from a smartphone browser
-[*] Database migration rewritten, UTF8 is now used as a default charset for database access
-[*] Fixed issue with selecting folder for filters
-[*] Fixed issues with creating and deleting tenants
-[*] Fixed various issues with files sharing functionality
-[*] Miscellaneous bugfixes
++ Implemented user groups and sharing files with groups of users
++ Implemented Team user group, for file sharing purposes, automatically populated with Team contacts
+* Contacts and users management refactoring
+* IMAP and SMTP hosts for external mail clients are now used for iOS profile
+* Mobile layout for Onlyoffice is automatically enabled when viewing attachments from a smartphone browser
+* Database migration rewritten, UTF8 is now used as a default charset for database access
+* Corrected multiple issues with handling reminders
+* Corrected exception handling in MailScheduledMessages module
+* Fixed issue with selecting folder for filters
+* Fixed issues with creating and deleting tenants
+* Fixed various issues with files sharing functionality
+* Miscellaneous bugfixes
 
 [9.3.1]
 [*] Fixed various issues with files and folders sharing
