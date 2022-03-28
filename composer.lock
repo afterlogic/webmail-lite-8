@@ -84,15 +84,15 @@
         },
         {
             "name": "afterlogic/aurora-module-contacts",
-            "version": "0.10.53",
+            "version": "0.10.54",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-contacts",
-                "reference": "tags/0.10.53"
+                "reference": "tags/0.10.54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.53.zip"
+                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.54.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -103,7 +103,7 @@
             "extra": {
                 "installer-name": "Contacts"
             },
-            "time": "2022-03-24T11:32:35+00:00"
+            "time": "2022-03-25T10:25:22+00:00"
         },
         {
             "name": "afterlogic/aurora-module-core",
@@ -517,15 +517,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-adminpanel",
-            "version": "0.10.36",
+            "version": "0.10.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel",
-                "reference": "tags/0.10.36"
+                "reference": "tags/0.10.39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel/archive/0.10.36.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel/archive/0.10.39.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -535,7 +535,7 @@
             "extra": {
                 "installer-name": "AdminPanelWebclient"
             },
-            "time": "2022-03-23T09:24:29+00:00"
+            "time": "2022-03-28T10:04:05+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-change-password",
@@ -561,15 +561,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-contacts",
-            "version": "0.10.13",
+            "version": "0.10.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-contacts",
-                "reference": "tags/0.10.13"
+                "reference": "tags/0.10.14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/0.10.13.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/0.10.14.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -579,7 +579,7 @@
             "extra": {
                 "installer-name": "ContactsWebclient"
             },
-            "time": "2022-03-21T12:16:09+00:00"
+            "time": "2022-03-25T08:51:46+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
