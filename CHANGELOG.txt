@@ -1,3 +1,16 @@
+[9.4.0]
++ Sharing encrypted files is now supported
+* Database indexing refactored to boost performance on installations with large number of users
+* Improved check for MySQL native driver
+* Corrected multiple issues in shared calendars affecting reminders and invitations
+* Translation updates
+* Various bugfixes
+
+[9.3.3]
+[+] cPanel installer for v9 is made available
+[*] Fixed issue with database prefix used with au_adav_sharedfiles table
+[*] Corrected issue with mails not sent out by MailScheduledMessages module
+
 [9.3.2]
 [+] Implemented user groups and sharing files with groups of users
 [+] Implemented Team user group, for file sharing purposes, automatically populated with Team contacts
