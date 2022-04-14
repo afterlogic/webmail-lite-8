@@ -59,7 +59,10 @@
 		"afterlogic/aurora-module-mail-master-password": "~0.10.0",
 		"afterlogic/aurora-module-webclient-mail-login-form": "~0.10.0",
 		
-		"afterlogic/aurora-module-override-user-settings": "~0.10.0"
+		"afterlogic/aurora-module-override-user-settings": "~0.10.0",
+
+		"afterlogic/dav": "~3.0.0"
+		
 	},
 	"scripts": {
 		"post-install-cmd": "@pre-config",
