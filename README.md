@@ -51,8 +51,6 @@ git clone https://github.com/afterlogic/webmail-lite-8.git INSTALL_FOLDER_PATH
 
     **NB:** It is strongly advised to run composer as non-root user. Otherwise, third-party scripts will be run with root permissions and composer issues a warning that it's not safe. We recommend running the script under the same user web server runs under.
 
-    Make sure you're using PHP 7.2.5 - 7.4.\*. Building with PHP 8 is not currently supported.
-    
 4. Next, you need to build static files for the current module set.
 
       First of all, install all npm modules via
@@ -85,7 +83,7 @@ git clone https://github.com/afterlogic/webmail-lite-8.git INSTALL_FOLDER_PATH
   
 6. Now you are ready to open a URL pointing to the installation directory in your favorite web browser. Be sure to add `/adminpanel/` to main URL to access admin interface.
 
-7. Upon installing the product, you'll need to [configure your installation](https://afterlogic.com/docs/webmail-lite-8/configuring-webmail).
+7. Upon installing the product, you'll need to [configure your installation](https://afterlogic.com/docs/webmail-lite/configuring-webmail).
 
 **IMPORTANT:**
 
@@ -100,7 +98,7 @@ To enable automatic redirect from **http** to **https**, set **RedirectToHttps**
 
 **Protecting data directory:**
 
-All configuration files of the application and user data are stored in data directory, so it's important to [protect data directory](https://afterlogic.com/docs/webmail-lite-8/security/protecting-data-directory) to make sure that  nobody can access that directory over the Internet directly. 
+All configuration files of the application and user data are stored in data directory, so it's important to [protect data directory](https://afterlogic.com/docs/webmail-lite/security/protecting-data-directory) to make sure that  nobody can access that directory over the Internet directly. 
 
 # Licensing
 This product is licensed under AGPLv3. The modules and other packages included in this product as dependencies are licensed under their own licenses.
