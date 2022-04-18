@@ -1,16 +1,16 @@
 [![Build Status](https://travis-ci.org/afterlogic/webmail-lite-8.svg?branch=master)](https://travis-ci.org/afterlogic/webmail-lite-8)
 
-# Afterlogic WebMail Lite 8
+# Afterlogic WebMail Lite
 Open-source webmail script for your existing IMAP server.
 
 - For more information, please visit WebMail Lite [home page](https://afterlogic.org/webmail-lite).
-- You can check WebMail Lite 8 [live demo](https://lite.afterlogic.com).
+- You can check WebMail Lite [live demo](https://lite.afterlogic.com).
 - [Github repository](https://github.com/afterlogic/webmail-lite-8)
 - [Issue tracker](https://github.com/afterlogic/webmail-lite-8/issues)
 
-![Afterlogic WebMail Lite 8: Message List](https://afterlogic.org/images/products/wml8/afterlogic-webmail-lite-8-message-list.png)
+![Afterlogic WebMail Lite: Message List](https://afterlogic.org/images/products/wml8/afterlogic-webmail-lite-8-message-list.png)
 
-You can download WebMail Lite 8 from our website, unzip the package and configure the installation as described at [this documentation page](https://afterlogic.com/docs/webmail-lite-8/installation/installation-instructions). This is a simple approach convenient for those who simply wish to install the product. But if you're looking for building and adding custom modules or skins, installing from Git repository is recommended per the instructions below.
+You can download WebMail Lite from our website, unzip the package and configure the installation as described at [this documentation page](https://afterlogic.com/docs/webmail-lite-8/installation/installation-instructions). This is a simple approach convenient for those who simply wish to install the product. But if you're looking for building and adding custom modules or skins, installing from Git repository is recommended per the instructions below.
 
 ## Installation instructions
 
@@ -21,7 +21,7 @@ During installation process you will need:
     
     **Note!** npm 3.0 or later is required.
 
-1. Download and unpack the latest version of WebMail Lite 8 into your installation root directory
+1. Download and unpack the latest version of WebMail Lite into your installation root directory
 [`https://github.com/afterlogic/webmail-lite-8/archive/latest.zip`](https://github.com/afterlogic/webmail-lite-8/archive/latest.zip)
 
 We're assuming that you wish to install the latest stable version of the product. If you're looking for the latest code (e.g., to contribute changes), the following steps needs to be taken:
