@@ -107,15 +107,15 @@
         },
         {
             "name": "afterlogic/aurora-module-core",
-            "version": "0.10.57",
+            "version": "0.10.58",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-core",
-                "reference": "tags/0.10.57"
+                "reference": "tags/0.10.58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-core/archive/0.10.57.zip"
+                "url": "https://github.com/afterlogic/aurora-module-core/archive/0.10.58.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -125,7 +125,7 @@
             "extra": {
                 "installer-name": "Core"
             },
-            "time": "2022-04-11T09:55:44+00:00"
+            "time": "2022-04-19T13:01:50+00:00"
         },
         {
             "name": "afterlogic/aurora-module-cpanel-integrator",
