@@ -1,10 +1,10 @@
 [9.4.0]
-+ Sharing encrypted files is now supported
-* Database indexing refactored to boost performance on installations with large number of users
-* Improved check for MySQL native driver
-* Corrected multiple issues in shared calendars affecting reminders and invitations
-* Translation updates
-* Various bugfixes
+[+] Sharing encrypted files is now supported
+[*] Database indexing refactored to boost performance on installations with large number of users
+[*] Improved check for MySQL native driver
+[*] Corrected multiple issues in shared calendars affecting reminders and invitations
+[*] Translation updates
+[*] Various bugfixes
 
 [9.3.3]
 [+] cPanel installer for v9 is made available
