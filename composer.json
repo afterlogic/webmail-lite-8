@@ -61,7 +61,7 @@
 		
 		"afterlogic/aurora-module-override-user-settings": "~0.10.0",
 
-		"afterlogic/dav": "~3.0.0"
+		"afterlogic/dav": "~4.0.0"
 		
 	},
 	"scripts": {
