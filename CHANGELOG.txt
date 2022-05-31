@@ -1,3 +1,19 @@
+[9.5.0]
+[+] Sharing address books (Aurora Corporate, Aurora Files)
+[+] Multiple address books supported, address book management is enabled by default (WebMail Pro, Aurora Corporate, Aurora Files)
+[*] Office document editor and viewer now fully support OnlyOffice v7 with JWT protection enabled
+[*] Files under "Shared with me" are now listed fully, regardless of whether they're in root folder
+[*] "Use SSL" options are added under "IMAP and SMTP hosts for external mail clients" section of mail server settings
+[*] IncludePasswordInProfile setting for iOS profile is now working as expected
+[*] DAV compatibility issue with PHP 8 is corrected
+[*] DAV stacktrace is now disabled by default for security reasons
+[*] Various optimizations made for MySQL queries affecting installations with large number of users
+[*] MTA versions refactored, it's now possible to upgrade MTA installation by updating just the web components
+[*] Miscellaneous bugfixes
+
+[9.4.1]
+[*] Corrected an issue with downloading attachments
+
 [9.4.0]
 [+] Sharing encrypted files is now supported
 [*] Database indexing refactored to boost performance on installations with large number of users
