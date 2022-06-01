@@ -22,29 +22,29 @@ jobs:
 
     - name: Install NPM dependencies
       run: |
-          chmod +x ./travis.sh
-          ./travis.sh -t npm
+          chmod +x ./builder.sh
+          ./builder.sh -t npm
           
     - name: Compile static files
-      run: ./travis.sh -t build
+      run: ./builder.sh -t build
       
     - name: Build a package
-      run: ./travis.sh -t pack
+      run: ./builder.sh -t pack
       env:
         PRODUCT_NAME: ${{ secrets.PRODUCT_NAME }}
 
     - name: Upload main package
-      run: ./travis.sh -t upload
+      run: ./builder.sh -t upload
       env:
         PRODUCT_NAME: ${{ secrets.PRODUCT_NAME }}
         FTP_USER: ${{ secrets.FTP_USER }}
         FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
 
     - name: PLESK - Set permission for package builder
-      run: chmod +x ./travis-plesk-builder.sh
+      run: chmod +x ./builder-plesk.sh
           
     - name: PLESK - Compile static files 
-      run: ./travis-plesk-builder.sh -t build
+      run: ./builder-plesk.sh -t build
       env:
         PRODUCT_NAME: ${{ secrets.PRODUCT_NAME }}
         PLESK_PRODUCT_TITLE: "WebMail Lite"
@@ -53,16 +53,28 @@ jobs:
         PLESK_PRODUCT_DOWNLOAD: "https://afterlogic.org/download/webmail-lite-php"
 
     - name: PLESK - Generate changelog
-      run: ./travis-plesk-builder.sh -t log
+      run: ./builder-plesk.sh -t log
       
     - name: PLESK - Build a package
-      run: ./travis-plesk-builder.sh -t zip
+      run: ./builder-plesk.sh -t zip
       env:
         PRODUCT_NAME: ${{ secrets.PRODUCT_NAME }}
 
     - name: PLESK - Upload plesk package
-      run: ./travis-plesk-builder.sh -t upload
+      run: ./builder-plesk.sh -t upload
       env:
         PRODUCT_NAME: ${{ secrets.PRODUCT_NAME }}
         FTP_USER: ${{ secrets.FTP_USER }}
         FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+
+    - name: DEMO - prepare demo package
+      run: ./builder.sh -t prepare-demo
+
+    - name: DEMO - build demo static files
+      run: ./builder.sh -t build
+
+    - name: DEMO - build demo package
+      run: ./builder.sh -t pack
+
+    - name: DEMO - upload demo package
+      run: ./builder.sh -t upload-demo
