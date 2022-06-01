@@ -97,6 +97,7 @@ if [ "$TASK" = "prepare-demo" ]; then
 	printf "Adding extra modules at ${GREEN}${DIR}${NC}...\n"
 	
 	curl -o ${DIR}/extra_modules.txt -u ${FTP_USER}:${FTP_PASSWORD} ftp://afterlogic.com/demo/${PRODUCT_NAME}/extra_modules.txt
+	# wget --no-parent --recursive --level=1 --no-directories --user=${FTP_USER} --password=${FTP_PASSWORD} ftp://afterlogic.com/demo/${PRODUCT_NAME}/
 
 	DEMO_MODULES_FILE="./extra_modules.txt"
 

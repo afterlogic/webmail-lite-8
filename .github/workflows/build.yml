@@ -69,12 +69,24 @@ jobs:
 
     - name: DEMO - prepare demo package
       run: ./builder.sh -t prepare-demo
+      env:
+        PRODUCT_NAME: ${{ secrets.PRODUCT_NAME }}
+        FTP_USER: ${{ secrets.FTP_USER }}
+        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
 
     - name: DEMO - build demo static files
       run: ./builder.sh -t build
+      env:
+        PRODUCT_NAME: ${{ secrets.PRODUCT_NAME }}
 
     - name: DEMO - build demo package
       run: ./builder.sh -t pack
+      env:
+        PRODUCT_NAME: ${{ secrets.PRODUCT_NAME }}
 
     - name: DEMO - upload demo package
       run: ./builder.sh -t upload-demo
+      env:
+        PRODUCT_NAME: ${{ secrets.PRODUCT_NAME }}
+        FTP_USER: ${{ secrets.FTP_USER }}
+        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
