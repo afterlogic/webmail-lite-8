@@ -1,3 +1,14 @@
+[9.5.2]
+[*] Fixed issues with sharing files and address books with Team
+[*] Fixed issue with moving files from subfolder to root folder
+[*] Fixed multiple issues with document editing by OnlyOffice (Aurora Corporate, Aurora Files)
+[*] Fetchers functionality rewritten (MailSuite Pro, Aurora Corporate all-in-one)
+[+] Plesk package is now available for Aurora Corporate
+[*] Minor bugfixes
+
+[9.5.1]
+[*] Fixed the problem of sharing the personal address book (Aurora Corporate, Aurora Files)
+
 [9.5.0]
 [+] Sharing address books (Aurora Corporate, Aurora Files)
 [+] Multiple address books supported, address book management is enabled by default (WebMail Pro, Aurora Corporate, Aurora Files)
