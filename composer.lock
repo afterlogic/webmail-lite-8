@@ -84,15 +84,15 @@
         },
         {
             "name": "afterlogic/aurora-module-contacts",
-            "version": "0.10.68",
+            "version": "0.10.69",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-contacts",
-                "reference": "tags/0.10.68"
+                "reference": "tags/0.10.69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.68.zip"
+                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.69.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -935,16 +935,16 @@
         },
         {
             "name": "afterlogic/dav",
-            "version": "4.0.15",
+            "version": "4.0.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/dav.git",
-                "reference": "5fd6a91d0a4219a4a81847061a3e185d8915f5d3"
+                "reference": "a93f45b2883acbb71a5e851408f3b430347bad26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/dav/zipball/5fd6a91d0a4219a4a81847061a3e185d8915f5d3",
-                "reference": "5fd6a91d0a4219a4a81847061a3e185d8915f5d3",
+                "url": "https://api.github.com/repos/afterlogic/dav/zipball/a93f45b2883acbb71a5e851408f3b430347bad26",
+                "reference": "a93f45b2883acbb71a5e851408f3b430347bad26",
                 "shasum": ""
             },
             "require": {
@@ -974,9 +974,9 @@
             "homepage": "https://github.com/afterlogic/dav",
             "support": {
                 "issues": "https://github.com/afterlogic/dav/issues",
-                "source": "https://github.com/afterlogic/dav/tree/4.0.15"
+                "source": "https://github.com/afterlogic/dav/tree/4.0.17"
             },
-            "time": "2022-06-23T07:32:22+00:00"
+            "time": "2022-06-27T12:50:19+00:00"
         },
         {
             "name": "afterlogic/googleauthenticator",
@@ -3512,16 +3512,16 @@
         },
         {
             "name": "sabre/dav",
-            "version": "4.3.1",
+            "version": "4.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sabre-io/dav.git",
-                "reference": "130abb7017f56e0d99b04eb94b041e000a8e9b39"
+                "reference": "b65362abc926520eda2c57e219f022a6c288069d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sabre-io/dav/zipball/130abb7017f56e0d99b04eb94b041e000a8e9b39",
-                "reference": "130abb7017f56e0d99b04eb94b041e000a8e9b39",
+                "url": "https://api.github.com/repos/sabre-io/dav/zipball/b65362abc926520eda2c57e219f022a6c288069d",
+                "reference": "b65362abc926520eda2c57e219f022a6c288069d",
                 "shasum": ""
             },
             "require": {
@@ -3594,7 +3594,7 @@
                 "issues": "https://github.com/sabre-io/dav/issues",
                 "source": "https://github.com/fruux/sabre-dav"
             },
-            "time": "2022-01-20T13:59:29+00:00"
+            "time": "2022-06-27T09:07:55+00:00"
         },
         {
             "name": "sabre/event",
