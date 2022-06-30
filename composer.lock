@@ -107,15 +107,15 @@
         },
         {
             "name": "afterlogic/aurora-module-core",
-            "version": "0.10.65",
+            "version": "0.10.66",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-core",
-                "reference": "tags/0.10.65"
+                "reference": "tags/0.10.66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-core/archive/0.10.65.zip"
+                "url": "https://github.com/afterlogic/aurora-module-core/archive/0.10.66.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -125,7 +125,7 @@
             "extra": {
                 "installer-name": "Core"
             },
-            "time": "2022-06-09T11:50:30+00:00"
+            "time": "2022-06-29T12:11:28+00:00"
         },
         {
             "name": "afterlogic/aurora-module-cpanel-integrator",
@@ -584,15 +584,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
-            "version": "0.10.52",
+            "version": "0.10.53",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-core",
-                "reference": "tags/0.10.52"
+                "reference": "tags/0.10.53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.52.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.53.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -602,7 +602,7 @@
             "extra": {
                 "installer-name": "CoreWebclient"
             },
-            "time": "2022-06-07T11:09:59+00:00"
+            "time": "2022-06-19T18:40:53+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-dropbox-auth",
@@ -935,16 +935,16 @@
         },
         {
             "name": "afterlogic/dav",
-            "version": "4.0.18",
+            "version": "4.0.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/dav.git",
-                "reference": "471f36e8ba35c23889dbc481c58ceb271f3e8475"
+                "reference": "ed7d225f69579274ef3fb8401c00b1e963ccfa1f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/dav/zipball/471f36e8ba35c23889dbc481c58ceb271f3e8475",
-                "reference": "471f36e8ba35c23889dbc481c58ceb271f3e8475",
+                "url": "https://api.github.com/repos/afterlogic/dav/zipball/ed7d225f69579274ef3fb8401c00b1e963ccfa1f",
+                "reference": "ed7d225f69579274ef3fb8401c00b1e963ccfa1f",
                 "shasum": ""
             },
             "require": {
@@ -974,9 +974,9 @@
             "homepage": "https://github.com/afterlogic/dav",
             "support": {
                 "issues": "https://github.com/afterlogic/dav/issues",
-                "source": "https://github.com/afterlogic/dav/tree/4.0.18"
+                "source": "https://github.com/afterlogic/dav/tree/4.0.19"
             },
-            "time": "2022-06-28T09:03:32+00:00"
+            "time": "2022-06-30T10:54:33+00:00"
         },
         {
             "name": "afterlogic/googleauthenticator",
@@ -2767,16 +2767,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.58.0",
+            "version": "2.59.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "97a34af22bde8d0ac20ab34b29d7bfe360902055"
+                "reference": "a9000603ea337c8df16cc41f8b6be95a65f4d0f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/97a34af22bde8d0ac20ab34b29d7bfe360902055",
-                "reference": "97a34af22bde8d0ac20ab34b29d7bfe360902055",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/a9000603ea337c8df16cc41f8b6be95a65f4d0f5",
+                "reference": "a9000603ea337c8df16cc41f8b6be95a65f4d0f5",
                 "shasum": ""
             },
             "require": {
@@ -2791,11 +2791,12 @@
                 "doctrine/orm": "^2.7",
                 "friendsofphp/php-cs-fixer": "^3.0",
                 "kylekatarnls/multi-tester": "^2.0",
+                "ondrejmirtes/better-reflection": "*",
                 "phpmd/phpmd": "^2.9",
                 "phpstan/extension-installer": "^1.0",
-                "phpstan/phpstan": "^0.12.54 || ^1.0",
-                "phpunit/php-file-iterator": "^2.0.5",
-                "phpunit/phpunit": "^7.5.20 || ^8.5.23",
+                "phpstan/phpstan": "^0.12.99 || ^1.7.14",
+                "phpunit/php-file-iterator": "^2.0.5 || ^3.0.6",
+                "phpunit/phpunit": "^7.5.20 || ^8.5.26 || ^9.5.20",
                 "squizlabs/php_codesniffer": "^3.4"
             },
             "bin": [
@@ -2852,15 +2853,19 @@
             },
             "funding": [
                 {
-                    "url": "https://opencollective.com/Carbon",
-                    "type": "open_collective"
+                    "url": "https://github.com/sponsors/kylekatarnls",
+                    "type": "github"
                 },
                 {
-                    "url": "https://tidelift.com/funding/github/packagist/nesbot/carbon",
+                    "url": "https://opencollective.com/Carbon#sponsor",
+                    "type": "opencollective"
+                },
+                {
+                    "url": "https://tidelift.com/subscription/pkg/packagist-nesbot-carbon?utm_source=packagist-nesbot-carbon&utm_medium=referral&utm_campaign=readme",
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-04-25T19:31:17+00:00"
+            "time": "2022-06-29T21:43:55+00:00"
         },
         {
             "name": "oomphinc/composer-installers-extender",
