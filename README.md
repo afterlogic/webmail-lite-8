@@ -70,7 +70,7 @@ git clone https://github.com/afterlogic/webmail-lite-8.git INSTALL_FOLDER_PATH
 
 5. Now you can build static files. Run the following commands in main directory
       ```bash
-      gulp styles --themes Default,DeepForest,Funny,Sand
+      gulp styles --themes Default,DefaultDark,DeepForest,Funny,Sand
       ```
       ```bash
       gulp js:min

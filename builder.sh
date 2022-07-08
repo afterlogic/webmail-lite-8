@@ -52,7 +52,7 @@ fi
 
 if [ "$TASK" = "build-main" ]; then
 	cd ${DIR}
-	gulp styles --themes Default,DeepForest,Funny,Sand --build a
+	gulp styles --themes Default,DefaultDark,DeepForest,Funny,Sand --build a
 	gulp js:build --build a
 	gulp js:min --build a
 	#gulp test
