@@ -28,15 +28,15 @@
         },
         {
             "name": "afterlogic/aurora-framework",
-            "version": "0.10.58",
+            "version": "0.10.59",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-framework",
-                "reference": "tags/0.10.58"
+                "reference": "tags/0.10.59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.58.zip"
+                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.59.zip"
             },
             "require": {
                 "afterlogic/mailso": "^1.4",
@@ -58,7 +58,7 @@
                     "Installer.php"
                 ]
             },
-            "time": "2022-07-15T12:17:59+00:00"
+            "time": "2022-07-21T08:49:51+00:00"
         },
         {
             "name": "afterlogic/aurora-module-admin-auth",
@@ -107,15 +107,15 @@
         },
         {
             "name": "afterlogic/aurora-module-core",
-            "version": "0.10.69",
+            "version": "0.10.70",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-core",
-                "reference": "tags/0.10.69"
+                "reference": "tags/0.10.70"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-core/archive/0.10.69.zip"
+                "url": "https://github.com/afterlogic/aurora-module-core/archive/0.10.70.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -125,7 +125,7 @@
             "extra": {
                 "installer-name": "Core"
             },
-            "time": "2022-07-11T12:28:02+00:00"
+            "time": "2022-07-21T08:49:07+00:00"
         },
         {
             "name": "afterlogic/aurora-module-cpanel-integrator",
@@ -247,15 +247,15 @@
         },
         {
             "name": "afterlogic/aurora-module-mail",
-            "version": "0.10.76",
+            "version": "0.10.80",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-mail",
-                "reference": "tags/0.10.76"
+                "reference": "tags/0.10.80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-mail/archive/0.10.76.zip"
+                "url": "https://github.com/afterlogic/aurora-module-mail/archive/0.10.80.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -267,7 +267,7 @@
             "extra": {
                 "installer-name": "Mail"
             },
-            "time": "2022-07-14T09:43:02+00:00"
+            "time": "2022-07-21T09:04:04+00:00"
         },
         {
             "name": "afterlogic/aurora-module-mail-auth-cpanel",
