@@ -562,15 +562,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
-            "version": "0.10.58",
+            "version": "0.10.60",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-core",
-                "reference": "tags/0.10.58"
+                "reference": "tags/0.10.60"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.58.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.60.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -580,7 +580,7 @@
             "extra": {
                 "installer-name": "CoreWebclient"
             },
-            "time": "2022-07-08T13:21:11+00:00"
+            "time": "2022-07-25T13:22:23+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-dropbox-auth",
@@ -672,15 +672,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail",
-            "version": "0.10.64",
+            "version": "0.10.65",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-mail",
-                "reference": "tags/0.10.64"
+                "reference": "tags/0.10.65"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.10.64.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.10.65.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0"
@@ -689,7 +689,7 @@
             "extra": {
                 "installer-name": "MailWebclient"
             },
-            "time": "2022-07-05T08:01:00+00:00"
+            "time": "2022-07-25T08:11:57+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail-login-form",
@@ -802,15 +802,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-openpgp",
-            "version": "0.10.13",
+            "version": "0.10.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp",
-                "reference": "tags/0.10.13"
+                "reference": "tags/0.10.14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp/archive/0.10.13.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp/archive/0.10.14.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -820,7 +820,7 @@
             "extra": {
                 "installer-name": "OpenPgpWebclient"
             },
-            "time": "2022-07-15T12:14:41+00:00"
+            "time": "2022-07-25T08:24:34+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-recaptcha-plugin",
