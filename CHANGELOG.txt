@@ -3,7 +3,6 @@
 [+] Dark theme
 [+] Unsubscribe functionality
 [*] EnableFailedLoginBlock option is now turned on by default
-[*] Configuration files are now fully documented
 [*] cPanel installer updated to support the latest version of cPanel
 [*] Various bugfixes
 
