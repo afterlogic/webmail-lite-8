@@ -2,7 +2,7 @@ name: PHP Composer
 
 on:
   push:
-    branches: [ master ]
+    branches: [ 9.6.0-hotfix ]
 
 jobs:
   build:
