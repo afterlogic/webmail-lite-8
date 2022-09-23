@@ -199,26 +199,26 @@
         },
         {
             "name": "afterlogic/aurora-module-google",
-            "version": "0.10.8",
+            "version": "0.10.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-google",
-                "reference": "tags/0.10.8"
+                "reference": "tags/0.10.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-google/archive/0.10.8.zip"
+                "url": "https://github.com/afterlogic/aurora-module-google/archive/0.10.9.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
-                "google/apiclient": "1.1.7",
+                "google/apiclient": "~1.1.9",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "Google"
             },
-            "time": "2022-08-23T10:41:38+00:00"
+            "time": "2022-09-19T19:47:52+00:00"
         },
         {
             "name": "afterlogic/aurora-module-import-export-mail-plugin",
@@ -562,15 +562,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
-            "version": "0.10.66",
+            "version": "0.10.67",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-core",
-                "reference": "tags/0.10.66"
+                "reference": "tags/0.10.67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.66.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.67.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -580,7 +580,7 @@
             "extra": {
                 "installer-name": "CoreWebclient"
             },
-            "time": "2022-09-16T11:39:59+00:00"
+            "time": "2022-09-23T12:26:00+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-dropbox-auth",
@@ -672,15 +672,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail",
-            "version": "0.10.74",
+            "version": "0.10.76",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-mail",
-                "reference": "tags/0.10.74"
+                "reference": "tags/0.10.76"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.10.74.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.10.76.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0"
@@ -689,7 +689,7 @@
             "extra": {
                 "installer-name": "MailWebclient"
             },
-            "time": "2022-09-19T06:31:53+00:00"
+            "time": "2022-09-23T13:01:56+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail-login-form",
@@ -1643,16 +1643,16 @@
         },
         {
             "name": "google/apiclient",
-            "version": "1.1.7",
+            "version": "v1.1.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client.git",
-                "reference": "400f250a30ae1dd4c4a0a4f750fe973fc70e6311"
+                "reference": "19d7d735ee4cff0f8c14a234b5094b99d00ef278"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client/zipball/400f250a30ae1dd4c4a0a4f750fe973fc70e6311",
-                "reference": "400f250a30ae1dd4c4a0a4f750fe973fc70e6311",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client/zipball/19d7d735ee4cff0f8c14a234b5094b99d00ef278",
+                "reference": "19d7d735ee4cff0f8c14a234b5094b99d00ef278",
                 "shasum": ""
             },
             "require": {
@@ -1665,12 +1665,12 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.1.x-dev"
+                    "dev-v1-master": "1.1.x-dev"
                 }
             },
             "autoload": {
-                "classmap": [
-                    "src/"
+                "files": [
+                    "src/Google/autoload.php"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1684,9 +1684,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client/issues",
-                "source": "https://github.com/googleapis/google-api-php-client/tree/1.1.7"
+                "source": "https://github.com/googleapis/google-api-php-client/tree/v1.1.9"
             },
-            "time": "2016-02-02T18:50:42+00:00"
+            "time": "2020-07-22T19:51:49+00:00"
         },
         {
             "name": "google/recaptcha",
