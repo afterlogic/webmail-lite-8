@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1ddbb50243626b2b3c43b0e329e55ec9",
+    "content-hash": "53bf03598d6e754f4f48493889dc354d",
     "packages": [
         {
             "name": "afterlogic/aurora-dev-tools",
@@ -28,15 +28,15 @@
         },
         {
             "name": "afterlogic/aurora-framework",
-            "version": "0.10.68",
+            "version": "0.10.69",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-framework",
-                "reference": "tags/0.10.68"
+                "reference": "tags/0.10.69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.68.zip"
+                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.69.zip"
             },
             "require": {
                 "afterlogic/mailso": "^1.4",
@@ -58,7 +58,7 @@
                     "Installer.php"
                 ]
             },
-            "time": "2022-09-20T14:20:35+00:00"
+            "time": "2022-09-29T10:40:10+00:00"
         },
         {
             "name": "afterlogic/aurora-module-admin-auth",
@@ -107,15 +107,15 @@
         },
         {
             "name": "afterlogic/aurora-module-core",
-            "version": "0.10.77",
+            "version": "0.10.78",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-core",
-                "reference": "tags/0.10.77"
+                "reference": "tags/0.10.78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-core/archive/0.10.77.zip"
+                "url": "https://github.com/afterlogic/aurora-module-core/archive/0.10.78.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -125,7 +125,7 @@
             "extra": {
                 "installer-name": "Core"
             },
-            "time": "2022-09-13T12:48:11+00:00"
+            "time": "2022-09-29T09:39:30+00:00"
         },
         {
             "name": "afterlogic/aurora-module-cpanel-integrator",
@@ -199,26 +199,26 @@
         },
         {
             "name": "afterlogic/aurora-module-google",
-            "version": "0.10.9",
+            "version": "0.10.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-google",
-                "reference": "tags/0.10.9"
+                "reference": "tags/0.10.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-google/archive/0.10.9.zip"
+                "url": "https://github.com/afterlogic/aurora-module-google/archive/0.10.8.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
-                "google/apiclient": "~1.1.9",
+                "google/apiclient": "1.1.7",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "Google"
             },
-            "time": "2022-09-19T19:47:52+00:00"
+            "time": "2022-08-23T10:41:38+00:00"
         },
         {
             "name": "afterlogic/aurora-module-import-export-mail-plugin",
@@ -1643,16 +1643,16 @@
         },
         {
             "name": "google/apiclient",
-            "version": "v1.1.9",
+            "version": "1.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client.git",
-                "reference": "19d7d735ee4cff0f8c14a234b5094b99d00ef278"
+                "reference": "400f250a30ae1dd4c4a0a4f750fe973fc70e6311"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client/zipball/19d7d735ee4cff0f8c14a234b5094b99d00ef278",
-                "reference": "19d7d735ee4cff0f8c14a234b5094b99d00ef278",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client/zipball/400f250a30ae1dd4c4a0a4f750fe973fc70e6311",
+                "reference": "400f250a30ae1dd4c4a0a4f750fe973fc70e6311",
                 "shasum": ""
             },
             "require": {
@@ -1665,12 +1665,12 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-v1-master": "1.1.x-dev"
+                    "dev-master": "1.1.x-dev"
                 }
             },
             "autoload": {
-                "files": [
-                    "src/Google/autoload.php"
+                "classmap": [
+                    "src/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1684,9 +1684,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client/issues",
-                "source": "https://github.com/googleapis/google-api-php-client/tree/v1.1.9"
+                "source": "https://github.com/googleapis/google-api-php-client/tree/1.1.7"
             },
-            "time": "2020-07-22T19:51:49+00:00"
+            "time": "2016-02-02T18:50:42+00:00"
         },
         {
             "name": "google/recaptcha",
