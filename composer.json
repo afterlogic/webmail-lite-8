@@ -61,7 +61,8 @@
 		
 		"afterlogic/aurora-module-override-user-settings": "~0.10.0",
 
-		"afterlogic/dav": "~4.0.0"
+		"afterlogic/dav": "~4.0.0",
+"google/apiclient": "1.1.7"
 		
 	},
 	"scripts": {
