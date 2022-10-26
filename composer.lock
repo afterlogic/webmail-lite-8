@@ -562,15 +562,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
-            "version": "0.10.70",
+            "version": "0.10.71",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-core",
-                "reference": "tags/0.10.70"
+                "reference": "tags/0.10.71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.70.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.71.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -580,7 +580,7 @@
             "extra": {
                 "installer-name": "CoreWebclient"
             },
-            "time": "2022-10-15T09:15:42+00:00"
+            "time": "2022-10-26T08:13:07+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-dropbox-auth",
