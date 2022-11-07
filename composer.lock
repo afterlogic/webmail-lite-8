@@ -496,15 +496,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-adminpanel",
-            "version": "0.10.57",
+            "version": "0.10.58",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel",
-                "reference": "tags/0.10.57"
+                "reference": "tags/0.10.58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel/archive/0.10.57.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel/archive/0.10.58.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -514,7 +514,7 @@
             "extra": {
                 "installer-name": "AdminPanelWebclient"
             },
-            "time": "2022-11-01T19:18:30+00:00"
+            "time": "2022-11-07T12:19:14+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-change-password",
