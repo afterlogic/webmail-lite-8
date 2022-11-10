@@ -1,3 +1,13 @@
+[9.6.1]
+[+] Tenant adminpanel rewritten
+[+] EnableFailedLoginBlock setting now affects superadmin user as well
+[*] Fixed LDAP change password issue with PHP 8.1
+[*] Corrected an issue with creating Mail.config.json file
+[*] Fixed issue with scrollbar in log viewer
+[*] Updated the Chinese-Simplified translation
+[*] Updated the Dutch translation
+[*] Various bugfixes
+
 [9.6.0]
 [+] Storing PGP keys in team contacts
 [+] Dark theme
