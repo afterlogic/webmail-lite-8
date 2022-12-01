@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "686d48b78af011d6fea5a6cbe65b894f",
+    "content-hash": "8883061216ede5f50a821b46a0739451",
     "packages": [
         {
             "name": "afterlogic/aurora-dev-tools",
@@ -84,15 +84,15 @@
         },
         {
             "name": "afterlogic/aurora-module-contacts",
-            "version": "0.10.74",
+            "version": "0.10.75",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-contacts",
-                "reference": "tags/0.10.74"
+                "reference": "tags/0.10.75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.74.zip"
+                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.75.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -103,7 +103,7 @@
             "extra": {
                 "installer-name": "Contacts"
             },
-            "time": "2022-08-23T06:22:20+00:00"
+            "time": "2022-11-28T10:44:09+00:00"
         },
         {
             "name": "afterlogic/aurora-module-core",
@@ -247,15 +247,15 @@
         },
         {
             "name": "afterlogic/aurora-module-mail",
-            "version": "0.10.91",
+            "version": "0.10.93",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-mail",
-                "reference": "tags/0.10.91"
+                "reference": "tags/0.10.93"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-mail/archive/0.10.91.zip"
+                "url": "https://github.com/afterlogic/aurora-module-mail/archive/0.10.93.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -267,7 +267,7 @@
             "extra": {
                 "installer-name": "Mail"
             },
-            "time": "2022-11-01T19:20:56+00:00"
+            "time": "2022-11-28T10:45:35+00:00"
         },
         {
             "name": "afterlogic/aurora-module-mail-auth-cpanel",
@@ -383,15 +383,15 @@
         },
         {
             "name": "afterlogic/aurora-module-min",
-            "version": "0.10.14",
+            "version": "0.10.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-min",
-                "reference": "tags/0.10.14"
+                "reference": "tags/0.10.16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-min/archive/0.10.14.zip"
+                "url": "https://github.com/afterlogic/aurora-module-min/archive/0.10.16.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -401,7 +401,7 @@
             "extra": {
                 "installer-name": "Min"
             },
-            "time": "2022-06-23T13:05:09+00:00"
+            "time": "2022-11-28T11:04:51+00:00"
         },
         {
             "name": "afterlogic/aurora-module-office-document-viewer",
@@ -449,15 +449,15 @@
         },
         {
             "name": "afterlogic/aurora-module-personal-contacts",
-            "version": "0.10.11",
+            "version": "0.10.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-personal-contacts",
-                "reference": "tags/0.10.11"
+                "reference": "tags/0.10.12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-personal-contacts/archive/0.10.11.zip"
+                "url": "https://github.com/afterlogic/aurora-module-personal-contacts/archive/0.10.12.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -468,19 +468,42 @@
             "extra": {
                 "installer-name": "PersonalContacts"
             },
-            "time": "2022-07-08T12:00:30+00:00"
+            "time": "2022-11-28T11:05:15+00:00"
         },
         {
-            "name": "afterlogic/aurora-module-two-factor-auth",
-            "version": "0.10.24",
+            "name": "afterlogic/aurora-module-standard-reset-password",
+            "version": "0.10.14",
             "source": {
                 "type": "git",
-                "url": "https://github.com/afterlogic/aurora-module-two-factor-auth",
-                "reference": "tags/0.10.24"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-standard-reset-password",
+                "reference": "tags/0.10.14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-two-factor-auth/archive/0.10.24.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-standard-reset-password/archive/0.10.14.zip"
+            },
+            "require": {
+                "afterlogic/aurora-framework": "~0.10.0",
+                "php": ">=5.4.0",
+                "phpmailer/phpmailer": "~6.5"
+            },
+            "type": "aurora-module",
+            "extra": {
+                "installer-name": "StandardResetPassword"
+            },
+            "time": "2022-05-26T09:51:55+00:00"
+        },
+        {
+            "name": "afterlogic/aurora-module-two-factor-auth",
+            "version": "0.10.25",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/afterlogic/aurora-module-two-factor-auth",
+                "reference": "tags/0.10.25"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/afterlogic/aurora-module-two-factor-auth/archive/0.10.25.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -492,7 +515,7 @@
             "extra": {
                 "installer-name": "TwoFactorAuth"
             },
-            "time": "2022-11-01T19:18:48+00:00"
+            "time": "2022-11-28T11:07:43+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-adminpanel",
@@ -540,15 +563,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-contacts",
-            "version": "0.10.27",
+            "version": "0.10.28",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-contacts",
-                "reference": "tags/0.10.27"
+                "reference": "tags/0.10.28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/0.10.27.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/0.10.28.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -558,19 +581,19 @@
             "extra": {
                 "installer-name": "ContactsWebclient"
             },
-            "time": "2022-11-01T19:18:32+00:00"
+            "time": "2022-11-18T12:17:34+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
-            "version": "0.10.72",
+            "version": "0.10.74",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-core",
-                "reference": "tags/0.10.72"
+                "reference": "tags/0.10.74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.72.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.74.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -580,7 +603,7 @@
             "extra": {
                 "installer-name": "CoreWebclient"
             },
-            "time": "2022-11-01T19:18:33+00:00"
+            "time": "2022-11-25T11:57:00+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-dropbox-auth",
@@ -672,15 +695,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail",
-            "version": "0.10.79",
+            "version": "0.10.84",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-mail",
-                "reference": "tags/0.10.79"
+                "reference": "tags/0.10.84"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.10.79.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.10.84.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0"
@@ -689,7 +712,7 @@
             "extra": {
                 "installer-name": "MailWebclient"
             },
-            "time": "2022-11-01T19:18:41+00:00"
+            "time": "2022-11-29T10:04:05+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail-login-form",
@@ -758,15 +781,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail-zip-plugin",
-            "version": "0.10.1",
+            "version": "0.10.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-mail-zip-plugin",
-                "reference": "tags/0.10.1"
+                "reference": "tags/0.10.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-mail-zip-plugin/archive/0.10.1.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-mail-zip-plugin/archive/0.10.2.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -776,7 +799,7 @@
             "extra": {
                 "installer-name": "MailZipWebclientPlugin"
             },
-            "time": "2022-09-05T16:46:37+00:00"
+            "time": "2022-11-25T07:45:47+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-oauth-integrator",
@@ -802,15 +825,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-openpgp",
-            "version": "0.10.21",
+            "version": "0.10.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp",
-                "reference": "tags/0.10.21"
+                "reference": "tags/0.10.23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp/archive/0.10.21.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp/archive/0.10.23.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -820,19 +843,19 @@
             "extra": {
                 "installer-name": "OpenPgpWebclient"
             },
-            "time": "2022-11-08T06:29:11+00:00"
+            "time": "2022-11-25T11:57:44+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-recaptcha-plugin",
-            "version": "0.10.3",
+            "version": "0.10.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-recaptcha-plugin",
-                "reference": "tags/0.10.3"
+                "reference": "tags/0.10.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-recaptcha-plugin/archive/0.10.3.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-recaptcha-plugin/archive/0.10.4.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -843,7 +866,7 @@
             "extra": {
                 "installer-name": "RecaptchaWebclientPlugin"
             },
-            "time": "2022-09-10T20:51:24+00:00"
+            "time": "2022-11-28T12:23:59+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-session-timeout",
@@ -935,16 +958,16 @@
         },
         {
             "name": "afterlogic/dav",
-            "version": "4.0.29",
+            "version": "4.0.30",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/dav.git",
-                "reference": "d438881a6bc93dc91f3bd4423fdab31327b4121b"
+                "reference": "51270e56537fee687ebe475a49de412e194719ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/dav/zipball/d438881a6bc93dc91f3bd4423fdab31327b4121b",
-                "reference": "d438881a6bc93dc91f3bd4423fdab31327b4121b",
+                "url": "https://api.github.com/repos/afterlogic/dav/zipball/51270e56537fee687ebe475a49de412e194719ab",
+                "reference": "51270e56537fee687ebe475a49de412e194719ab",
                 "shasum": ""
             },
             "require": {
@@ -974,9 +997,9 @@
             "homepage": "https://github.com/afterlogic/dav",
             "support": {
                 "issues": "https://github.com/afterlogic/dav/issues",
-                "source": "https://github.com/afterlogic/dav/tree/4.0.29"
+                "source": "https://github.com/afterlogic/dav/tree/4.0.30"
             },
-            "time": "2022-10-05T09:31:27+00:00"
+            "time": "2022-11-25T05:55:54+00:00"
         },
         {
             "name": "afterlogic/googleauthenticator",
@@ -2745,12 +2768,12 @@
                     "email": "pabs@pablotron.org"
                 },
                 {
-                    "name": "Jesse Donat",
-                    "email": "donatj@gmail.com"
-                },
-                {
                     "name": "Jonatan Männchen",
                     "email": "jonatan@maennchen.ch"
+                },
+                {
+                    "name": "Jesse Donat",
+                    "email": "donatj@gmail.com"
                 }
             ],
             "description": "ZipStream is a library for dynamically streaming dynamic zip files from PHP without writing to the disk at all on the server.",
@@ -2760,8 +2783,18 @@
             ],
             "support": {
                 "issues": "https://github.com/maennchen/ZipStream-PHP/issues",
-                "source": "https://github.com/maennchen/ZipStream-PHP/tree/master"
+                "source": "https://github.com/maennchen/ZipStream-PHP/tree/v0.5.2"
             },
+            "funding": [
+                {
+                    "url": "https://github.com/maennchen",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/zipstream",
+                    "type": "open_collective"
+                }
+            ],
             "time": "2018-02-09T09:26:57+00:00"
         },
         {
@@ -3035,6 +3068,84 @@
                 "source": "https://github.com/PHPMailer/DKIMValidator/tree/v0.3"
             },
             "time": "2019-10-10T17:19:06+00:00"
+        },
+        {
+            "name": "phpmailer/phpmailer",
+            "version": "v6.6.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPMailer/PHPMailer.git",
+                "reference": "8b6386d7417526d1ea4da9edb70b8352f7543627"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/8b6386d7417526d1ea4da9edb70b8352f7543627",
+                "reference": "8b6386d7417526d1ea4da9edb70b8352f7543627",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-filter": "*",
+                "ext-hash": "*",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
+                "doctrine/annotations": "^1.2",
+                "php-parallel-lint/php-console-highlighter": "^1.0.0",
+                "php-parallel-lint/php-parallel-lint": "^1.3.2",
+                "phpcompatibility/php-compatibility": "^9.3.5",
+                "roave/security-advisories": "dev-latest",
+                "squizlabs/php_codesniffer": "^3.6.2",
+                "yoast/phpunit-polyfills": "^1.0.0"
+            },
+            "suggest": {
+                "ext-mbstring": "Needed to send email in multibyte encoding charset or decode encoded addresses",
+                "hayageek/oauth2-yahoo": "Needed for Yahoo XOAUTH2 authentication",
+                "league/oauth2-google": "Needed for Google XOAUTH2 authentication",
+                "psr/log": "For optional PSR-3 debug logging",
+                "symfony/polyfill-mbstring": "To support UTF-8 if the Mbstring PHP extension is not enabled (^1.2)",
+                "thenetworg/oauth2-azure": "Needed for Microsoft XOAUTH2 authentication"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PHPMailer\\PHPMailer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1-only"
+            ],
+            "authors": [
+                {
+                    "name": "Marcus Bointon",
+                    "email": "phpmailer@synchromedia.co.uk"
+                },
+                {
+                    "name": "Jim Jagielski",
+                    "email": "jimjag@gmail.com"
+                },
+                {
+                    "name": "Andy Prevost",
+                    "email": "codeworxtech@users.sourceforge.net"
+                },
+                {
+                    "name": "Brent R. Matzelle"
+                }
+            ],
+            "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
+            "support": {
+                "issues": "https://github.com/PHPMailer/PHPMailer/issues",
+                "source": "https://github.com/PHPMailer/PHPMailer/tree/v6.6.5"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/Synchro",
+                    "type": "github"
+                }
+            ],
+            "time": "2022-10-07T12:23:10+00:00"
         },
         {
             "name": "pimple/pimple",
@@ -4044,16 +4155,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v5.4.15",
+            "version": "v5.4.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "ea59bb0edfaf9f28d18d8791410ee0355f317669"
+                "reference": "8e9b9c8dfb33af6057c94e1b44846bee700dc5ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/ea59bb0edfaf9f28d18d8791410ee0355f317669",
-                "reference": "ea59bb0edfaf9f28d18d8791410ee0355f317669",
+                "url": "https://api.github.com/repos/symfony/console/zipball/8e9b9c8dfb33af6057c94e1b44846bee700dc5ef",
+                "reference": "8e9b9c8dfb33af6057c94e1b44846bee700dc5ef",
                 "shasum": ""
             },
             "require": {
@@ -4123,7 +4234,7 @@
                 "terminal"
             ],
             "support": {
-                "source": "https://github.com/symfony/console/tree/v5.4.15"
+                "source": "https://github.com/symfony/console/tree/v5.4.16"
             },
             "funding": [
                 {
@@ -4139,7 +4250,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-26T21:41:52+00:00"
+            "time": "2022-11-25T14:09:27+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
