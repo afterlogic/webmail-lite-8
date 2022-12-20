@@ -29,6 +29,12 @@ esac
 done
 set -- "${POSITIONAL[@]}" # restore positional parameters
 
+getThemeList () 
+{
+	LIST=$(find ${DIR}/modules/CoreWebclient/styles/themes -maxdepth 1 -mindepth 1 -type d -printf '%f,')
+	echo ${LIST::-1}
+}
+
 echo TASK: "$TASK"
 
 if [ "$TASK" = "npm" ]; then
@@ -42,7 +48,6 @@ if [ "$TASK" = "npm" ]; then
 		npm install
 		npm install -g @quasar/cli
 	fi
-
 fi
 
 if [ "$TASK" = "build" ]; then
@@ -52,7 +57,8 @@ fi
 
 if [ "$TASK" = "build-main" ]; then
 	cd ${DIR}
-	gulp styles --themes Default,DefaultDark,DeepForest,Funny,Sand --build a
+	THEME_LIST="$(getThemeList)"
+	gulp styles --themes ${THEME_LIST} --build a
 	gulp js:build --build a
 	gulp js:min --build a
 	#gulp test
@@ -65,8 +71,20 @@ if [ "$TASK" = "build-admin" ]; then
 	fi
 fi
 	
-if [ "$TASK" = "pack" ]; then
+if [ "$TASK" = "watch-js" ]; then
+	cd ${DIR}
+	printf "${GREEN}Running watcher for ${RED}JS files\n"$NC
+	gulp js:watch
+fi
 
+if [ "$TASK" = "watch-styles" ]; then
+	cd ${DIR}
+	THEME_LIST="$(getThemeList)"
+	printf "${GREEN}Running watcher for themes: ${RED}${THEME_LIST}\n"$NC
+	gulp styles:watch --themes ${THEME_LIST}
+fi
+
+if [ "$TASK" = "pack" ]; then
 	echo 'deny from all' > data/.htaccess
 	
 	PRODUCT_VERSION=`cat VERSION`
