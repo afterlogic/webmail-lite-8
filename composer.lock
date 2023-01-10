@@ -28,15 +28,15 @@
         },
         {
             "name": "afterlogic/aurora-framework",
-            "version": "0.10.79",
+            "version": "0.10.80",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-framework",
-                "reference": "tags/0.10.79"
+                "reference": "tags/0.10.80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.79.zip"
+                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.80.zip"
             },
             "require": {
                 "afterlogic/mailso": "^1.4",
@@ -58,19 +58,19 @@
                     "Installer.php"
                 ]
             },
-            "time": "2022-12-28T13:02:16+00:00"
+            "time": "2022-12-30T13:59:31+00:00"
         },
         {
             "name": "afterlogic/aurora-module-admin-auth",
-            "version": "0.10.5",
+            "version": "0.10.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-admin-auth",
-                "reference": "tags/0.10.5"
+                "reference": "tags/0.10.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-admin-auth/archive/0.10.5.zip"
+                "url": "https://github.com/afterlogic/aurora-module-admin-auth/archive/0.10.6.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -85,19 +85,19 @@
                     "/"
                 ]
             },
-            "time": "2022-12-28T08:57:52+00:00"
+            "time": "2022-12-30T13:51:32+00:00"
         },
         {
             "name": "afterlogic/aurora-module-contacts",
-            "version": "0.10.78",
+            "version": "0.10.79",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-contacts",
-                "reference": "tags/0.10.78"
+                "reference": "tags/0.10.79"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.78.zip"
+                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.79.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -113,19 +113,19 @@
                     "/"
                 ]
             },
-            "time": "2022-12-28T08:57:54+00:00"
+            "time": "2022-12-30T13:53:30+00:00"
         },
         {
             "name": "afterlogic/aurora-module-core",
-            "version": "0.10.82",
+            "version": "0.10.83",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-core",
-                "reference": "tags/0.10.82"
+                "reference": "tags/0.10.83"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-core/archive/0.10.82.zip"
+                "url": "https://github.com/afterlogic/aurora-module-core/archive/0.10.83.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -140,19 +140,19 @@
                     "/"
                 ]
             },
-            "time": "2022-12-28T08:57:55+00:00"
+            "time": "2022-12-30T13:54:43+00:00"
         },
         {
             "name": "afterlogic/aurora-module-cpanel-integrator",
-            "version": "0.10.25",
+            "version": "0.10.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-cpanel-integrator",
-                "reference": "tags/0.10.25"
+                "reference": "tags/0.10.26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-cpanel-integrator/archive/0.10.25.zip"
+                "url": "https://github.com/afterlogic/aurora-module-cpanel-integrator/archive/0.10.26.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -169,7 +169,7 @@
                     "/"
                 ]
             },
-            "time": "2022-12-28T08:57:57+00:00"
+            "time": "2022-12-30T13:55:05+00:00"
         },
         {
             "name": "afterlogic/aurora-module-dropbox",
@@ -1158,16 +1158,16 @@
         },
         {
             "name": "afterlogic/dav",
-            "version": "4.0.40",
+            "version": "4.0.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/dav.git",
-                "reference": "43ffe22ac5a98f66a087712d5f8dfec2850c7612"
+                "reference": "277b8dc12a2388d750e608e0c11c7c4b6d1f407b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/dav/zipball/43ffe22ac5a98f66a087712d5f8dfec2850c7612",
-                "reference": "43ffe22ac5a98f66a087712d5f8dfec2850c7612",
+                "url": "https://api.github.com/repos/afterlogic/dav/zipball/277b8dc12a2388d750e608e0c11c7c4b6d1f407b",
+                "reference": "277b8dc12a2388d750e608e0c11c7c4b6d1f407b",
                 "shasum": ""
             },
             "require": {
@@ -1197,9 +1197,9 @@
             "homepage": "https://github.com/afterlogic/dav",
             "support": {
                 "issues": "https://github.com/afterlogic/dav/issues",
-                "source": "https://github.com/afterlogic/dav/tree/4.0.40"
+                "source": "https://github.com/afterlogic/dav/tree/4.0.38"
             },
-            "time": "2022-12-26T12:07:12+00:00"
+            "time": "2022-12-22T10:09:26+00:00"
         },
         {
             "name": "afterlogic/googleauthenticator",
@@ -3110,16 +3110,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.64.0",
+            "version": "2.65.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "889546413c97de2d05063b8cb7b193c2531ea211"
+                "reference": "09acf64155c16dc6f580f36569ae89344e9734a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/889546413c97de2d05063b8cb7b193c2531ea211",
-                "reference": "889546413c97de2d05063b8cb7b193c2531ea211",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/09acf64155c16dc6f580f36569ae89344e9734a3",
+                "reference": "09acf64155c16dc6f580f36569ae89344e9734a3",
                 "shasum": ""
             },
             "require": {
@@ -3208,7 +3208,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-11-26T17:36:00+00:00"
+            "time": "2023-01-06T15:55:01+00:00"
         },
         {
             "name": "oomphinc/composer-installers-extender",
@@ -6013,16 +6013,16 @@
     "packages-dev": [
         {
             "name": "phpstan/phpstan",
-            "version": "1.9.4",
+            "version": "1.9.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "d03bccee595e2146b7c9d174486b84f4dc61b0f2"
+                "reference": "45411d15bf85a33b4a8ee9b75a6e82998c9adb97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/d03bccee595e2146b7c9d174486b84f4dc61b0f2",
-                "reference": "d03bccee595e2146b7c9d174486b84f4dc61b0f2",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/45411d15bf85a33b4a8ee9b75a6e82998c9adb97",
+                "reference": "45411d15bf85a33b4a8ee9b75a6e82998c9adb97",
                 "shasum": ""
             },
             "require": {
@@ -6052,7 +6052,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phpstan/phpstan/issues",
-                "source": "https://github.com/phpstan/phpstan/tree/1.9.4"
+                "source": "https://github.com/phpstan/phpstan/tree/1.9.8"
             },
             "funding": [
                 {
@@ -6068,7 +6068,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-12-17T13:33:52+00:00"
+            "time": "2023-01-08T21:26:18+00:00"
         }
     ],
     "aliases": [],
