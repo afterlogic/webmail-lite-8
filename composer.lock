@@ -288,15 +288,15 @@
         },
         {
             "name": "afterlogic/aurora-module-mail",
-            "version": "0.10.100",
+            "version": "0.10.101",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-mail",
-                "reference": "tags/0.10.100"
+                "reference": "tags/0.10.101"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-mail/archive/0.10.100.zip"
+                "url": "https://github.com/afterlogic/aurora-module-mail/archive/0.10.101.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.86",
@@ -312,7 +312,7 @@
                     "/"
                 ]
             },
-            "time": "2023-01-24T12:11:25+00:00"
+            "time": "2023-01-25T11:21:54+00:00"
         },
         {
             "name": "afterlogic/aurora-module-mail-auth-cpanel",
