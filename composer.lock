@@ -90,15 +90,15 @@
         },
         {
             "name": "afterlogic/aurora-module-contacts",
-            "version": "0.10.80",
+            "version": "0.10.81",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-contacts",
-                "reference": "tags/0.10.80"
+                "reference": "tags/0.10.81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.80.zip"
+                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.81.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -114,7 +114,7 @@
                     "/"
                 ]
             },
-            "time": "2023-01-17T05:50:24+00:00"
+            "time": "2023-02-01T09:40:24+00:00"
         },
         {
             "name": "afterlogic/aurora-module-core",
@@ -288,15 +288,15 @@
         },
         {
             "name": "afterlogic/aurora-module-mail",
-            "version": "0.10.101",
+            "version": "0.10.102",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-mail",
-                "reference": "tags/0.10.101"
+                "reference": "tags/0.10.102"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-mail/archive/0.10.101.zip"
+                "url": "https://github.com/afterlogic/aurora-module-mail/archive/0.10.102.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.86",
@@ -312,7 +312,7 @@
                     "/"
                 ]
             },
-            "time": "2023-01-25T11:21:54+00:00"
+            "time": "2023-02-03T19:05:03+00:00"
         },
         {
             "name": "afterlogic/aurora-module-mail-auth-cpanel",
@@ -700,15 +700,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
-            "version": "0.10.88",
+            "version": "0.10.89",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-core",
-                "reference": "tags/0.10.88"
+                "reference": "tags/0.10.89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.88.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.89.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -723,7 +723,7 @@
                     "/"
                 ]
             },
-            "time": "2023-01-27T14:30:18+00:00"
+            "time": "2023-02-03T14:24:52+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-dropbox-auth",
@@ -968,15 +968,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-oauth-integrator",
-            "version": "0.10.22",
+            "version": "0.10.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-oauth-integrator",
-                "reference": "tags/0.10.22"
+                "reference": "tags/0.10.23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-oauth-integrator/archive/0.10.22.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-oauth-integrator/archive/0.10.23.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -991,7 +991,7 @@
                     "/"
                 ]
             },
-            "time": "2023-01-30T14:37:07+00:00"
+            "time": "2023-02-06T12:47:09+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-openpgp",
@@ -1158,16 +1158,16 @@
         },
         {
             "name": "afterlogic/dav",
-            "version": "4.0.43",
+            "version": "4.0.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/dav.git",
-                "reference": "b6134e2f108b54b994f487c5edfa0f216f474b9d"
+                "reference": "be4d08540b416f407ad1de0b6852ef5710104d6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/dav/zipball/b6134e2f108b54b994f487c5edfa0f216f474b9d",
-                "reference": "b6134e2f108b54b994f487c5edfa0f216f474b9d",
+                "url": "https://api.github.com/repos/afterlogic/dav/zipball/be4d08540b416f407ad1de0b6852ef5710104d6e",
+                "reference": "be4d08540b416f407ad1de0b6852ef5710104d6e",
                 "shasum": ""
             },
             "require": {
@@ -1197,9 +1197,9 @@
             "homepage": "https://github.com/afterlogic/dav",
             "support": {
                 "issues": "https://github.com/afterlogic/dav/issues",
-                "source": "https://github.com/afterlogic/dav/tree/4.0.43"
+                "source": "https://github.com/afterlogic/dav/tree/4.0.45"
             },
-            "time": "2023-01-23T13:07:36+00:00"
+            "time": "2023-02-01T11:16:01+00:00"
         },
         {
             "name": "afterlogic/googleauthenticator",
@@ -2000,16 +2000,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.285.0",
+            "version": "v0.286.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "d8ffb976f4da1f83326d6d3f471162acd23ec5d8"
+                "reference": "4a00eb9803e01f97d96e49fd82dbb03802610def"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/d8ffb976f4da1f83326d6d3f471162acd23ec5d8",
-                "reference": "d8ffb976f4da1f83326d6d3f471162acd23ec5d8",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/4a00eb9803e01f97d96e49fd82dbb03802610def",
+                "reference": "4a00eb9803e01f97d96e49fd82dbb03802610def",
                 "shasum": ""
             },
             "require": {
@@ -2038,9 +2038,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.285.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.286.0"
             },
-            "time": "2023-01-29T01:28:14+00:00"
+            "time": "2023-02-05T01:20:11+00:00"
         },
         {
             "name": "google/auth",
@@ -3298,16 +3298,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "2.8.0",
+            "version": "2.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "720488632c590286b88b80e62aa3d3d551ad4a50"
+                "reference": "e1c0ae1528ce313a450e5e1ad782765c4a8dd3cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/720488632c590286b88b80e62aa3d3d551ad4a50",
-                "reference": "720488632c590286b88b80e62aa3d3d551ad4a50",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/e1c0ae1528ce313a450e5e1ad782765c4a8dd3cb",
+                "reference": "e1c0ae1528ce313a450e5e1ad782765c4a8dd3cb",
                 "shasum": ""
             },
             "require": {
@@ -3322,7 +3322,7 @@
                 "doctrine/couchdb": "~1.0@dev",
                 "elasticsearch/elasticsearch": "^7 || ^8",
                 "ext-json": "*",
-                "graylog2/gelf-php": "^1.4.2",
+                "graylog2/gelf-php": "^1.4.2 || ^2@dev",
                 "guzzlehttp/guzzle": "^7.4",
                 "guzzlehttp/psr7": "^2.2",
                 "mongodb/mongodb": "^1.8",
@@ -3384,7 +3384,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Seldaek/monolog/issues",
-                "source": "https://github.com/Seldaek/monolog/tree/2.8.0"
+                "source": "https://github.com/Seldaek/monolog/tree/2.9.0"
             },
             "funding": [
                 {
@@ -3396,7 +3396,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-07-24T11:55:47+00:00"
+            "time": "2023-02-05T13:07:32+00:00"
         },
         {
             "name": "nesbot/carbon",
