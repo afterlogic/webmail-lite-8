@@ -10,7 +10,7 @@ jobs:
     if: "startsWith(github.event.head_commit.message, 'version')"
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
 
     - name: Setup PHP version
       uses: shivammathur/setup-php@v2
@@ -26,7 +26,9 @@ jobs:
           ./builder.sh -t npm
           
     - name: Compile static files
-      run: ./builder.sh -t build
+      run: |
+          sudo ln -s "$(which node)" /usr/bin/node
+          ./builder.sh -t build
       
     - name: Build a package
       run: ./builder.sh -t pack
