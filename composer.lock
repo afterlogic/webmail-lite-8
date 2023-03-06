@@ -1158,16 +1158,16 @@
         },
         {
             "name": "afterlogic/dav",
-            "version": "4.0.46",
+            "version": "4.0.48",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/dav.git",
-                "reference": "2b08aeb19f764236c96d7ea2062bef2f2b391ea1"
+                "reference": "388e8d232044187e4a22525917fd6c80d5d51c47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/dav/zipball/2b08aeb19f764236c96d7ea2062bef2f2b391ea1",
-                "reference": "2b08aeb19f764236c96d7ea2062bef2f2b391ea1",
+                "url": "https://api.github.com/repos/afterlogic/dav/zipball/388e8d232044187e4a22525917fd6c80d5d51c47",
+                "reference": "388e8d232044187e4a22525917fd6c80d5d51c47",
                 "shasum": ""
             },
             "require": {
@@ -1197,9 +1197,9 @@
             "homepage": "https://github.com/afterlogic/dav",
             "support": {
                 "issues": "https://github.com/afterlogic/dav/issues",
-                "source": "https://github.com/afterlogic/dav/tree/4.0.46"
+                "source": "https://github.com/afterlogic/dav/tree/4.0.48"
             },
-            "time": "2023-02-14T14:15:30+00:00"
+            "time": "2023-03-03T12:09:18+00:00"
         },
         {
             "name": "afterlogic/googleauthenticator",
@@ -2001,16 +2001,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.289.0",
+            "version": "v0.289.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "937f83a927db2d09db7eebb69ce2ac4114559bd7"
+                "reference": "df7e6cbab08f60509b3f360d8286c194ad2930e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/937f83a927db2d09db7eebb69ce2ac4114559bd7",
-                "reference": "937f83a927db2d09db7eebb69ce2ac4114559bd7",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/df7e6cbab08f60509b3f360d8286c194ad2930e2",
+                "reference": "df7e6cbab08f60509b3f360d8286c194ad2930e2",
                 "shasum": ""
             },
             "require": {
@@ -2039,9 +2039,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.289.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.289.1"
             },
-            "time": "2023-02-26T01:10:11+00:00"
+            "time": "2023-03-01T17:20:18+00:00"
         },
         {
             "name": "google/auth",
@@ -3790,16 +3790,16 @@
         },
         {
             "name": "phpmailer/phpmailer",
-            "version": "v6.7.1",
+            "version": "v6.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPMailer/PHPMailer.git",
-                "reference": "49cd7ea3d2563f028d7811f06864a53b1f15ff55"
+                "reference": "df16b615e371d81fb79e506277faea67a1be18f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/49cd7ea3d2563f028d7811f06864a53b1f15ff55",
-                "reference": "49cd7ea3d2563f028d7811f06864a53b1f15ff55",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/df16b615e371d81fb79e506277faea67a1be18f1",
+                "reference": "df16b615e371d81fb79e506277faea67a1be18f1",
                 "shasum": ""
             },
             "require": {
@@ -3858,7 +3858,7 @@
             "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
             "support": {
                 "issues": "https://github.com/PHPMailer/PHPMailer/issues",
-                "source": "https://github.com/PHPMailer/PHPMailer/tree/v6.7.1"
+                "source": "https://github.com/PHPMailer/PHPMailer/tree/v6.8.0"
             },
             "funding": [
                 {
@@ -3866,20 +3866,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-12-08T13:30:06+00:00"
+            "time": "2023-03-06T14:43:22+00:00"
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "3.0.18",
+            "version": "3.0.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "f28693d38ba21bb0d9f0c411ee5dae2b178201da"
+                "reference": "cc181005cf548bfd8a4896383bb825d859259f95"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/f28693d38ba21bb0d9f0c411ee5dae2b178201da",
-                "reference": "f28693d38ba21bb0d9f0c411ee5dae2b178201da",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/cc181005cf548bfd8a4896383bb825d859259f95",
+                "reference": "cc181005cf548bfd8a4896383bb825d859259f95",
                 "shasum": ""
             },
             "require": {
@@ -3960,7 +3960,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phpseclib/phpseclib/issues",
-                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.18"
+                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.19"
             },
             "funding": [
                 {
@@ -3976,7 +3976,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-12-17T18:26:50+00:00"
+            "time": "2023-03-05T17:13:09+00:00"
         },
         {
             "name": "pimple/pimple",
@@ -6743,16 +6743,16 @@
     "packages-dev": [
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.3",
+            "version": "1.10.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "5419375b5891add97dc74be71e6c1c34baaddf64"
+                "reference": "8d39218664b45a4a42d5be66d2b63dcf8c149982"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/5419375b5891add97dc74be71e6c1c34baaddf64",
-                "reference": "5419375b5891add97dc74be71e6c1c34baaddf64",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/8d39218664b45a4a42d5be66d2b63dcf8c149982",
+                "reference": "8d39218664b45a4a42d5be66d2b63dcf8c149982",
                 "shasum": ""
             },
             "require": {
@@ -6782,7 +6782,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phpstan/phpstan/issues",
-                "source": "https://github.com/phpstan/phpstan/tree/1.10.3"
+                "source": "https://github.com/phpstan/phpstan/tree/1.10.4"
             },
             "funding": [
                 {
@@ -6798,7 +6798,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-02-25T14:47:13+00:00"
+            "time": "2023-03-06T13:39:20+00:00"
         }
     ],
     "aliases": [],
