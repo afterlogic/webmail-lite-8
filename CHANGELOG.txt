@@ -1,3 +1,23 @@
+[9.7.0]
+[+] Password reset feature added for cPanel
+[+] User signup added for Plesk and DirectAdmin
+[+] Emojis support added in Sieve filters
+[+] Default reminders for calendar events
+[+] Lifetime option added to public links in files storage
+[+] RocketChat 5.* full support (Aurora only)
+[+] Flexible RocketChat account name mapping
+[*] Tenant-level adminpanel interface rewritten
+[*] Fixed DAV compatibility issue with PHP 8.2
+[*] Fixed expanding attachments in messages opened in separate window/tab
+[*] Fixed issue with custom message sorting
+[*] Fixed issue with ReCAPTCHA missing on signup page
+[*] Fixed issue with DAV access in some configurations
+[*] Fixed issue with password encryption for RocketChat (Aurora only)
+[*] Debian packages configuration revised for compatibility
+[*] Fixed issues with DAV in Debian packages
+[*] IframeApp module refactored
+[*] Miscellaneous bugfixes
+
 [9.6.1]
 [+] Tenant adminpanel rewritten
 [+] EnableFailedLoginBlock setting now affects superadmin user as well
