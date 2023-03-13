@@ -55,6 +55,12 @@
 		"MailAuthCpanel": {
 			"Disabled": true
 		},
+		"MailSignupDirectadmin": {
+			"Disabled": true
+		},
+		"MailSignupPlesk": {
+			"Disabled": true
+		},
 		"CpanelIntegrator": {
 			"Disabled": true
 		},

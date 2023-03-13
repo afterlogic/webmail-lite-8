@@ -78,6 +78,8 @@
 		"afterlogic/aurora-module-mail-save-message-as-pdf-plugin": "~0.10.0",
 		"afterlogic/aurora-module-mail-auth-cpanel": "~0.10.0",
 		"afterlogic/aurora-module-cpanel-integrator": "~0.10.0",
+		"afterlogic/aurora-module-mail-signup-directadmin": "~0.10.0",
+		"afterlogic/aurora-module-mail-signup-plesk": "~0.10.0",
 		"afterlogic/aurora-module-two-factor-auth": "~0.10.0",
 		"afterlogic/aurora-module-import-export-mail-plugin": "~0.10.0",
 		"afterlogic/aurora-module-webclient-recaptcha-plugin": "~0.10.0",
