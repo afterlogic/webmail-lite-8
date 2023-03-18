@@ -1,0 +1,30 @@
+name: PHP Composer
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    if: "startsWith(github.event.head_commit.message, 'version')"
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Setup PHP version
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: 8.2
+
+    - name: Install Composer dependencies
+      run: composer install
+ 
+    - name: Build documentation
+      run: |
+          chmod +x ./builder.sh
+          ./builder.sh -t build-documentation
+      env:
+        PRODUCT_NAME: ${{ secrets.PRODUCT_NAME }}
+        FTP_USER: ${{ secrets.FTP_USER }}
+        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}

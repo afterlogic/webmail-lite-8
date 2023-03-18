@@ -68,13 +68,6 @@ jobs:
         PRODUCT_NAME: ${{ secrets.PRODUCT_NAME }}
         FTP_USER: ${{ secrets.FTP_USER }}
         FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-        
-    - name: Build documentation
-      run: ./builder.sh -t build-documentation
-      env:
-        PRODUCT_NAME: ${{ secrets.PRODUCT_NAME }}
-        FTP_USER: ${{ secrets.FTP_USER }}
-        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
 
     - name: DEMO - prepare demo package
       run: ./builder.sh -t prepare-demo
