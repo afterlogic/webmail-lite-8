@@ -8,15 +8,15 @@
     "packages": [
         {
             "name": "afterlogic/aurora-dev-tools",
-            "version": "0.10.0",
+            "version": "0.10.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-dev-tools",
-                "reference": "tags/0.10.0"
+                "reference": "tags/0.10.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-dev-tools/archive/0.10.0.zip"
+                "url": "https://github.com/afterlogic/aurora-dev-tools/archive/0.10.2.zip"
             },
             "require": {
                 "php": ">=5.4.0",
@@ -24,7 +24,7 @@
                 "squizlabs/php_codesniffer": "^2.0"
             },
             "type": "aurora-dev-tools",
-            "time": "2023-01-10T14:05:33+00:00"
+            "time": "2023-03-17T18:05:38+00:00"
         },
         {
             "name": "afterlogic/aurora-framework",
