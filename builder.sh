@@ -167,13 +167,13 @@ if [ "$TASK" = "build-documentation" ]; then
 	cd ${DIR}
 
 	PRODUCT_VERSION=`cat VERSION`
-	DOCUMENTATION_FILE=${PRODUCT_NAME}_${PRODUCT_VERSION}_phpdocs.zip
+	DOCUMENTATION_FILE=${PRODUCT_NAME}_${PRODUCT_VERSION}_apigen.zip
 
 	printf "${GREEN}BUILDING DOCUMENTATION\n"$NC
 
 	cd ${DIR}/dev/docs
-	# ./build-apigen.sh
-	./build-phpdoc.sh
+	./build-apigen.sh
+	# ./build-phpdoc.sh
 	
 	printf "${GREEN}PACKING DOCUMENTATION: ${RED}${DOCUMENTATION_FILE}\n"$NC
 	cd ${DIR}/docs/api
