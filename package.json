@@ -1,21 +1,26 @@
 {
-  "title": "Afterlogic Aurora Core Webclient module",
+  "name": "afterlogic-aurora-platform",
+  "version": "9.0.0",
   "description": "",
-  "name": "aurora-platform",
-  "version": "8.0.0",
-  "main": "gulpfile.js",
   "homepage": "https://afterlogic.com/webmail-client",
   "repository": "https://github.com/afterlogic/webmail-pro-8",
-  "license": "AGPL-3.0",
   "author": {
     "name": "Afterlogic Corp.",
     "email": "support@afterlogic.com",
     "web": "http://afterlogic.com"
   },
-  "engines": {
-    "node": ">= 0.8.0"
+  "license": "AGPL-3.0",
+  "scripts": {
+    "js:build": "node -e \"require('./modules/CoreWebclient/gulp-tasks/javascript.js').default.build()\"",
+    "js:min": "node -e \"require('./modules/CoreWebclient/gulp-tasks/javascript.js').default.min()\"",
+    "js:watch": "node -e \"require('./modules/CoreWebclient/gulp-tasks/javascript.js').default.watch()\"",
+    "styles:build": "node -e \"require('./modules/CoreWebclient/gulp-tasks/styles.js').default.build()\"",
+    "styles:cssonly": "node -e \"require('./modules/CoreWebclient/gulp-tasks/styles.js').default.cssonly()\"",
+    "styles:watch": "node -e \"require('./modules/CoreWebclient/gulp-tasks/styles.js').default.watch()\""
   },
   "dependencies": {
     "corewebclient": "file:./modules/CoreWebclient"
   }
 }
+
+

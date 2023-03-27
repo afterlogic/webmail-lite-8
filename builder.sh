@@ -56,8 +56,6 @@ echo TASK: "$TASK"
 
 if [ "$TASK" = "npm" ]; then
 	cd ${DIR}
-	
-	npm install -g gulp-cli
 	npm install
 
 	if [ -d "$DIR_VUE" ]; then
@@ -75,10 +73,9 @@ fi
 if [ "$TASK" = "build-main" ]; then
 	cd ${DIR}
 	THEME_LIST="$(getThemeList)"
-	gulp styles --themes ${THEME_LIST} --build a
-	gulp js:build --build a
-	gulp js:min --build a
-	#gulp test
+	npm run styles:build --themes=${THEME_LIST}
+	npm run js:build
+	npm run js:min
 fi
 
 if [ "$TASK" = "build-admin" ]; then
@@ -91,14 +88,14 @@ fi
 if [ "$TASK" = "watch-js" ]; then
 	cd ${DIR}
 	printf "${GREEN}Running watcher for ${RED}JS files\n"$NC
-	gulp js:watch
+	npm run js:watch
 fi
 
 if [ "$TASK" = "watch-styles" ]; then
 	cd ${DIR}
 	THEME_LIST="$(getThemeList)"
 	printf "${GREEN}Running watcher for themes: ${RED}${THEME_LIST}\n"$NC
-	gulp styles:watch --themes ${THEME_LIST}
+	npm run styles:watch --themes ${THEME_LIST}
 fi
 
 if [ "$TASK" = "pack" ]; then

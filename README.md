@@ -42,34 +42,37 @@ git clone https://github.com/afterlogic/webmail-lite-8.git INSTALL_FOLDER_PATH
     **NB:** It is strongly advised to run composer as non-root user. Otherwise, third-party scripts will be run with root permissions and composer issues a warning that it's not safe. We recommend running the script under the same user web server runs under.
 
 3. Next, you need to build static files for the current module set.
-
-      First of all, install all npm modules via
+      First of all, install all npm dependencies via
       ```bash
       npm install
       ```
-      and install gulp-cli module globaly 
-      ```bash
-      npm install -g gulp-cli
-      ```
-      then install the modules required for adminpanel to work 
+      then install the dependencies required for adminpanel to work 
       ```bash
       cd modules/AdminPanelWebclient/vue
       npm install
       npm install -g @quasar/cli
       ```
+	  or you can execute all the actions mentioned above by using the following command
+	  ```
+	  chmod +x builder.sh
+	  ./builder.sh -t npm
+	  ```
 
 4. Now you can build static files. Run the following commands in main directory
       ```bash
-      gulp styles --themes Default,DefaultDark,DeepForest,Funny,Sand
-      ```
-      ```bash
-      gulp js:min
+	  npm run styles:build --themes=Default,DefaultDark,DeepForest,Funny,Sand
+      npm run js:build
+	  npm run js:min
       ```
       and build adminpanel 
       ```bash
       cd modules/AdminPanelWebclient/vue
       npm run build-production
       ```
+	  or use all-in-one command
+	  ```
+	  ./builder.sh -t build
+	  ```
   
 5. Now you are ready to open a URL pointing to the installation directory in your favorite web browser. Be sure to add `/adminpanel/` to main URL to access admin interface.
 
