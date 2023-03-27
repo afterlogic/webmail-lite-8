@@ -756,15 +756,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
-            "version": "0.10.93",
+            "version": "0.10.95",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-core",
-                "reference": "tags/0.10.93"
+                "reference": "tags/0.10.95"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.93.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.95.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
