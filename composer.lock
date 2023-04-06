@@ -90,15 +90,15 @@
         },
         {
             "name": "afterlogic/aurora-module-contacts",
-            "version": "0.10.84",
+            "version": "0.10.87",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-contacts",
-                "reference": "tags/0.10.84"
+                "reference": "tags/0.10.87"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.84.zip"
+                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.87.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -114,19 +114,19 @@
                     "/"
                 ]
             },
-            "time": "2023-02-13T09:34:10+00:00"
+            "time": "2023-03-31T13:45:52+00:00"
         },
         {
             "name": "afterlogic/aurora-module-core",
-            "version": "0.10.89",
+            "version": "0.10.90",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-core",
-                "reference": "tags/0.10.89"
+                "reference": "tags/0.10.90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-core/archive/0.10.89.zip"
+                "url": "https://github.com/afterlogic/aurora-module-core/archive/0.10.90.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -141,7 +141,7 @@
                     "/"
                 ]
             },
-            "time": "2023-02-15T11:00:33+00:00"
+            "time": "2023-03-27T08:50:20+00:00"
         },
         {
             "name": "afterlogic/aurora-module-cpanel-integrator",
@@ -729,15 +729,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-contacts",
-            "version": "0.10.33",
+            "version": "0.10.34",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-contacts",
-                "reference": "tags/0.10.33"
+                "reference": "tags/0.10.34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/0.10.33.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/0.10.34.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -752,7 +752,7 @@
                     "/"
                 ]
             },
-            "time": "2023-03-23T13:03:05+00:00"
+            "time": "2023-03-31T12:38:23+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
@@ -2057,16 +2057,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.293.0",
+            "version": "v0.294.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "6f79073f022686461af2d1a95b4fe91caaf947ec"
+                "reference": "215a5e53790730c7e90fd93c76517652e0fff2a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/6f79073f022686461af2d1a95b4fe91caaf947ec",
-                "reference": "6f79073f022686461af2d1a95b4fe91caaf947ec",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/215a5e53790730c7e90fd93c76517652e0fff2a3",
+                "reference": "215a5e53790730c7e90fd93c76517652e0fff2a3",
                 "shasum": ""
             },
             "require": {
@@ -2095,9 +2095,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.293.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.294.0"
             },
-            "time": "2023-03-13T21:05:11+00:00"
+            "time": "2023-04-06T01:30:37+00:00"
         },
         {
             "name": "google/auth",
