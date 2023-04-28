@@ -91,15 +91,8 @@
 		"afterlogic/aurora-module-standard-reset-password": "~0.10.0"
 	},
 	"scripts": {
-		"post-install-cmd": [
-			"@check-configs",
-			"@pre-config"
-		],
-		"post-update-cmd": [ 
-			"@check-configs",
-			"@pre-config"
-		],
-		"check-configs": "Aurora\\Installer::checkConfigs",
+		"post-install-cmd": "@pre-config",
+		"post-update-cmd": "@pre-config",
 		"pre-config": [
 			"[ -d data ] || mkdir data",
 			"Aurora\\Installer::preConfigSafe"
