@@ -648,15 +648,15 @@
         },
         {
             "name": "afterlogic/aurora-module-two-factor-auth",
-            "version": "0.10.39",
+            "version": "0.10.40",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-two-factor-auth",
-                "reference": "tags/0.10.39"
+                "reference": "tags/0.10.40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-two-factor-auth/archive/0.10.39.zip"
+                "url": "https://github.com/afterlogic/aurora-module-two-factor-auth/archive/0.10.40.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -674,19 +674,19 @@
                     "/"
                 ]
             },
-            "time": "2023-05-22T11:21:45+00:00"
+            "time": "2023-05-23T15:29:57+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-adminpanel",
-            "version": "0.10.74",
+            "version": "0.10.75",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel",
-                "reference": "tags/0.10.74"
+                "reference": "tags/0.10.75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel/archive/0.10.74.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel/archive/0.10.75.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -701,7 +701,7 @@
                     "/"
                 ]
             },
-            "time": "2023-05-06T10:58:43+00:00"
+            "time": "2023-05-23T11:54:10+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-change-password",
