@@ -1218,16 +1218,16 @@
         },
         {
             "name": "afterlogic/dav",
-            "version": "4.0.53",
+            "version": "4.0.54",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/dav.git",
-                "reference": "b73beeff21dc39bd3607d496102149e5dc762dcc"
+                "reference": "59575cad5e9451a943ec32a01d74156a2c9e5001"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/dav/zipball/b73beeff21dc39bd3607d496102149e5dc762dcc",
-                "reference": "b73beeff21dc39bd3607d496102149e5dc762dcc",
+                "url": "https://api.github.com/repos/afterlogic/dav/zipball/59575cad5e9451a943ec32a01d74156a2c9e5001",
+                "reference": "59575cad5e9451a943ec32a01d74156a2c9e5001",
                 "shasum": ""
             },
             "require": {
@@ -1257,9 +1257,9 @@
             "homepage": "https://github.com/afterlogic/dav",
             "support": {
                 "issues": "https://github.com/afterlogic/dav/issues",
-                "source": "https://github.com/afterlogic/dav/tree/4.0.53"
+                "source": "https://github.com/afterlogic/dav/tree/4.0.54"
             },
-            "time": "2023-05-25T12:16:55+00:00"
+            "time": "2023-05-29T11:42:31+00:00"
         },
         {
             "name": "afterlogic/googleauthenticator",
@@ -5064,16 +5064,16 @@
         },
         {
             "name": "phpstan/phpdoc-parser",
-            "version": "1.21.0",
+            "version": "1.21.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpdoc-parser.git",
-                "reference": "6df62b08faef4f899772bc7c3bbabb93d2b7a21c"
+                "reference": "e560a3eb5e76b35d6d92377e5abb6887c1c13c95"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/6df62b08faef4f899772bc7c3bbabb93d2b7a21c",
-                "reference": "6df62b08faef4f899772bc7c3bbabb93d2b7a21c",
+                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/e560a3eb5e76b35d6d92377e5abb6887c1c13c95",
+                "reference": "e560a3eb5e76b35d6d92377e5abb6887c1c13c95",
                 "shasum": ""
             },
             "require": {
@@ -5104,9 +5104,9 @@
             "description": "PHPDoc parser with support for nullable, intersection and generic types",
             "support": {
                 "issues": "https://github.com/phpstan/phpdoc-parser/issues",
-                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.21.0"
+                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.21.1"
             },
-            "time": "2023-05-17T13:13:44+00:00"
+            "time": "2023-05-29T11:55:57+00:00"
         },
         {
             "name": "plesk/api-php-lib",
