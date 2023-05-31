@@ -1218,16 +1218,16 @@
         },
         {
             "name": "afterlogic/dav",
-            "version": "4.0.54",
+            "version": "4.0.55",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/dav.git",
-                "reference": "59575cad5e9451a943ec32a01d74156a2c9e5001"
+                "reference": "6901eb801d489ced9ffd5c6e6102e0cca856c14e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/dav/zipball/59575cad5e9451a943ec32a01d74156a2c9e5001",
-                "reference": "59575cad5e9451a943ec32a01d74156a2c9e5001",
+                "url": "https://api.github.com/repos/afterlogic/dav/zipball/6901eb801d489ced9ffd5c6e6102e0cca856c14e",
+                "reference": "6901eb801d489ced9ffd5c6e6102e0cca856c14e",
                 "shasum": ""
             },
             "require": {
@@ -1257,9 +1257,9 @@
             "homepage": "https://github.com/afterlogic/dav",
             "support": {
                 "issues": "https://github.com/afterlogic/dav/issues",
-                "source": "https://github.com/afterlogic/dav/tree/4.0.54"
+                "source": "https://github.com/afterlogic/dav/tree/4.0.55"
             },
-            "time": "2023-05-29T11:42:31+00:00"
+            "time": "2023-05-29T14:40:26+00:00"
         },
         {
             "name": "afterlogic/googleauthenticator",
@@ -1310,20 +1310,19 @@
         },
         {
             "name": "afterlogic/mailso",
-            "version": "1.5.57",
+            "version": "1.5.58",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/MailSo.git",
-                "reference": "27d18f2b058f41ee57034b83a545aae2d5ee629b"
+                "reference": "a0ccbb871b9bc6d843f81840367a554e939e5cf2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/MailSo/zipball/27d18f2b058f41ee57034b83a545aae2d5ee629b",
-                "reference": "27d18f2b058f41ee57034b83a545aae2d5ee629b",
+                "url": "https://api.github.com/repos/afterlogic/MailSo/zipball/a0ccbb871b9bc6d843f81840367a554e939e5cf2",
+                "reference": "a0ccbb871b9bc6d843f81840367a554e939e5cf2",
                 "shasum": ""
             },
             "require": {
-                "masterminds/html5": "^2.8",
                 "php": ">=5.3.0",
                 "symfony/polyfill-intl-idn": ">=1.27.0"
             },
@@ -1350,9 +1349,9 @@
             "homepage": "https://github.com/afterlogic/mailso",
             "support": {
                 "issues": "https://github.com/afterlogic/MailSo/issues",
-                "source": "https://github.com/afterlogic/MailSo/tree/1.5.57"
+                "source": "https://github.com/afterlogic/MailSo/tree/1.5.58"
             },
-            "time": "2023-05-11T19:31:15+00:00"
+            "time": "2023-05-15T10:42:18+00:00"
         },
         {
             "name": "barryvdh/laravel-ide-helper",
@@ -1993,16 +1992,16 @@
         },
         {
             "name": "doctrine/deprecations",
-            "version": "v1.0.0",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/deprecations.git",
-                "reference": "0e2a4f1f8cdfc7a92ec3b01c9334898c806b30de"
+                "reference": "8cffffb2218e01f3b370bf763e00e81697725259"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/deprecations/zipball/0e2a4f1f8cdfc7a92ec3b01c9334898c806b30de",
-                "reference": "0e2a4f1f8cdfc7a92ec3b01c9334898c806b30de",
+                "url": "https://api.github.com/repos/doctrine/deprecations/zipball/8cffffb2218e01f3b370bf763e00e81697725259",
+                "reference": "8cffffb2218e01f3b370bf763e00e81697725259",
                 "shasum": ""
             },
             "require": {
@@ -2030,9 +2029,9 @@
             "homepage": "https://www.doctrine-project.org/",
             "support": {
                 "issues": "https://github.com/doctrine/deprecations/issues",
-                "source": "https://github.com/doctrine/deprecations/tree/v1.0.0"
+                "source": "https://github.com/doctrine/deprecations/tree/v1.1.0"
             },
-            "time": "2022-05-02T15:47:09+00:00"
+            "time": "2023-05-29T18:55:17+00:00"
         },
         {
             "name": "doctrine/event-manager",
@@ -4148,73 +4147,6 @@
             "time": "2018-02-09T09:26:57+00:00"
         },
         {
-            "name": "masterminds/html5",
-            "version": "2.8.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Masterminds/html5-php.git",
-                "reference": "3c5d5a56d56f48a1ca08a0670f0f80c1dad368f3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Masterminds/html5-php/zipball/3c5d5a56d56f48a1ca08a0670f0f80c1dad368f3",
-                "reference": "3c5d5a56d56f48a1ca08a0670f0f80c1dad368f3",
-                "shasum": ""
-            },
-            "require": {
-                "ext-dom": "*",
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4.8.35 || ^5.7.21 || ^6 || ^7 || ^8"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.7-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Masterminds\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Matt Butcher",
-                    "email": "technosophos@gmail.com"
-                },
-                {
-                    "name": "Matt Farina",
-                    "email": "matt@mattfarina.com"
-                },
-                {
-                    "name": "Asmir Mustafic",
-                    "email": "goetas@gmail.com"
-                }
-            ],
-            "description": "An HTML5 parser and serializer.",
-            "homepage": "http://masterminds.github.io/html5-php",
-            "keywords": [
-                "HTML5",
-                "dom",
-                "html",
-                "parser",
-                "querypath",
-                "serializer",
-                "xml"
-            ],
-            "support": {
-                "issues": "https://github.com/Masterminds/html5-php/issues",
-                "source": "https://github.com/Masterminds/html5-php/tree/2.8.0"
-            },
-            "time": "2023-04-26T07:27:39+00:00"
-        },
-        {
             "name": "monolog/monolog",
             "version": "2.9.1",
             "source": {
@@ -4765,16 +4697,16 @@
         },
         {
             "name": "phpdocumentor/type-resolver",
-            "version": "1.7.1",
+            "version": "1.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/TypeResolver.git",
-                "reference": "dfc078e8af9c99210337325ff5aa152872c98714"
+                "reference": "b2fe4d22a5426f38e014855322200b97b5362c0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/dfc078e8af9c99210337325ff5aa152872c98714",
-                "reference": "dfc078e8af9c99210337325ff5aa152872c98714",
+                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/b2fe4d22a5426f38e014855322200b97b5362c0d",
+                "reference": "b2fe4d22a5426f38e014855322200b97b5362c0d",
                 "shasum": ""
             },
             "require": {
@@ -4817,9 +4749,9 @@
             "description": "A PSR-5 based resolver of Class names, Types and Structural Element Names",
             "support": {
                 "issues": "https://github.com/phpDocumentor/TypeResolver/issues",
-                "source": "https://github.com/phpDocumentor/TypeResolver/tree/1.7.1"
+                "source": "https://github.com/phpDocumentor/TypeResolver/tree/1.7.2"
             },
-            "time": "2023-03-27T19:02:04+00:00"
+            "time": "2023-05-30T18:13:47+00:00"
         },
         {
             "name": "phpmailer/dkimvalidator",
@@ -5064,16 +4996,16 @@
         },
         {
             "name": "phpstan/phpdoc-parser",
-            "version": "1.21.1",
+            "version": "1.21.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpdoc-parser.git",
-                "reference": "e560a3eb5e76b35d6d92377e5abb6887c1c13c95"
+                "reference": "b0c366dd2cea79407d635839d25423ba07c55dd6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/e560a3eb5e76b35d6d92377e5abb6887c1c13c95",
-                "reference": "e560a3eb5e76b35d6d92377e5abb6887c1c13c95",
+                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/b0c366dd2cea79407d635839d25423ba07c55dd6",
+                "reference": "b0c366dd2cea79407d635839d25423ba07c55dd6",
                 "shasum": ""
             },
             "require": {
@@ -5104,9 +5036,9 @@
             "description": "PHPDoc parser with support for nullable, intersection and generic types",
             "support": {
                 "issues": "https://github.com/phpstan/phpdoc-parser/issues",
-                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.21.1"
+                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.21.3"
             },
-            "time": "2023-05-29T11:55:57+00:00"
+            "time": "2023-05-29T19:31:28+00:00"
         },
         {
             "name": "plesk/api-php-lib",
