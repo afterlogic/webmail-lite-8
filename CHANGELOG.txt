@@ -1,3 +1,29 @@
+[9.7.1]
+[+] Event appointments can now be added via CalDAV (WebMail Pro / Aurora Corporate)
+[+] In Files, selection is now cleared when clicking empty area
+[+] Removing logs older than N days is now configurable, RemoveOldLogsDays in config.json file
+[+] Added PHP-FPM in Debian/Ubuntu packages in addition to PHP as Apache module
+[+] Fastpanel integration
+[*] Updated various JavaScript libraries used as dependencies, known vulnerabilities removed
+[*] Code refactoring, PhpStan level 2 compliance maintained
+[*] Device management in 2FA module rewritten
+[*] Fixed various data encryption issues
+[*] Corrected issues with accepting invitations from Google Calendar (WebMail Pro / Aurora Corporate)
+[*] Fixed issues with displaying larger messages in Notes
+[*] Corrected issues with calendar sharing (Aurora Corporate)
+[*] Redesigned reminders functionality in shared calendars (Aurora Corporate)
+[*] Corrected issue with navigating in Month view of calendar (WebMail Pro / Aurora Corporate)
+[*] Fixed issues with recurring tasks length (WebMail Pro / Aurora Corporate)
+[*] Fixed DAV browser plugin incompatibility with PHP 8.2
+[*] Improved pasting from MS Excel, with borders retained
+[*] Corrected an issue with DAV update in cPanel installer (WebMail only)
+[*] Corrected various issues with exporting contacts
+[*] Grouping contacts improved, contacts from custom address books can now be included
+[*] Files status bar redesigned
+[*] Quasar 2 and VueJS 3 are now used in admin panel
+[*] German translation overhaul
+[*] Various fixes and improvements
+
 [9.7.0]
 [+] Password reset feature added for cPanel
 [+] User signup added for Plesk and DirectAdmin
