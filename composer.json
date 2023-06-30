@@ -43,6 +43,8 @@
 		
 		"afterlogic/aurora-framework": "~0.10.0",
 		"afterlogic/aurora-dev-tools": "~0.10.0",
+
+		"psr/http-message": "^1.1",
 		
 		"afterlogic/aurora-module-admin-auth": "~0.10.0",
 		"afterlogic/aurora-module-webclient-adminpanel": "~0.10.0",
