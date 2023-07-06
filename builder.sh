@@ -139,7 +139,7 @@ if [ "$TASK" = "prepare-demo" ]; then
 		HAS_DEMO=`cat composer.json | grep -o --max-count=1 demo-mode-plugin`
 
 		if [ "${HAS_DEMO}" = "" ]; then
-			sed -i '/"require": {/r extra_modules.txt' composer.json
+			sed -i '/"afterlogic\/aurora-framework".*/r extra_modules.txt' composer.json
 		fi
 		
 		php composer.phar update afterlogic/aurora-module-demo-mode-plugin
