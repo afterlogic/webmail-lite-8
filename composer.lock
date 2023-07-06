@@ -1310,21 +1310,21 @@
         },
         {
             "name": "afterlogic/mailso",
-            "version": "1.5.60",
+            "version": "1.5.62",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/MailSo.git",
-                "reference": "2e04af8f0f8010855b153a50ea5bf83703253b96"
+                "reference": "7ccc6b5bf00fa9a0491fcc0c3fefffc2b0a28061"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/MailSo/zipball/2e04af8f0f8010855b153a50ea5bf83703253b96",
-                "reference": "2e04af8f0f8010855b153a50ea5bf83703253b96",
+                "url": "https://api.github.com/repos/afterlogic/MailSo/zipball/7ccc6b5bf00fa9a0491fcc0c3fefffc2b0a28061",
+                "reference": "7ccc6b5bf00fa9a0491fcc0c3fefffc2b0a28061",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0",
-                "symfony/polyfill-intl-idn": ">=1.27.0"
+                "pear/net_idna2": "^0.2.0",
+                "php": ">=5.3.0"
             },
             "type": "library",
             "extra": {
@@ -1349,9 +1349,9 @@
             "homepage": "https://github.com/afterlogic/mailso",
             "support": {
                 "issues": "https://github.com/afterlogic/MailSo/issues",
-                "source": "https://github.com/afterlogic/MailSo/tree/1.5.60"
+                "source": "https://github.com/afterlogic/MailSo/tree/1.5.62"
             },
-            "time": "2023-07-06T07:49:17+00:00"
+            "time": "2023-07-06T11:28:52+00:00"
         },
         {
             "name": "barryvdh/laravel-ide-helper",
@@ -4583,6 +4583,117 @@
                 "source": "https://github.com/paragonie/random_compat"
             },
             "time": "2020-10-15T08:29:30+00:00"
+        },
+        {
+            "name": "pear/net_idna2",
+            "version": "v0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pear/Net_IDNA2.git",
+                "reference": "51734eaf8be2df58e8aad5835b9966459b2fb37c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pear/Net_IDNA2/zipball/51734eaf8be2df58e8aad5835b9966459b2fb37c",
+                "reference": "51734eaf8be2df58e8aad5835b9966459b2fb37c",
+                "shasum": ""
+            },
+            "require": {
+                "pear/pear_exception": "@stable"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Net": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "./"
+            ],
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Stefan Neufeind",
+                    "email": "pear.neufeind@speedpartner.de",
+                    "role": "Lead"
+                },
+                {
+                    "name": "Daniel O'Connor",
+                    "email": "daniel.oconnor@gmail.com",
+                    "role": "Lead"
+                }
+            ],
+            "description": "More info available on: https://pear.php.net/package/Net_IDNA2",
+            "support": {
+                "issues": "https://pear.php.net/bugs/search.php?cmd=display&package_name[]=Net_IDNA2",
+                "source": "https://github.com/pear/Net_IDNA2"
+            },
+            "time": "2017-03-06T20:46:41+00:00"
+        },
+        {
+            "name": "pear/pear_exception",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pear/PEAR_Exception.git",
+                "reference": "b14fbe2ddb0b9f94f5b24cf08783d599f776fff0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pear/PEAR_Exception/zipball/b14fbe2ddb0b9f94f5b24cf08783d599f776fff0",
+                "reference": "b14fbe2ddb0b9f94f5b24cf08783d599f776fff0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "<9"
+            },
+            "type": "class",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "PEAR/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "."
+            ],
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Helgi Thormar",
+                    "email": "dufuz@php.net"
+                },
+                {
+                    "name": "Greg Beaver",
+                    "email": "cellog@php.net"
+                }
+            ],
+            "description": "The PEAR Exception base class.",
+            "homepage": "https://github.com/pear/PEAR_Exception",
+            "keywords": [
+                "exception"
+            ],
+            "support": {
+                "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=PEAR_Exception",
+                "source": "https://github.com/pear/PEAR_Exception"
+            },
+            "time": "2021-03-21T15:43:46+00:00"
         },
         {
             "name": "phpcompatibility/php-compatibility",
@@ -7978,16 +8089,16 @@
     "packages-dev": [
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.24",
+            "version": "1.10.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "360ecc90569e9a60c2954ee209ec04fa0d958e14"
+                "reference": "578f4e70d117f9a90699324c555922800ac38d8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/360ecc90569e9a60c2954ee209ec04fa0d958e14",
-                "reference": "360ecc90569e9a60c2954ee209ec04fa0d958e14",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/578f4e70d117f9a90699324c555922800ac38d8c",
+                "reference": "578f4e70d117f9a90699324c555922800ac38d8c",
                 "shasum": ""
             },
             "require": {
@@ -8036,7 +8147,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-07-05T12:32:13+00:00"
+            "time": "2023-07-06T12:11:37+00:00"
         }
     ],
     "aliases": [],
