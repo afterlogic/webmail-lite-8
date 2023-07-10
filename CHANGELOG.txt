@@ -1,3 +1,12 @@
+[9.7.2]
+[+] Added password reset support for password change via POPPASSD
+[+] Added multi-line support for Location field in Calendar
+[+] Added support for path-style requests in S3 file storage modules
+[+] System folders are now automatically subscribed on first login into account
+[*] Fixed issue with renaming folders when IgnoreImapSubscription was enabled
+[*] Corrected issue with cPanel integration
+[*] Various bugfixes and improvements
+
 [9.7.1]
 [+] Event appointments can now be added via CalDAV (WebMail Pro / Aurora Corporate)
 [+] In Files, selection is now cleared when clicking empty area
