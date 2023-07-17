@@ -8,15 +8,15 @@
     "packages": [
         {
             "name": "afterlogic/aurora-dev-tools",
-            "version": "0.10.2",
+            "version": "0.10.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-dev-tools",
-                "reference": "tags/0.10.2"
+                "reference": "tags/0.10.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-dev-tools/archive/0.10.2.zip"
+                "url": "https://github.com/afterlogic/aurora-dev-tools/archive/0.10.3.zip"
             },
             "require": {
                 "php": ">=5.4.0",
@@ -24,19 +24,19 @@
                 "squizlabs/php_codesniffer": "^2.0"
             },
             "type": "aurora-dev-tools",
-            "time": "2023-03-17T18:05:38+00:00"
+            "time": "2023-07-17T14:23:21+00:00"
         },
         {
             "name": "afterlogic/aurora-framework",
-            "version": "0.10.99",
+            "version": "0.10.102",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-framework",
-                "reference": "tags/0.10.99"
+                "reference": "tags/0.10.102"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.99.zip"
+                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.102.zip"
             },
             "require": {
                 "afterlogic/mailso": "^1.4",
@@ -62,7 +62,7 @@
                     "Installer.php"
                 ]
             },
-            "time": "2023-06-26T13:56:22+00:00"
+            "time": "2023-07-17T08:19:39+00:00"
         },
         {
             "name": "afterlogic/aurora-module-admin-auth",
@@ -93,15 +93,15 @@
         },
         {
             "name": "afterlogic/aurora-module-contacts",
-            "version": "0.10.96",
+            "version": "0.10.97",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-contacts",
-                "reference": "tags/0.10.96"
+                "reference": "tags/0.10.97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.96.zip"
+                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.97.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -117,7 +117,7 @@
                     "/"
                 ]
             },
-            "time": "2023-07-10T12:14:59+00:00"
+            "time": "2023-07-17T12:16:34+00:00"
         },
         {
             "name": "afterlogic/aurora-module-core",
@@ -148,15 +148,15 @@
         },
         {
             "name": "afterlogic/aurora-module-cpanel-integrator",
-            "version": "0.10.32",
+            "version": "0.10.34",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-cpanel-integrator",
-                "reference": "tags/0.10.32"
+                "reference": "tags/0.10.34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-cpanel-integrator/archive/0.10.32.zip"
+                "url": "https://github.com/afterlogic/aurora-module-cpanel-integrator/archive/0.10.34.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -173,7 +173,7 @@
                     "/"
                 ]
             },
-            "time": "2023-05-04T16:20:32+00:00"
+            "time": "2023-07-17T12:12:52+00:00"
         },
         {
             "name": "afterlogic/aurora-module-dropbox",
@@ -291,15 +291,15 @@
         },
         {
             "name": "afterlogic/aurora-module-mail",
-            "version": "0.10.110",
+            "version": "0.10.111",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-mail",
-                "reference": "tags/0.10.110"
+                "reference": "tags/0.10.111"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-mail/archive/0.10.110.zip"
+                "url": "https://github.com/afterlogic/aurora-module-mail/archive/0.10.111.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.86",
@@ -315,7 +315,7 @@
                     "/"
                 ]
             },
-            "time": "2023-06-20T11:16:37+00:00"
+            "time": "2023-07-17T12:40:23+00:00"
         },
         {
             "name": "afterlogic/aurora-module-mail-auth-cpanel",
@@ -456,15 +456,15 @@
         },
         {
             "name": "afterlogic/aurora-module-mail-signup-directadmin",
-            "version": "0.10.6",
+            "version": "0.10.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-mail-signup-directadmin",
-                "reference": "tags/0.10.6"
+                "reference": "tags/0.10.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-mail-signup-directadmin/archive/0.10.6.zip"
+                "url": "https://github.com/afterlogic/aurora-module-mail-signup-directadmin/archive/0.10.9.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -479,19 +479,19 @@
                     "/"
                 ]
             },
-            "time": "2023-06-08T14:03:07+00:00"
+            "time": "2023-07-14T09:24:30+00:00"
         },
         {
             "name": "afterlogic/aurora-module-mail-signup-plesk",
-            "version": "0.10.5",
+            "version": "0.10.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-mail-signup-plesk",
-                "reference": "tags/0.10.5"
+                "reference": "tags/0.10.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-mail-signup-plesk/archive/0.10.5.zip"
+                "url": "https://github.com/afterlogic/aurora-module-mail-signup-plesk/archive/0.10.6.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -507,7 +507,7 @@
                     "/"
                 ]
             },
-            "time": "2023-04-28T15:49:10+00:00"
+            "time": "2023-07-14T10:48:21+00:00"
         },
         {
             "name": "afterlogic/aurora-module-min",
@@ -592,15 +592,15 @@
         },
         {
             "name": "afterlogic/aurora-module-personal-contacts",
-            "version": "0.10.18",
+            "version": "0.10.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-personal-contacts",
-                "reference": "tags/0.10.18"
+                "reference": "tags/0.10.20"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-personal-contacts/archive/0.10.18.zip"
+                "url": "https://github.com/afterlogic/aurora-module-personal-contacts/archive/0.10.20.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -616,7 +616,7 @@
                     "/"
                 ]
             },
-            "time": "2023-04-28T15:49:15+00:00"
+            "time": "2023-07-17T06:26:49+00:00"
         },
         {
             "name": "afterlogic/aurora-module-standard-reset-password",
@@ -732,15 +732,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-contacts",
-            "version": "0.10.38",
+            "version": "0.10.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-contacts",
-                "reference": "tags/0.10.38"
+                "reference": "tags/0.10.39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/0.10.38.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/0.10.39.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -755,7 +755,7 @@
                     "/"
                 ]
             },
-            "time": "2023-05-05T07:44:11+00:00"
+            "time": "2023-05-23T17:45:46+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
@@ -1218,16 +1218,16 @@
         },
         {
             "name": "afterlogic/dav",
-            "version": "4.0.63",
+            "version": "4.0.64",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/dav.git",
-                "reference": "2ec635ecb85685d5904f82fa3ae15e9290a7d2a8"
+                "reference": "61c423ac123666082e4a654fa744dfcbda62af7a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/dav/zipball/2ec635ecb85685d5904f82fa3ae15e9290a7d2a8",
-                "reference": "2ec635ecb85685d5904f82fa3ae15e9290a7d2a8",
+                "url": "https://api.github.com/repos/afterlogic/dav/zipball/61c423ac123666082e4a654fa744dfcbda62af7a",
+                "reference": "61c423ac123666082e4a654fa744dfcbda62af7a",
                 "shasum": ""
             },
             "require": {
@@ -1257,9 +1257,9 @@
             "homepage": "https://github.com/afterlogic/dav",
             "support": {
                 "issues": "https://github.com/afterlogic/dav/issues",
-                "source": "https://github.com/afterlogic/dav/tree/4.0.63"
+                "source": "https://github.com/afterlogic/dav/tree/4.0.64"
             },
-            "time": "2023-07-13T06:27:39+00:00"
+            "time": "2023-07-14T08:38:40+00:00"
         },
         {
             "name": "afterlogic/googleauthenticator",
@@ -2366,16 +2366,16 @@
         },
         {
             "name": "firebase/php-jwt",
-            "version": "v6.8.0",
+            "version": "v6.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/firebase/php-jwt.git",
-                "reference": "48b0210c51718d682e53210c24d25c5a10a2299b"
+                "reference": "5dbc8959427416b8ee09a100d7a8588c00fb2e26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/48b0210c51718d682e53210c24d25c5a10a2299b",
-                "reference": "48b0210c51718d682e53210c24d25c5a10a2299b",
+                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/5dbc8959427416b8ee09a100d7a8588c00fb2e26",
+                "reference": "5dbc8959427416b8ee09a100d7a8588c00fb2e26",
                 "shasum": ""
             },
             "require": {
@@ -2423,9 +2423,9 @@
             ],
             "support": {
                 "issues": "https://github.com/firebase/php-jwt/issues",
-                "source": "https://github.com/firebase/php-jwt/tree/v6.8.0"
+                "source": "https://github.com/firebase/php-jwt/tree/v6.8.1"
             },
-            "time": "2023-06-20T16:45:35+00:00"
+            "time": "2023-07-14T18:33:00+00:00"
         },
         {
             "name": "google/apiclient",
@@ -2499,16 +2499,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.308.0",
+            "version": "v0.309.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "85cf00383e6bf6eca131bd3261b7859ea418a578"
+                "reference": "562f8e5ddbca68d52afc3bf47d03839e78722026"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/85cf00383e6bf6eca131bd3261b7859ea418a578",
-                "reference": "85cf00383e6bf6eca131bd3261b7859ea418a578",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/562f8e5ddbca68d52afc3bf47d03839e78722026",
+                "reference": "562f8e5ddbca68d52afc3bf47d03839e78722026",
                 "shasum": ""
             },
             "require": {
@@ -2537,9 +2537,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.308.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.309.0"
             },
-            "time": "2023-07-09T01:06:13+00:00"
+            "time": "2023-07-16T01:08:14+00:00"
         },
         {
             "name": "google/auth",
@@ -5598,16 +5598,16 @@
         },
         {
             "name": "qualityunit/tnef-decoder",
-            "version": "1.2.4",
+            "version": "1.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/QualityUnit/TNEFDecoder.git",
-                "reference": "8b7bf4e1335a83fd81910149ddf1521c1bde9576"
+                "reference": "a9663776cd0fd7b0a08a291d9a917a84ccb63845"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/QualityUnit/TNEFDecoder/zipball/8b7bf4e1335a83fd81910149ddf1521c1bde9576",
-                "reference": "8b7bf4e1335a83fd81910149ddf1521c1bde9576",
+                "url": "https://api.github.com/repos/QualityUnit/TNEFDecoder/zipball/a9663776cd0fd7b0a08a291d9a917a84ccb63845",
+                "reference": "a9663776cd0fd7b0a08a291d9a917a84ccb63845",
                 "shasum": ""
             },
             "require": {
@@ -5636,9 +5636,9 @@
             ],
             "support": {
                 "issues": "https://github.com/QualityUnit/TNEFDecoder/issues",
-                "source": "https://github.com/QualityUnit/TNEFDecoder/tree/1.2.4"
+                "source": "https://github.com/QualityUnit/TNEFDecoder/tree/1.2.5"
             },
-            "time": "2023-06-06T10:49:43+00:00"
+            "time": "2023-07-17T11:01:39+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
