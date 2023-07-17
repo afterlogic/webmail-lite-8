@@ -2,7 +2,6 @@
 [+] Added password reset support for password change via POPPASSD
 [+] Added multi-line support for Location field in Calendar
 [+] Added support for path-style requests in S3 file storage modules
-[+] System folders are now automatically subscribed on first login into account
 [*] Fixed issue with renaming folders when IgnoreImapSubscription was enabled
 [*] Corrected issue with cPanel integration
 [*] Various bugfixes and improvements
