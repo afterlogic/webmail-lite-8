@@ -28,15 +28,15 @@
         },
         {
             "name": "afterlogic/aurora-framework",
-            "version": "0.10.102",
+            "version": "0.10.103",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-framework",
-                "reference": "tags/0.10.102"
+                "reference": "tags/0.10.103"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.102.zip"
+                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.103.zip"
             },
             "require": {
                 "afterlogic/mailso": "^1.4",
@@ -62,7 +62,7 @@
                     "Installer.php"
                 ]
             },
-            "time": "2023-07-17T08:19:39+00:00"
+            "time": "2023-07-19T11:14:39+00:00"
         },
         {
             "name": "afterlogic/aurora-module-admin-auth",
@@ -1310,16 +1310,16 @@
         },
         {
             "name": "afterlogic/mailso",
-            "version": "1.5.61",
+            "version": "1.5.62",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/MailSo.git",
-                "reference": "f4f83623576a97285face34065c7d63c2f16612e"
+                "reference": "8cf0880f60958b7d2864addf8ab87b4aecd24bab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/MailSo/zipball/f4f83623576a97285face34065c7d63c2f16612e",
-                "reference": "f4f83623576a97285face34065c7d63c2f16612e",
+                "url": "https://api.github.com/repos/afterlogic/MailSo/zipball/8cf0880f60958b7d2864addf8ab87b4aecd24bab",
+                "reference": "8cf0880f60958b7d2864addf8ab87b4aecd24bab",
                 "shasum": ""
             },
             "require": {
@@ -1349,9 +1349,9 @@
             "homepage": "https://github.com/afterlogic/mailso",
             "support": {
                 "issues": "https://github.com/afterlogic/MailSo/issues",
-                "source": "https://github.com/afterlogic/MailSo/tree/1.5.61"
+                "source": "https://github.com/afterlogic/MailSo/tree/1.5.62"
             },
-            "time": "2023-07-06T10:24:14+00:00"
+            "time": "2023-07-19T07:24:52+00:00"
         },
         {
             "name": "barryvdh/laravel-ide-helper",
@@ -7978,16 +7978,16 @@
     "packages-dev": [
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.25",
+            "version": "1.10.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "578f4e70d117f9a90699324c555922800ac38d8c"
+                "reference": "5d660cbb7e1b89253a47147ae44044f49832351f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/578f4e70d117f9a90699324c555922800ac38d8c",
-                "reference": "578f4e70d117f9a90699324c555922800ac38d8c",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/5d660cbb7e1b89253a47147ae44044f49832351f",
+                "reference": "5d660cbb7e1b89253a47147ae44044f49832351f",
                 "shasum": ""
             },
             "require": {
@@ -8036,7 +8036,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-07-06T12:11:37+00:00"
+            "time": "2023-07-19T12:44:37+00:00"
         }
     ],
     "aliases": [],
