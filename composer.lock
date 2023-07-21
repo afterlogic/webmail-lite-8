@@ -28,15 +28,15 @@
         },
         {
             "name": "afterlogic/aurora-framework",
-            "version": "0.10.104",
+            "version": "0.10.105",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-framework",
-                "reference": "tags/0.10.104"
+                "reference": "tags/0.10.105"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.104.zip"
+                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.105.zip"
             },
             "require": {
                 "afterlogic/mailso": "^1.4",
@@ -62,7 +62,7 @@
                     "Installer.php"
                 ]
             },
-            "time": "2023-07-20T08:37:56+00:00"
+            "time": "2023-07-20T12:12:59+00:00"
         },
         {
             "name": "afterlogic/aurora-module-admin-auth",
@@ -121,15 +121,15 @@
         },
         {
             "name": "afterlogic/aurora-module-core",
-            "version": "0.10.95",
+            "version": "0.10.96",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-core",
-                "reference": "tags/0.10.95"
+                "reference": "tags/0.10.96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-core/archive/0.10.95.zip"
+                "url": "https://github.com/afterlogic/aurora-module-core/archive/0.10.96.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "^0.10.96",
@@ -144,7 +144,7 @@
                     "/"
                 ]
             },
-            "time": "2023-05-15T17:08:36+00:00"
+            "time": "2023-07-20T12:15:32+00:00"
         },
         {
             "name": "afterlogic/aurora-module-cpanel-integrator",
@@ -291,15 +291,15 @@
         },
         {
             "name": "afterlogic/aurora-module-mail",
-            "version": "0.10.111",
+            "version": "0.10.112",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-mail",
-                "reference": "tags/0.10.111"
+                "reference": "tags/0.10.112"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-mail/archive/0.10.111.zip"
+                "url": "https://github.com/afterlogic/aurora-module-mail/archive/0.10.112.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.86",
@@ -315,7 +315,7 @@
                     "/"
                 ]
             },
-            "time": "2023-07-17T12:40:23+00:00"
+            "time": "2023-07-20T12:14:42+00:00"
         },
         {
             "name": "afterlogic/aurora-module-mail-auth-cpanel",
@@ -1218,16 +1218,16 @@
         },
         {
             "name": "afterlogic/dav",
-            "version": "4.0.64",
+            "version": "4.0.65",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/dav.git",
-                "reference": "61c423ac123666082e4a654fa744dfcbda62af7a"
+                "reference": "cd7ea23ce56557ee6723da43708320364bc5608b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/dav/zipball/61c423ac123666082e4a654fa744dfcbda62af7a",
-                "reference": "61c423ac123666082e4a654fa744dfcbda62af7a",
+                "url": "https://api.github.com/repos/afterlogic/dav/zipball/cd7ea23ce56557ee6723da43708320364bc5608b",
+                "reference": "cd7ea23ce56557ee6723da43708320364bc5608b",
                 "shasum": ""
             },
             "require": {
@@ -1257,9 +1257,9 @@
             "homepage": "https://github.com/afterlogic/dav",
             "support": {
                 "issues": "https://github.com/afterlogic/dav/issues",
-                "source": "https://github.com/afterlogic/dav/tree/4.0.64"
+                "source": "https://github.com/afterlogic/dav/tree/4.0.65"
             },
-            "time": "2023-07-14T08:38:40+00:00"
+            "time": "2023-07-21T08:33:30+00:00"
         },
         {
             "name": "afterlogic/googleauthenticator",
