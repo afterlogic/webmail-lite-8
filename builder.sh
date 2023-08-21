@@ -141,6 +141,9 @@ if [ "$TASK" = "prepare-demo" ]; then
 		if [ "${HAS_DEMO}" = "" ]; then
 			sed -i '/"afterlogic\/aurora-framework".*/r extra_modules.txt' composer.json
 		fi
+
+		# temporary removing plesk signup module
+		sed -i '/aurora-module-mail-signup-plesk/d' composer.json
 		
 		php composer.phar update afterlogic/aurora-module-demo-mode-plugin
 	else
