@@ -1,3 +1,14 @@
+[9.7.3]
+[+] Autoresponder now supports enabling/disabling it by schedule
+[+] External system password encryption in password change and signup modules
+[*] Fixed various issues with recurring tasks and events
+[*] Fixed issue with displaying multiline text in event ICS preview
+[*] Fixed issue with importing ICS containing international characters
+[*] Fixed issues with deprecated code in Nextcloud integration app
+[*] Docker images updated to correct issues with DAV access
+[*] Outlook Sync documentation revised (Aurora only)
+[*] Various fixes and improvements
+
 [9.7.2]
 [+] Added password reset support for password change via POPPASSD
 [+] Added multi-line support for Location field in Calendar
