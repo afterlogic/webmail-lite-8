@@ -1,3 +1,8 @@
+[9.7.4]
+[+] Grouped security-related modules in user settings
+[*] Improved rendering of Outlook message
+[*] Various fixes and improvements
+
 [9.7.3]
 [+] Autoresponder now supports enabling/disabling it by schedule
 [+] External system password encryption in password change and signup modules
