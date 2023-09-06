@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dfbe403ccc1585911e711a18f85a9baa",
+    "content-hash": "d52ba4caa210f62bed3fc6813b9936d1",
     "packages": [
         {
             "name": "afterlogic/aurora-dev-tools",
@@ -288,6 +288,33 @@
                 ]
             },
             "time": "2023-08-31T19:02:48+00:00"
+        },
+        {
+            "name": "afterlogic/aurora-module-ip-allow-list",
+            "version": "0.10.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/afterlogic/aurora-module-ip-allow-list",
+                "reference": "tags/0.10.12"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/afterlogic/aurora-module-ip-allow-list/archive/0.10.12.zip"
+            },
+            "require": {
+                "afterlogic/aurora-framework": "~0.10.0",
+                "php": ">=5.4.0"
+            },
+            "type": "aurora-module",
+            "extra": {
+                "installer-name": "IPAllowList"
+            },
+            "autoload": {
+                "classmap": [
+                    "/"
+                ]
+            },
+            "time": "2023-06-13T10:32:09+00:00"
         },
         {
             "name": "afterlogic/aurora-module-mail",
@@ -1107,6 +1134,33 @@
                 ]
             },
             "time": "2023-04-28T15:49:16+00:00"
+        },
+        {
+            "name": "afterlogic/aurora-module-webclient-security-settings",
+            "version": "0.10.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/afterlogic/aurora-module-webclient-security-settings",
+                "reference": "tags/0.10.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/afterlogic/aurora-module-webclient-security-settings/archive/0.10.7.zip"
+            },
+            "require": {
+                "afterlogic/aurora-framework": "~0.10.0",
+                "php": ">=5.4.0"
+            },
+            "type": "aurora-module",
+            "extra": {
+                "installer-name": "SecuritySettingsWebclient"
+            },
+            "autoload": {
+                "classmap": [
+                    "/"
+                ]
+            },
+            "time": "2023-08-29T19:55:51+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-session-timeout",

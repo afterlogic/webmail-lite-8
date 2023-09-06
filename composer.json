@@ -90,7 +90,9 @@
 		
 		"afterlogic/aurora-module-override-user-settings": "~0.10.0",
 		"afterlogic/dav": "~4.0.0",
-		"afterlogic/aurora-module-standard-reset-password": "~0.10.0"
+		"afterlogic/aurora-module-standard-reset-password": "~0.10.0",
+		"afterlogic/aurora-module-webclient-security-settings": "~0.10.0",
+		"afterlogic/aurora-module-ip-allow-list": "~0.10.0"
 	},
 	"scripts": {
 		"post-install-cmd": "@pre-config",

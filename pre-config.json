@@ -82,6 +82,12 @@
 			"UseDropdownLanguagesView": true,
 			"BottomInfoHtmlText": "Powered by <a href=\"https:\/\/afterlogic.com\/webmail-lite\" target=\"_blank\">Afterlogic WebMail Lite</a>"
 		},
+		"SecuritySettingsWebclient": {
+			"Disabled": true
+		},
+		"IPAllowList": {
+			"Disabled": true
+		},
 		"TwoFactorAuth": {
 			"Disabled": true,
 			"FacetIds": [
