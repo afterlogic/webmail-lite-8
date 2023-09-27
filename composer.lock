@@ -28,15 +28,15 @@
         },
         {
             "name": "afterlogic/aurora-framework",
-            "version": "0.10.112",
+            "version": "0.10.113",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-framework",
-                "reference": "tags/0.10.112"
+                "reference": "tags/0.10.113"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.112.zip"
+                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.113.zip"
             },
             "require": {
                 "afterlogic/mailso": "^1.4",
@@ -62,7 +62,7 @@
                     "Installer.php"
                 ]
             },
-            "time": "2023-09-05T18:25:36+00:00"
+            "time": "2023-09-21T10:33:57+00:00"
         },
         {
             "name": "afterlogic/aurora-module-admin-auth",
@@ -318,15 +318,15 @@
         },
         {
             "name": "afterlogic/aurora-module-mail",
-            "version": "0.10.118",
+            "version": "0.10.119",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-mail",
-                "reference": "tags/0.10.118"
+                "reference": "tags/0.10.119"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-mail/archive/0.10.118.zip"
+                "url": "https://github.com/afterlogic/aurora-module-mail/archive/0.10.119.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.86",
@@ -342,7 +342,7 @@
                     "/"
                 ]
             },
-            "time": "2023-08-18T10:59:40+00:00"
+            "time": "2023-09-25T07:09:51+00:00"
         },
         {
             "name": "afterlogic/aurora-module-mail-auth-cpanel",
@@ -759,15 +759,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-contacts",
-            "version": "0.10.39",
+            "version": "0.10.40",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-contacts",
-                "reference": "tags/0.10.39"
+                "reference": "tags/0.10.40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/0.10.39.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/0.10.40.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -782,19 +782,19 @@
                     "/"
                 ]
             },
-            "time": "2023-05-23T17:45:46+00:00"
+            "time": "2023-09-25T08:56:06+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
-            "version": "0.10.111",
+            "version": "0.10.112",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-core",
-                "reference": "tags/0.10.111"
+                "reference": "tags/0.10.112"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.111.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.112.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -809,7 +809,7 @@
                     "/"
                 ]
             },
-            "time": "2023-09-04T18:54:39+00:00"
+            "time": "2023-09-26T10:03:04+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-dropbox-auth",
@@ -921,15 +921,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail",
-            "version": "0.10.112",
+            "version": "0.10.113",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-mail",
-                "reference": "tags/0.10.112"
+                "reference": "tags/0.10.113"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.10.112.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.10.113.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0"
@@ -943,7 +943,7 @@
                     "/"
                 ]
             },
-            "time": "2023-08-29T17:19:51+00:00"
+            "time": "2023-09-26T19:19:02+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail-login-form",
@@ -2553,16 +2553,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.316.0",
+            "version": "v0.317.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "08e3579d94363716cef2bc79643f3d30fdd914b5"
+                "reference": "a11658da6e5ba713e3d636544895bb0af3c27689"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/08e3579d94363716cef2bc79643f3d30fdd914b5",
-                "reference": "08e3579d94363716cef2bc79643f3d30fdd914b5",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/a11658da6e5ba713e3d636544895bb0af3c27689",
+                "reference": "a11658da6e5ba713e3d636544895bb0af3c27689",
                 "shasum": ""
             },
             "require": {
@@ -2591,9 +2591,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.316.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.317.0"
             },
-            "time": "2023-09-17T01:06:13+00:00"
+            "time": "2023-09-24T01:06:13+00:00"
         },
         {
             "name": "google/auth",
@@ -4383,16 +4383,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.70.0",
+            "version": "2.71.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "d3298b38ea8612e5f77d38d1a99438e42f70341d"
+                "reference": "98276233188583f2ff845a0f992a235472d9466a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/d3298b38ea8612e5f77d38d1a99438e42f70341d",
-                "reference": "d3298b38ea8612e5f77d38d1a99438e42f70341d",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/98276233188583f2ff845a0f992a235472d9466a",
+                "reference": "98276233188583f2ff845a0f992a235472d9466a",
                 "shasum": ""
             },
             "require": {
@@ -4485,7 +4485,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-09-07T16:43:50+00:00"
+            "time": "2023-09-25T11:31:05+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -5133,16 +5133,16 @@
         },
         {
             "name": "phpstan/phpdoc-parser",
-            "version": "1.24.1",
+            "version": "1.24.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpdoc-parser.git",
-                "reference": "9f854d275c2dbf84915a5c0ec9a2d17d2cd86b01"
+                "reference": "bcad8d995980440892759db0c32acae7c8e79442"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/9f854d275c2dbf84915a5c0ec9a2d17d2cd86b01",
-                "reference": "9f854d275c2dbf84915a5c0ec9a2d17d2cd86b01",
+                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/bcad8d995980440892759db0c32acae7c8e79442",
+                "reference": "bcad8d995980440892759db0c32acae7c8e79442",
                 "shasum": ""
             },
             "require": {
@@ -5174,9 +5174,9 @@
             "description": "PHPDoc parser with support for nullable, intersection and generic types",
             "support": {
                 "issues": "https://github.com/phpstan/phpdoc-parser/issues",
-                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.24.1"
+                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.24.2"
             },
-            "time": "2023-09-18T12:18:02+00:00"
+            "time": "2023-09-26T12:28:12+00:00"
         },
         {
             "name": "plesk/api-php-lib",
@@ -5519,16 +5519,16 @@
         },
         {
             "name": "psr/http-client",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-client.git",
-                "reference": "0955afe48220520692d2d09f7ab7e0f93ffd6a31"
+                "reference": "bb5906edc1c324c9a05aa0873d40117941e5fa90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-client/zipball/0955afe48220520692d2d09f7ab7e0f93ffd6a31",
-                "reference": "0955afe48220520692d2d09f7ab7e0f93ffd6a31",
+                "url": "https://api.github.com/repos/php-fig/http-client/zipball/bb5906edc1c324c9a05aa0873d40117941e5fa90",
+                "reference": "bb5906edc1c324c9a05aa0873d40117941e5fa90",
                 "shasum": ""
             },
             "require": {
@@ -5565,9 +5565,9 @@
                 "psr-18"
             ],
             "support": {
-                "source": "https://github.com/php-fig/http-client/tree/1.0.2"
+                "source": "https://github.com/php-fig/http-client"
             },
-            "time": "2023-04-10T20:12:12+00:00"
+            "time": "2023-09-23T14:17:50+00:00"
         },
         {
             "name": "psr/http-factory",
