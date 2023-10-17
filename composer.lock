@@ -1000,15 +1000,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail-tnef-plugin",
-            "version": "0.10.10",
+            "version": "0.10.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-mail-tnef-plugin",
-                "reference": "tags/0.10.10"
+                "reference": "tags/0.10.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-mail-tnef-plugin/archive/0.10.10.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-mail-tnef-plugin/archive/0.10.11.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1024,7 +1024,7 @@
                     "/"
                 ]
             },
-            "time": "2023-09-18T15:35:10+00:00"
+            "time": "2023-10-16T17:05:18+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail-zip-plugin",
@@ -2553,16 +2553,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.319.0",
+            "version": "v0.320.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "9206f4d8cfacbec3c494d68f1758b2c8ca5b179d"
+                "reference": "6b0ea59d53b301cf1a8f7e0456ff1bd8f5613fdf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/9206f4d8cfacbec3c494d68f1758b2c8ca5b179d",
-                "reference": "9206f4d8cfacbec3c494d68f1758b2c8ca5b179d",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/6b0ea59d53b301cf1a8f7e0456ff1bd8f5613fdf",
+                "reference": "6b0ea59d53b301cf1a8f7e0456ff1bd8f5613fdf",
                 "shasum": ""
             },
             "require": {
@@ -2591,22 +2591,22 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.319.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.320.0"
             },
-            "time": "2023-10-08T01:02:14+00:00"
+            "time": "2023-10-15T01:06:13+00:00"
         },
         {
             "name": "google/auth",
-            "version": "v1.31.0",
+            "version": "v1.32.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-auth-library-php.git",
-                "reference": "22209fddd0c06f3f8e3cb4aade0b352aa00f9888"
+                "reference": "b88250090d834add55e4ad31f84190d51f617fca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/22209fddd0c06f3f8e3cb4aade0b352aa00f9888",
-                "reference": "22209fddd0c06f3f8e3cb4aade0b352aa00f9888",
+                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/b88250090d834add55e4ad31f84190d51f617fca",
+                "reference": "b88250090d834add55e4ad31f84190d51f617fca",
                 "shasum": ""
             },
             "require": {
@@ -2649,9 +2649,9 @@
             "support": {
                 "docs": "https://googleapis.github.io/google-auth-library-php/main/",
                 "issues": "https://github.com/googleapis/google-auth-library-php/issues",
-                "source": "https://github.com/googleapis/google-auth-library-php/tree/v1.31.0"
+                "source": "https://github.com/googleapis/google-auth-library-php/tree/v1.32.0"
             },
-            "time": "2023-10-05T20:39:00+00:00"
+            "time": "2023-10-16T18:38:15+00:00"
         },
         {
             "name": "google/recaptcha",
