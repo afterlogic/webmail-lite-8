@@ -1,3 +1,11 @@
+[9.7.5]
+[*] Email attachments and files visual layout overhaul
+[*] SQL query sanitization reworked
+[*] Fixed issue with inline images
+[*] Fixed issue with non-ASCII filenames within TNEF attachments
+[*] Fixed issue with expanding TNEF attachments
+[*] Various fixes and improvements
+
 [9.7.4]
 [+] Grouped security-related modules in user settings
 [*] Improved rendering of Outlook message
