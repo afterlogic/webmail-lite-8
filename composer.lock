@@ -318,15 +318,15 @@
         },
         {
             "name": "afterlogic/aurora-module-mail",
-            "version": "0.10.119",
+            "version": "0.10.121",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-mail",
-                "reference": "tags/0.10.119"
+                "reference": "tags/0.10.121"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-mail/archive/0.10.119.zip"
+                "url": "https://github.com/afterlogic/aurora-module-mail/archive/0.10.121.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.86",
@@ -342,7 +342,7 @@
                     "/"
                 ]
             },
-            "time": "2023-09-25T07:09:51+00:00"
+            "time": "2023-10-19T12:22:22+00:00"
         },
         {
             "name": "afterlogic/aurora-module-mail-auth-cpanel",
@@ -921,15 +921,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail",
-            "version": "0.10.115",
+            "version": "0.10.117",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-mail",
-                "reference": "tags/0.10.115"
+                "reference": "tags/0.10.117"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.10.115.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.10.117.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0"
@@ -943,7 +943,7 @@
                     "/"
                 ]
             },
-            "time": "2023-10-17T09:19:55+00:00"
+            "time": "2023-10-18T17:07:04+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail-login-form",
