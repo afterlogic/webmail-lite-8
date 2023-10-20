@@ -14,13 +14,19 @@
     "js:build": "node -e \"require('./modules/CoreWebclient/gulp-tasks/javascript.js').default.build()\"",
     "js:min": "node -e \"require('./modules/CoreWebclient/gulp-tasks/javascript.js').default.min()\"",
     "js:watch": "node -e \"require('./modules/CoreWebclient/gulp-tasks/javascript.js').default.watch()\"",
+    "js:serve": "node -e \"require('./modules/CoreWebclient/gulp-tasks/javascript.js').default.serve()\"",
     "styles:build": "node -e \"require('./modules/CoreWebclient/gulp-tasks/styles.js').default.build()\"",
     "styles:cssonly": "node -e \"require('./modules/CoreWebclient/gulp-tasks/styles.js').default.cssonly()\"",
     "styles:watch": "node -e \"require('./modules/CoreWebclient/gulp-tasks/styles.js').default.watch()\""
   },
   "dependencies": {
-    "corewebclient": "file:./modules/CoreWebclient"
+    "corewebclient": "file:./modules/CoreWebclient",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "vue-loader": "^17.3.0",
+    "vue-template-compiler": "^2.7.14",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
   }
 }
-
-
