@@ -759,15 +759,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-contacts",
-            "version": "0.10.41",
+            "version": "0.10.42",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-contacts",
-                "reference": "tags/0.10.41"
+                "reference": "tags/0.10.42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/0.10.41.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/0.10.42.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -782,7 +782,7 @@
                     "/"
                 ]
             },
-            "time": "2023-10-05T20:54:27+00:00"
+            "time": "2023-10-23T11:39:33+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
