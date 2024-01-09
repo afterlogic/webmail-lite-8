@@ -1,6 +1,6 @@
 parameters:
 	editorUrl: 'code -r -g %%file%%:%%line%%'
-	level: 0
+	level: 2
 	paths:
 		- modules
 		- system
