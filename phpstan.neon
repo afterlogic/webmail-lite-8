@@ -15,3 +15,10 @@ parameters:
 		- Sabre\VObject\Component\VCard
 		- \Sabre\VObject\Component\VEvent
 		- \Sabre\VObject\Component\VCalendar
+	# if set to false suppresses 'No error to ignore' errors
+	reportUnmatchedIgnoredErrors: true
+	ignoreErrors:
+		-
+			message: '#Property Aurora\\System\\Utils\\Ldap#'
+			reportUnmatched: false
+			path: system/Utils/Ldap.php
