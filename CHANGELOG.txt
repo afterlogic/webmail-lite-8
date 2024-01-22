@@ -4,7 +4,6 @@
 [+] Time format settings are now correctly applied throughout the interface
 [+] Password reset functionality support added to all existing password change modules
 [*] Fixed issue with CalDAV/CardDAV links displayed in account settings
-[*] Fixed "Unknown error" displayed in adminpanel
 [*] Corrected an issue with disabling a Sieve filter
 [*] Improved FailedLoginBlock limitations
 [*] Fixed issues with messages from Unified Inbox opened in a new window
