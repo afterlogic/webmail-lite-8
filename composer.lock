@@ -4,19 +4,19 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d52ba4caa210f62bed3fc6813b9936d1",
+    "content-hash": "96ce14cedb3ce90ce7597c662bb3b087",
     "packages": [
         {
             "name": "afterlogic/aurora-dev-tools",
-            "version": "0.10.3",
+            "version": "0.10.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-dev-tools",
-                "reference": "tags/0.10.3"
+                "reference": "tags/0.10.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-dev-tools/archive/0.10.3.zip"
+                "url": "https://github.com/afterlogic/aurora-dev-tools/archive/0.10.4.zip"
             },
             "require": {
                 "php": ">=5.4.0",
@@ -24,7 +24,7 @@
                 "squizlabs/php_codesniffer": "^2.0"
             },
             "type": "aurora-dev-tools",
-            "time": "2023-07-17T14:23:21+00:00"
+            "time": "2024-02-27T15:03:34+00:00"
         },
         {
             "name": "afterlogic/aurora-framework",
@@ -93,15 +93,15 @@
         },
         {
             "name": "afterlogic/aurora-module-contacts",
-            "version": "0.10.112",
+            "version": "0.10.114",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-contacts",
-                "reference": "tags/0.10.112"
+                "reference": "tags/0.10.114"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.112.zip"
+                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.114.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -117,7 +117,7 @@
                     "/"
                 ]
             },
-            "time": "2024-02-06T13:49:26+00:00"
+            "time": "2024-02-27T12:56:08+00:00"
         },
         {
             "name": "afterlogic/aurora-module-core",
@@ -174,6 +174,63 @@
                 ]
             },
             "time": "2024-01-10T09:42:12+00:00"
+        },
+        {
+            "name": "afterlogic/aurora-module-dav",
+            "version": "0.10.21",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/afterlogic/aurora-module-dav",
+                "reference": "tags/0.10.21"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/afterlogic/aurora-module-dav/archive/0.10.21.zip"
+            },
+            "require": {
+                "afterlogic/aurora-framework": "~0.10.0",
+                "afterlogic/dav": "3.*|4.*",
+                "php": ">=5.4.0"
+            },
+            "type": "aurora-module",
+            "extra": {
+                "installer-name": "Dav"
+            },
+            "autoload": {
+                "classmap": [
+                    "/"
+                ]
+            },
+            "time": "2024-01-11T15:34:48+00:00"
+        },
+        {
+            "name": "afterlogic/aurora-module-dav-contacts",
+            "version": "0.10.32",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/afterlogic/aurora-module-dav-contacts",
+                "reference": "tags/0.10.32"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/afterlogic/aurora-module-dav-contacts/archive/0.10.32.zip"
+            },
+            "require": {
+                "afterlogic/aurora-framework": "~0.10.0",
+                "afterlogic/aurora-module-dav": "~0.10.0",
+                "afterlogic/dav": "3.*|4.*",
+                "php": ">=5.4.0"
+            },
+            "type": "aurora-module",
+            "extra": {
+                "installer-name": "DavContacts"
+            },
+            "autoload": {
+                "classmap": [
+                    "/"
+                ]
+            },
+            "time": "2024-01-11T15:34:48+00:00"
         },
         {
             "name": "afterlogic/aurora-module-dropbox",
@@ -650,12 +707,12 @@
             "version": "0.10.23",
             "source": {
                 "type": "git",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-standard-reset-password",
+                "url": "https://github.com/afterlogic/aurora-module-standard-reset-password",
                 "reference": "tags/0.10.23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-standard-reset-password/archive/0.10.23.zip"
+                "url": "https://github.com/afterlogic/aurora-module-standard-reset-password/archive/0.10.23.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1272,16 +1329,16 @@
         },
         {
             "name": "afterlogic/dav",
-            "version": "4.0.70",
+            "version": "4.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/dav.git",
-                "reference": "1ce3cd19153317cf9bdf94e86189e6d890b64d64"
+                "reference": "0ba30663abcd50312fd0943c904a45f6140a657f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/dav/zipball/1ce3cd19153317cf9bdf94e86189e6d890b64d64",
-                "reference": "1ce3cd19153317cf9bdf94e86189e6d890b64d64",
+                "url": "https://api.github.com/repos/afterlogic/dav/zipball/0ba30663abcd50312fd0943c904a45f6140a657f",
+                "reference": "0ba30663abcd50312fd0943c904a45f6140a657f",
                 "shasum": ""
             },
             "require": {
@@ -1311,9 +1368,9 @@
             "homepage": "https://github.com/afterlogic/dav",
             "support": {
                 "issues": "https://github.com/afterlogic/dav/issues",
-                "source": "https://github.com/afterlogic/dav/tree/4.1.1"
+                "source": "https://github.com/afterlogic/dav/tree/4.1.3"
             },
-            "time": "2023-12-25T11:34:06+00:00"
+            "time": "2024-02-07T07:00:52+00:00"
         },
         {
             "name": "afterlogic/googleauthenticator",

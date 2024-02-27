@@ -16,6 +16,9 @@
 			"DefaultUserScreenHash": "mail",
 			"ThemeList": ["Default", "DefaultDark", "DeepForest", "Funny", "Sand"]
 		},
+		"Dav": {
+			"Disabled": true
+		},
 		"SessionTimeoutWebclient": {
 			"Disabled": true
 		},

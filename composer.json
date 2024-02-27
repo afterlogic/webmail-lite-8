@@ -53,6 +53,8 @@
 		"afterlogic/aurora-module-contacts": "~0.10.0",
 		"afterlogic/aurora-module-webclient-contacts": "~0.10.0",
 		"afterlogic/aurora-module-personal-contacts": "~0.10.0",
+		"afterlogic/aurora-module-dav": "~0.10.0",
+		"afterlogic/aurora-module-dav-contacts": "~0.10.0",
 		"afterlogic/aurora-module-core": "~0.10.0",
 		"afterlogic/aurora-module-webclient-core": "~0.10.93",
 		"afterlogic/aurora-module-dropbox": "~0.10.0",
@@ -89,7 +91,6 @@
 		"afterlogic/aurora-module-webclient-mail-login-form": "~0.10.0",
 		
 		"afterlogic/aurora-module-override-user-settings": "~0.10.0",
-		"afterlogic/dav": "~4.0.0",
 		"afterlogic/aurora-module-standard-reset-password": "~0.10.0",
 		"afterlogic/aurora-module-webclient-security-settings": "~0.10.0",
 		"afterlogic/aurora-module-ip-allow-list": "~0.10.0"
