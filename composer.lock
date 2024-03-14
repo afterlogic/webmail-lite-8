@@ -28,15 +28,15 @@
         },
         {
             "name": "afterlogic/aurora-framework",
-            "version": "0.10.121",
+            "version": "0.10.122",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-framework",
-                "reference": "tags/0.10.121"
+                "reference": "tags/0.10.122"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.121.zip"
+                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.122.zip"
             },
             "require": {
                 "afterlogic/mailso": "^1.4",
@@ -62,7 +62,7 @@
                     "Installer.php"
                 ]
             },
-            "time": "2024-03-01T09:07:55+00:00"
+            "time": "2024-03-14T20:11:49+00:00"
         },
         {
             "name": "afterlogic/aurora-module-admin-auth",
@@ -121,18 +121,18 @@
         },
         {
             "name": "afterlogic/aurora-module-core",
-            "version": "0.10.107",
+            "version": "0.10.108",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-core",
-                "reference": "tags/0.10.107"
+                "reference": "tags/0.10.108"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-core/archive/0.10.107.zip"
+                "url": "https://github.com/afterlogic/aurora-module-core/archive/0.10.108.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "^0.10.96",
+                "afterlogic/aurora-framework": "^0.10.122",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
@@ -144,7 +144,7 @@
                     "/"
                 ]
             },
-            "time": "2024-02-26T19:00:20+00:00"
+            "time": "2024-03-14T20:24:49+00:00"
         },
         {
             "name": "afterlogic/aurora-module-cpanel-integrator",
@@ -1166,18 +1166,18 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-recaptcha-plugin",
-            "version": "0.10.9",
+            "version": "0.10.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-recaptcha-plugin",
-                "reference": "tags/0.10.9"
+                "reference": "tags/0.10.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-recaptcha-plugin/archive/0.10.9.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-recaptcha-plugin/archive/0.10.10.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.10.0",
+                "afterlogic/aurora-framework": "^0.10.122",
                 "google/recaptcha": "^1.2",
                 "php": ">=5.4.0"
             },
@@ -1190,7 +1190,7 @@
                     "/"
                 ]
             },
-            "time": "2023-04-28T15:49:16+00:00"
+            "time": "2024-03-14T20:27:35+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-security-settings",
