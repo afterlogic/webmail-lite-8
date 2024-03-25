@@ -1,3 +1,16 @@
+[9.7.7]
+[+] Public links in Files now handle folder renaming
+[+] IP-allowlist added to all products
+[+] Modules that change mail passwords now support ResetPassword feature
+[+] Attendee friendly names are now shown in ICS preview panel
+[+] Support for moving contacts to user-created address books
+[*] Fixed Sent folder usage within the Scheduled Messages feature
+[*] Updated German translation
+[*] Updated Russian translation
+[*] Fixed systemd-related issue in Debian package
+[*] Improved sorting of contacts
+[*] Implemented security fixes
+
 [9.7.6]
 [+] New refactored contact storage model
 [+] Error logs are now available in adminpanel
