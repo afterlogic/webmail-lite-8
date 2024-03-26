@@ -816,15 +816,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-contacts",
-            "version": "0.10.46",
+            "version": "0.10.47",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-contacts",
-                "reference": "tags/0.10.46"
+                "reference": "tags/0.10.47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/0.10.46.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/0.10.47.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -839,7 +839,7 @@
                     "/"
                 ]
             },
-            "time": "2024-03-11T14:06:30+00:00"
+            "time": "2024-03-26T10:50:23+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
@@ -2679,16 +2679,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.340.0",
+            "version": "v0.341.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "c89999ea477da2b0803b2b4f14c9e7fc23b6344a"
+                "reference": "50dad3cd4a3902bd2df0d96e7dc09cdaa2ba79b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/c89999ea477da2b0803b2b4f14c9e7fc23b6344a",
-                "reference": "c89999ea477da2b0803b2b4f14c9e7fc23b6344a",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/50dad3cd4a3902bd2df0d96e7dc09cdaa2ba79b9",
+                "reference": "50dad3cd4a3902bd2df0d96e7dc09cdaa2ba79b9",
                 "shasum": ""
             },
             "require": {
@@ -2717,9 +2717,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.340.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.341.0"
             },
-            "time": "2024-03-17T00:56:17+00:00"
+            "time": "2024-03-24T01:08:16+00:00"
         },
         {
             "name": "google/auth",
@@ -8349,16 +8349,16 @@
     "packages-dev": [
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.64",
+            "version": "1.10.65",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "fb9f270daffedcb5ff46275dcafe92538b1bc4bb"
+                "reference": "3c657d057a0b7ecae19cb12db446bbc99d8839c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/fb9f270daffedcb5ff46275dcafe92538b1bc4bb",
-                "reference": "fb9f270daffedcb5ff46275dcafe92538b1bc4bb",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/3c657d057a0b7ecae19cb12db446bbc99d8839c6",
+                "reference": "3c657d057a0b7ecae19cb12db446bbc99d8839c6",
                 "shasum": ""
             },
             "require": {
@@ -8407,7 +8407,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-03-21T09:57:47+00:00"
+            "time": "2024-03-23T10:30:26+00:00"
         }
     ],
     "aliases": [],
