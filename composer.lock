@@ -1421,16 +1421,16 @@
         },
         {
             "name": "afterlogic/mailso",
-            "version": "1.5.66",
+            "version": "1.5.67",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/MailSo.git",
-                "reference": "cae67fc69bb8f8c8ea2280a806655326117d4b20"
+                "reference": "65807fd74a183fa8a554797fecdba56261d515ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/MailSo/zipball/cae67fc69bb8f8c8ea2280a806655326117d4b20",
-                "reference": "cae67fc69bb8f8c8ea2280a806655326117d4b20",
+                "url": "https://api.github.com/repos/afterlogic/MailSo/zipball/65807fd74a183fa8a554797fecdba56261d515ce",
+                "reference": "65807fd74a183fa8a554797fecdba56261d515ce",
                 "shasum": ""
             },
             "require": {
@@ -1460,9 +1460,9 @@
             "homepage": "https://github.com/afterlogic/mailso",
             "support": {
                 "issues": "https://github.com/afterlogic/MailSo/issues",
-                "source": "https://github.com/afterlogic/MailSo/tree/1.5.66"
+                "source": "https://github.com/afterlogic/MailSo/tree/1.5.67"
             },
-            "time": "2024-02-09T13:42:30+00:00"
+            "time": "2024-03-29T14:19:04+00:00"
         },
         {
             "name": "barryvdh/laravel-ide-helper",
