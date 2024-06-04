@@ -1,3 +1,13 @@
+[9.7.8]
+[+] QR code for 2FA is now generated independently from external vendors
+[+] Added an option for disabling user in adminpanel
+[+] Added Note field for user in adminpanel
+[+] Auth tokens are now invalidated when updating account password on login
+[*] Fixed issue with saving sent mail for scheduled messages
+[*] Fixed issue with logging user into Rocket.Chat
+[*] Fixed issue with closing a task
+[*] Various fixes and improvements
+
 [9.7.7]
 [+] Public links in Files now handle folder renaming
 [+] IP-allowlist added to all products
