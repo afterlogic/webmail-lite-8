@@ -66,15 +66,15 @@
         },
         {
             "name": "afterlogic/aurora-module-admin-auth",
-            "version": "0.10.12",
+            "version": "0.10.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-admin-auth",
-                "reference": "tags/0.10.12"
+                "reference": "tags/0.10.13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-admin-auth/archive/0.10.12.zip"
+                "url": "https://github.com/afterlogic/aurora-module-admin-auth/archive/0.10.13.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "^0.10.122",
@@ -89,7 +89,7 @@
                     "/"
                 ]
             },
-            "time": "2024-03-14T20:20:40+00:00"
+            "time": "2024-07-16T09:28:14+00:00"
         },
         {
             "name": "afterlogic/aurora-module-contacts",
@@ -484,15 +484,15 @@
         },
         {
             "name": "afterlogic/aurora-module-mail-notes-plugin",
-            "version": "0.10.16",
+            "version": "0.10.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-mail-notes-plugin",
-                "reference": "tags/0.10.16"
+                "reference": "tags/0.10.17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-mail-notes-plugin/archive/0.10.16.zip"
+                "url": "https://github.com/afterlogic/aurora-module-mail-notes-plugin/archive/0.10.17.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -507,7 +507,7 @@
                     "/"
                 ]
             },
-            "time": "2024-04-05T08:09:28+00:00"
+            "time": "2024-07-16T14:20:01+00:00"
         },
         {
             "name": "afterlogic/aurora-module-mail-save-message-as-pdf-plugin",
