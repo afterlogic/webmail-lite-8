@@ -28,15 +28,15 @@
         },
         {
             "name": "afterlogic/aurora-framework",
-            "version": "0.10.127",
+            "version": "0.10.128",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-framework",
-                "reference": "tags/0.10.127"
+                "reference": "tags/0.10.128"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.127.zip"
+                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.128.zip"
             },
             "require": {
                 "afterlogic/mailso": "^1.4",
@@ -62,7 +62,7 @@
                     "Installer.php"
                 ]
             },
-            "time": "2024-07-17T12:02:29+00:00"
+            "time": "2024-07-31T10:09:28+00:00"
         },
         {
             "name": "afterlogic/aurora-module-admin-auth",
@@ -374,15 +374,15 @@
         },
         {
             "name": "afterlogic/aurora-module-mail",
-            "version": "0.10.131",
+            "version": "0.10.132",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-mail",
-                "reference": "tags/0.10.131"
+                "reference": "tags/0.10.132"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-mail/archive/0.10.131.zip"
+                "url": "https://github.com/afterlogic/aurora-module-mail/archive/0.10.132.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.86",
@@ -398,7 +398,7 @@
                     "/"
                 ]
             },
-            "time": "2024-07-30T10:46:28+00:00"
+            "time": "2024-08-01T08:32:11+00:00"
         },
         {
             "name": "afterlogic/aurora-module-mail-auth-cpanel",
@@ -977,15 +977,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail",
-            "version": "0.10.127",
+            "version": "0.10.128",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-mail",
-                "reference": "tags/0.10.127"
+                "reference": "tags/0.10.128"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.10.127.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.10.128.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0"
@@ -999,7 +999,7 @@
                     "/"
                 ]
             },
-            "time": "2024-04-03T14:44:29+00:00"
+            "time": "2024-07-23T06:59:13+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail-login-form",
