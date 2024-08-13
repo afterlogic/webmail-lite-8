@@ -28,15 +28,15 @@
         },
         {
             "name": "afterlogic/aurora-framework",
-            "version": "0.10.128",
+            "version": "0.10.129",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-framework",
-                "reference": "tags/0.10.128"
+                "reference": "tags/0.10.129"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.128.zip"
+                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.129.zip"
             },
             "require": {
                 "afterlogic/mailso": "^1.4",
@@ -62,7 +62,7 @@
                     "Installer.php"
                 ]
             },
-            "time": "2024-07-31T10:09:28+00:00"
+            "time": "2024-08-08T13:21:48+00:00"
         },
         {
             "name": "afterlogic/aurora-module-admin-auth",
@@ -374,15 +374,15 @@
         },
         {
             "name": "afterlogic/aurora-module-mail",
-            "version": "0.10.132",
+            "version": "0.10.133",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-mail",
-                "reference": "tags/0.10.132"
+                "reference": "tags/0.10.133"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-mail/archive/0.10.132.zip"
+                "url": "https://github.com/afterlogic/aurora-module-mail/archive/0.10.133.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.86",
@@ -398,7 +398,7 @@
                     "/"
                 ]
             },
-            "time": "2024-08-01T08:32:11+00:00"
+            "time": "2024-08-01T17:55:44+00:00"
         },
         {
             "name": "afterlogic/aurora-module-mail-auth-cpanel",
@@ -675,15 +675,15 @@
         },
         {
             "name": "afterlogic/aurora-module-personal-contacts",
-            "version": "0.10.29",
+            "version": "0.10.30",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-personal-contacts",
-                "reference": "tags/0.10.29"
+                "reference": "tags/0.10.30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-personal-contacts/archive/0.10.29.zip"
+                "url": "https://github.com/afterlogic/aurora-module-personal-contacts/archive/0.10.30.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -699,7 +699,7 @@
                     "/"
                 ]
             },
-            "time": "2024-08-07T07:21:13+00:00"
+            "time": "2024-08-13T17:23:03+00:00"
         },
         {
             "name": "afterlogic/aurora-module-standard-reset-password",
