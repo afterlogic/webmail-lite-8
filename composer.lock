@@ -93,15 +93,15 @@
         },
         {
             "name": "afterlogic/aurora-module-contacts",
-            "version": "0.10.123",
+            "version": "0.10.124",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-contacts",
-                "reference": "tags/0.10.123"
+                "reference": "tags/0.10.124"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.123.zip"
+                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.124.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -117,7 +117,7 @@
                     "/"
                 ]
             },
-            "time": "2024-07-02T12:09:15+00:00"
+            "time": "2024-08-21T10:14:19+00:00"
         },
         {
             "name": "afterlogic/aurora-module-core",
@@ -1138,15 +1138,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-openpgp",
-            "version": "0.10.46",
+            "version": "0.10.47",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp",
-                "reference": "tags/0.10.46"
+                "reference": "tags/0.10.47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp/archive/0.10.46.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp/archive/0.10.47.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
