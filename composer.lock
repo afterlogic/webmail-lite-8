@@ -457,15 +457,15 @@
         },
         {
             "name": "afterlogic/aurora-module-mail-master-password",
-            "version": "0.10.19",
+            "version": "0.10.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-mail-master-password",
-                "reference": "tags/0.10.19"
+                "reference": "tags/0.10.20"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-mail-master-password/archive/0.10.19.zip"
+                "url": "https://github.com/afterlogic/aurora-module-mail-master-password/archive/0.10.20.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "^0.10.96",
@@ -480,7 +480,7 @@
                     "/"
                 ]
             },
-            "time": "2024-07-19T11:14:30+00:00"
+            "time": "2024-08-26T08:03:02+00:00"
         },
         {
             "name": "afterlogic/aurora-module-mail-notes-plugin",
