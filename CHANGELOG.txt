@@ -1,3 +1,13 @@
+[9.8.0]
+[+] Allow for updating passwords for linked email accounts
+[*] Security-related improvements for password encryption
+[*] Corrected an issue with removing collected contacts from a dropdown list
+[*] Corrected an issue that allowed unauthorized users to create email notes
+[*] Improved blocking user after multiple failed login attempts
+[*] Added logging of IPAllowList access errors
+[*] Improved XSS protection in mail viewer
+[*] Various fixes and improvements
+
 [9.7.8]
 [+] QR code for 2FA is now generated independently from external vendors
 [+] Added an option for disabling user in adminpanel
