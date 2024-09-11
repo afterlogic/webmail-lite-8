@@ -1328,16 +1328,16 @@
         },
         {
             "name": "afterlogic/dav",
-            "version": "4.1.10",
+            "version": "4.1.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/dav.git",
-                "reference": "26907fc95db354376c49fd6ce434509bf63a365a"
+                "reference": "620f735c346e6af02127cb40bff2bbe8dc34ee08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/dav/zipball/26907fc95db354376c49fd6ce434509bf63a365a",
-                "reference": "26907fc95db354376c49fd6ce434509bf63a365a",
+                "url": "https://api.github.com/repos/afterlogic/dav/zipball/620f735c346e6af02127cb40bff2bbe8dc34ee08",
+                "reference": "620f735c346e6af02127cb40bff2bbe8dc34ee08",
                 "shasum": ""
             },
             "require": {
@@ -1367,9 +1367,9 @@
             "homepage": "https://github.com/afterlogic/dav",
             "support": {
                 "issues": "https://github.com/afterlogic/dav/issues",
-                "source": "https://github.com/afterlogic/dav/tree/4.1.10"
+                "source": "https://github.com/afterlogic/dav/tree/4.1.9"
             },
-            "time": "2024-07-03T09:46:34+00:00"
+            "time": "2024-07-03T09:46:18+00:00"
         },
         {
             "name": "afterlogic/googleauthenticator",
