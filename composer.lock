@@ -93,15 +93,15 @@
         },
         {
             "name": "afterlogic/aurora-module-contacts",
-            "version": "0.10.124",
+            "version": "0.10.125",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-contacts",
-                "reference": "tags/0.10.124"
+                "reference": "tags/0.10.125"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.124.zip"
+                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.125.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -117,7 +117,7 @@
                     "/"
                 ]
             },
-            "time": "2024-08-21T10:14:19+00:00"
+            "time": "2024-08-23T11:35:20+00:00"
         },
         {
             "name": "afterlogic/aurora-module-core",
@@ -1332,12 +1332,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/dav.git",
-                "reference": "26907fc95db354376c49fd6ce434509bf63a365a"
+                "reference": "da00382ed550583a4688f5176e188bf46297574d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/dav/zipball/26907fc95db354376c49fd6ce434509bf63a365a",
-                "reference": "26907fc95db354376c49fd6ce434509bf63a365a",
+                "url": "https://api.github.com/repos/afterlogic/dav/zipball/da00382ed550583a4688f5176e188bf46297574d",
+                "reference": "da00382ed550583a4688f5176e188bf46297574d",
                 "shasum": ""
             },
             "require": {
@@ -1369,7 +1369,7 @@
                 "issues": "https://github.com/afterlogic/dav/issues",
                 "source": "https://github.com/afterlogic/dav/tree/4.1.10"
             },
-            "time": "2024-07-03T09:46:34+00:00"
+            "time": "2024-10-21T20:09:07+00:00"
         },
         {
             "name": "afterlogic/googleauthenticator",
