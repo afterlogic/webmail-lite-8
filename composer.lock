@@ -121,15 +121,15 @@
         },
         {
             "name": "afterlogic/aurora-module-core",
-            "version": "0.10.124",
+            "version": "0.10.125",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-core",
-                "reference": "tags/0.10.124"
+                "reference": "tags/0.10.125"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-core/archive/0.10.124.zip"
+                "url": "https://github.com/afterlogic/aurora-module-core/archive/0.10.125.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "^0.10.122",
@@ -144,19 +144,19 @@
                     "/"
                 ]
             },
-            "time": "2024-11-22T17:17:38+00:00"
+            "time": "2024-11-29T07:46:44+00:00"
         },
         {
             "name": "afterlogic/aurora-module-cpanel-integrator",
-            "version": "0.10.43",
+            "version": "0.10.44",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-cpanel-integrator",
-                "reference": "tags/0.10.43"
+                "reference": "tags/0.10.44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-cpanel-integrator/archive/0.10.43.zip"
+                "url": "https://github.com/afterlogic/aurora-module-cpanel-integrator/archive/0.10.44.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -173,7 +173,7 @@
                     "/"
                 ]
             },
-            "time": "2024-11-18T15:15:47+00:00"
+            "time": "2024-12-05T13:46:42+00:00"
         },
         {
             "name": "afterlogic/aurora-module-dav",
@@ -761,15 +761,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-adminpanel",
-            "version": "0.10.96",
+            "version": "0.10.98",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel",
-                "reference": "tags/0.10.96"
+                "reference": "tags/0.10.98"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel/archive/0.10.96.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel/archive/0.10.98.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -784,7 +784,7 @@
                     "/"
                 ]
             },
-            "time": "2024-10-30T08:22:09+00:00"
+            "time": "2024-11-29T16:03:44+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-change-password",
@@ -2180,29 +2180,27 @@
         },
         {
             "name": "doctrine/deprecations",
-            "version": "1.1.3",
+            "version": "1.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/deprecations.git",
-                "reference": "dfbaa3c2d2e9a9df1118213f3b8b0c597bb99fab"
+                "reference": "31610dbb31faa98e6b5447b62340826f54fbc4e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/deprecations/zipball/dfbaa3c2d2e9a9df1118213f3b8b0c597bb99fab",
-                "reference": "dfbaa3c2d2e9a9df1118213f3b8b0c597bb99fab",
+                "url": "https://api.github.com/repos/doctrine/deprecations/zipball/31610dbb31faa98e6b5447b62340826f54fbc4e9",
+                "reference": "31610dbb31faa98e6b5447b62340826f54fbc4e9",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1 || ^8.0"
             },
             "require-dev": {
-                "doctrine/coding-standard": "^9",
-                "phpstan/phpstan": "1.4.10 || 1.10.15",
-                "phpstan/phpstan-phpunit": "^1.0",
+                "doctrine/coding-standard": "^9 || ^12",
+                "phpstan/phpstan": "1.4.10 || 2.0.3",
+                "phpstan/phpstan-phpunit": "^1.0 || ^2",
                 "phpunit/phpunit": "^7.5 || ^8.5 || ^9.5",
-                "psalm/plugin-phpunit": "0.18.4",
-                "psr/log": "^1 || ^2 || ^3",
-                "vimeo/psalm": "4.30.0 || 5.12.0"
+                "psr/log": "^1 || ^2 || ^3"
             },
             "suggest": {
                 "psr/log": "Allows logging deprecations via PSR-3 logger implementation"
@@ -2210,7 +2208,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Doctrine\\Deprecations\\": "lib/Doctrine/Deprecations"
+                    "Doctrine\\Deprecations\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2221,9 +2219,9 @@
             "homepage": "https://www.doctrine-project.org/",
             "support": {
                 "issues": "https://github.com/doctrine/deprecations/issues",
-                "source": "https://github.com/doctrine/deprecations/tree/1.1.3"
+                "source": "https://github.com/doctrine/deprecations/tree/1.1.4"
             },
-            "time": "2024-01-30T19:34:25+00:00"
+            "time": "2024-12-07T21:18:45+00:00"
         },
         {
             "name": "doctrine/event-manager",
@@ -4047,16 +4045,16 @@
             },
             "type": "library",
             "extra": {
-                "branch-alias": {
-                    "dev-master": "2.4-dev"
-                },
                 "laravel": {
-                    "providers": [
-                        "Intervention\\Image\\ImageServiceProvider"
-                    ],
                     "aliases": {
                         "Image": "Intervention\\Image\\Facades\\Image"
-                    }
+                    },
+                    "providers": [
+                        "Intervention\\Image\\ImageServiceProvider"
+                    ]
+                },
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
                 }
             },
             "autoload": {
@@ -6713,16 +6711,16 @@
         },
         {
             "name": "symfony/deprecation-contracts",
-            "version": "v2.5.3",
+            "version": "v2.5.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/deprecation-contracts.git",
-                "reference": "80d075412b557d41002320b96a096ca65aa2c98d"
+                "reference": "605389f2a7e5625f273b53960dc46aeaf9c62918"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/80d075412b557d41002320b96a096ca65aa2c98d",
-                "reference": "80d075412b557d41002320b96a096ca65aa2c98d",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/605389f2a7e5625f273b53960dc46aeaf9c62918",
+                "reference": "605389f2a7e5625f273b53960dc46aeaf9c62918",
                 "shasum": ""
             },
             "require": {
@@ -6760,7 +6758,7 @@
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/deprecation-contracts/tree/v2.5.3"
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v2.5.4"
             },
             "funding": [
                 {
@@ -6776,7 +6774,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-24T14:02:46+00:00"
+            "time": "2024-09-25T14:11:13+00:00"
         },
         {
             "name": "symfony/filesystem",
@@ -6896,16 +6894,16 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v5.4.46",
+            "version": "v5.4.48",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "168b77c71e6f02d8fc479db78beaf742a37d3cab"
+                "reference": "3f38b8af283b830e1363acd79e5bc3412d055341"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/168b77c71e6f02d8fc479db78beaf742a37d3cab",
-                "reference": "168b77c71e6f02d8fc479db78beaf742a37d3cab",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/3f38b8af283b830e1363acd79e5bc3412d055341",
+                "reference": "3f38b8af283b830e1363acd79e5bc3412d055341",
                 "shasum": ""
             },
             "require": {
@@ -6952,7 +6950,7 @@
             "description": "Defines an object-oriented layer for the HTTP specification",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/http-foundation/tree/v5.4.46"
+                "source": "https://github.com/symfony/http-foundation/tree/v5.4.48"
             },
             "funding": [
                 {
@@ -6968,7 +6966,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-11-05T15:52:21+00:00"
+            "time": "2024-11-13T18:58:02+00:00"
         },
         {
             "name": "symfony/mime",
@@ -7676,16 +7674,16 @@
         },
         {
             "name": "symfony/service-contracts",
-            "version": "v2.5.3",
+            "version": "v2.5.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/service-contracts.git",
-                "reference": "a2329596ddc8fd568900e3fc76cba42489ecc7f3"
+                "reference": "f37b419f7aea2e9abf10abd261832cace12e3300"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/a2329596ddc8fd568900e3fc76cba42489ecc7f3",
-                "reference": "a2329596ddc8fd568900e3fc76cba42489ecc7f3",
+                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/f37b419f7aea2e9abf10abd261832cace12e3300",
+                "reference": "f37b419f7aea2e9abf10abd261832cace12e3300",
                 "shasum": ""
             },
             "require": {
@@ -7739,7 +7737,7 @@
                 "standards"
             ],
             "support": {
-                "source": "https://github.com/symfony/service-contracts/tree/v2.5.3"
+                "source": "https://github.com/symfony/service-contracts/tree/v2.5.4"
             },
             "funding": [
                 {
@@ -7755,7 +7753,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-04-21T15:04:16+00:00"
+            "time": "2024-09-25T14:11:13+00:00"
         },
         {
             "name": "symfony/string",
@@ -7942,16 +7940,16 @@
         },
         {
             "name": "symfony/translation-contracts",
-            "version": "v2.5.3",
+            "version": "v2.5.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation-contracts.git",
-                "reference": "b0073a77ac0b7ea55131020e87b1e3af540f4664"
+                "reference": "450d4172653f38818657022252f9d81be89ee9a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation-contracts/zipball/b0073a77ac0b7ea55131020e87b1e3af540f4664",
-                "reference": "b0073a77ac0b7ea55131020e87b1e3af540f4664",
+                "url": "https://api.github.com/repos/symfony/translation-contracts/zipball/450d4172653f38818657022252f9d81be89ee9a8",
+                "reference": "450d4172653f38818657022252f9d81be89ee9a8",
                 "shasum": ""
             },
             "require": {
@@ -8000,7 +7998,7 @@
                 "standards"
             ],
             "support": {
-                "source": "https://github.com/symfony/translation-contracts/tree/v2.5.3"
+                "source": "https://github.com/symfony/translation-contracts/tree/v2.5.4"
             },
             "funding": [
                 {
@@ -8016,7 +8014,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-01-23T13:51:25+00:00"
+            "time": "2024-09-25T14:11:13+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -8149,16 +8147,16 @@
     "packages-dev": [
         {
             "name": "phpstan/phpstan",
-            "version": "1.12.11",
+            "version": "1.12.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "0d1fc20a962a91be578bcfe7cf939e6e1a2ff733"
+                "reference": "b5ae1b88f471d3fd4ba1aa0046234b5ca3776dd0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/0d1fc20a962a91be578bcfe7cf939e6e1a2ff733",
-                "reference": "0d1fc20a962a91be578bcfe7cf939e6e1a2ff733",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/b5ae1b88f471d3fd4ba1aa0046234b5ca3776dd0",
+                "reference": "b5ae1b88f471d3fd4ba1aa0046234b5ca3776dd0",
                 "shasum": ""
             },
             "require": {
@@ -8203,7 +8201,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-11-17T14:08:01+00:00"
+            "time": "2024-11-28T22:13:23+00:00"
         }
     ],
     "aliases": [],
