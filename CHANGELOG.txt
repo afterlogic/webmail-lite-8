@@ -1,3 +1,15 @@
+[9.8.1]
+[+] Added a blockquote feature in message editor
+[*] Improved security of the authentication token cookie
+[*] Fixed automatic account creation in RocketChat module
+[*] Fixed issue with Collected addresses displayed in All contacts
+[*] Fixed removing contacts from suggestion dropdown
+[*] Fixed issue with updating signature
+[*] Fixed multiple issues with the use of code deprecated in PHP 8.2 and 8.3
+[*] Fixed issue with default calendar used by ActiveServer
+[*] Corrected issues with deleting the only tenant
+[*] Miscellaneous bugfixes and improvements
+
 [9.8.0]
 [+] Allow for updating passwords for linked email accounts
 [*] Security-related improvements for password encryption
