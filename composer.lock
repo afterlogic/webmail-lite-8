@@ -93,15 +93,15 @@
         },
         {
             "name": "afterlogic/aurora-module-contacts",
-            "version": "0.10.130",
+            "version": "0.10.131",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-contacts",
-                "reference": "tags/0.10.130"
+                "reference": "tags/0.10.131"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.130.zip"
+                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.131.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -117,7 +117,7 @@
                     "/"
                 ]
             },
-            "time": "2024-12-18T14:07:51+00:00"
+            "time": "2024-12-19T05:40:13+00:00"
         },
         {
             "name": "afterlogic/aurora-module-core",
