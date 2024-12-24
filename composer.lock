@@ -93,15 +93,15 @@
         },
         {
             "name": "afterlogic/aurora-module-contacts",
-            "version": "0.10.132",
+            "version": "0.10.133",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-contacts",
-                "reference": "tags/0.10.132"
+                "reference": "tags/0.10.133"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.132.zip"
+                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.133.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -117,7 +117,7 @@
                     "/"
                 ]
             },
-            "time": "2024-12-20T18:36:59+00:00"
+            "time": "2024-12-24T12:39:54+00:00"
         },
         {
             "name": "afterlogic/aurora-module-core",
@@ -1138,15 +1138,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-openpgp",
-            "version": "0.10.48",
+            "version": "0.10.49",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp",
-                "reference": "tags/0.10.48"
+                "reference": "tags/0.10.49"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp/archive/0.10.48.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp/archive/0.10.49.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1161,7 +1161,7 @@
                     "/"
                 ]
             },
-            "time": "2024-08-23T10:25:42+00:00"
+            "time": "2024-12-24T18:16:03+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-recaptcha-plugin",
