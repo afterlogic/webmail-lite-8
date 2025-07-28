@@ -1,3 +1,27 @@
+[9.8.3]
+[*] Fixed opening attachement is attached .eml files
+[*] Fixed problem with reccurent events in external iCal feed
+[*] Fixed problem with global address book on iOS
+[*] Fixed displaying Tasks with no time
+[*] Fixed file drag'n'drop between different storages
+
+[9.8.2]
+[+] It is now possible to skip 2FA when logging onto DAV ("Skip2FA" setting in Dav module)
+[+] IgnoreImapSubscription setting now applies to Aurora Mail mobile app as well
+[*] Fixed issues with Google/Gmail integration
+[*] Fixed issues with integration via Single Sign-On 
+[*] Fixed issue with viewing PDF files
+[*] Fixed issue with "Test Connection" tool of RocketChat integration
+[*] Fixed issue with images in signature HTML source
+[*] Fixed issue with contact groups no longer shown in address autocompletion
+[*] Fixed issue with importing to custom address book
+[*] Fixed issue with post_max_size and upload_max_filesize values not handled correctly on file uploads
+[*] Corrected issues with displaying event time in event info pane
+[*] Corrected toolbar issues in Sand theme
+[*] Closed XSS issue with OAuth URLs
+[*] Italian translation update
+[*] A large number of fixes, optimizations and improvements
+
 [9.8.1]
 [+] Added a blockquote feature in message editor
 [*] Improved security of the authentication token cookie
