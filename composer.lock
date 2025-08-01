@@ -1328,16 +1328,16 @@
         },
         {
             "name": "afterlogic/dav",
-            "version": "4.1.13",
+            "version": "4.1.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/dav.git",
-                "reference": "c57f7b52f126483a1efda9d9dfbed629c1fdf7f0"
+                "reference": "2865a0551f383e5bf0aebc6d408e26f0df0cf26a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/dav/zipball/c57f7b52f126483a1efda9d9dfbed629c1fdf7f0",
-                "reference": "c57f7b52f126483a1efda9d9dfbed629c1fdf7f0",
+                "url": "https://api.github.com/repos/afterlogic/dav/zipball/2865a0551f383e5bf0aebc6d408e26f0df0cf26a",
+                "reference": "2865a0551f383e5bf0aebc6d408e26f0df0cf26a",
                 "shasum": ""
             },
             "require": {
@@ -1367,9 +1367,9 @@
             "homepage": "https://github.com/afterlogic/dav",
             "support": {
                 "issues": "https://github.com/afterlogic/dav/issues",
-                "source": "https://github.com/afterlogic/dav/tree/4.1.13"
+                "source": "https://github.com/afterlogic/dav/tree/4.1.14"
             },
-            "time": "2025-06-10T11:47:47+00:00"
+            "time": "2025-08-01T11:32:14+00:00"
         },
         {
             "name": "afterlogic/googleauthenticator",
@@ -1420,16 +1420,16 @@
         },
         {
             "name": "afterlogic/mailso",
-            "version": "1.5.72",
+            "version": "1.5.73",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/MailSo.git",
-                "reference": "c3c1c5c5c1c8fb44f5c219a55fa25e26e81868d1"
+                "reference": "6bef2b520610a1e3c10e56bc6d2041920589a1ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/MailSo/zipball/c3c1c5c5c1c8fb44f5c219a55fa25e26e81868d1",
-                "reference": "c3c1c5c5c1c8fb44f5c219a55fa25e26e81868d1",
+                "url": "https://api.github.com/repos/afterlogic/MailSo/zipball/6bef2b520610a1e3c10e56bc6d2041920589a1ef",
+                "reference": "6bef2b520610a1e3c10e56bc6d2041920589a1ef",
                 "shasum": ""
             },
             "require": {
@@ -1459,9 +1459,9 @@
             "homepage": "https://github.com/afterlogic/mailso",
             "support": {
                 "issues": "https://github.com/afterlogic/MailSo/issues",
-                "source": "https://github.com/afterlogic/MailSo/tree/1.5.72"
+                "source": "https://github.com/afterlogic/MailSo/tree/1.5.73"
             },
-            "time": "2025-05-28T13:14:19+00:00"
+            "time": "2025-07-31T13:31:07+00:00"
         },
         {
             "name": "barryvdh/laravel-ide-helper",
