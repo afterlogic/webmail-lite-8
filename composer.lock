@@ -842,15 +842,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
-            "version": "0.10.129",
+            "version": "0.10.130",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-core",
-                "reference": "tags/0.10.129"
+                "reference": "tags/0.10.130"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.129.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.130.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0 || dev-master",
@@ -865,7 +865,7 @@
                     "/"
                 ]
             },
-            "time": "2025-08-06T08:50:30+00:00"
+            "time": "2025-09-04T17:09:01+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-dropbox-auth",
@@ -1328,16 +1328,16 @@
         },
         {
             "name": "afterlogic/dav",
-            "version": "4.1.14",
+            "version": "4.1.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/dav.git",
-                "reference": "2865a0551f383e5bf0aebc6d408e26f0df0cf26a"
+                "reference": "dfd414f5e962393b2874fce49f00d7af5d48f0f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/dav/zipball/2865a0551f383e5bf0aebc6d408e26f0df0cf26a",
-                "reference": "2865a0551f383e5bf0aebc6d408e26f0df0cf26a",
+                "url": "https://api.github.com/repos/afterlogic/dav/zipball/dfd414f5e962393b2874fce49f00d7af5d48f0f1",
+                "reference": "dfd414f5e962393b2874fce49f00d7af5d48f0f1",
                 "shasum": ""
             },
             "require": {
@@ -1367,9 +1367,9 @@
             "homepage": "https://github.com/afterlogic/dav",
             "support": {
                 "issues": "https://github.com/afterlogic/dav/issues",
-                "source": "https://github.com/afterlogic/dav/tree/4.1.14"
+                "source": "https://github.com/afterlogic/dav/tree/4.1.15"
             },
-            "time": "2025-08-01T11:32:14+00:00"
+            "time": "2025-08-29T13:56:30+00:00"
         },
         {
             "name": "afterlogic/googleauthenticator",
@@ -1420,16 +1420,16 @@
         },
         {
             "name": "afterlogic/mailso",
-            "version": "1.5.73",
+            "version": "1.5.74",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/MailSo.git",
-                "reference": "6bef2b520610a1e3c10e56bc6d2041920589a1ef"
+                "reference": "9cdda7bb146eb77c7e722fb3fee464a95f902355"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/MailSo/zipball/6bef2b520610a1e3c10e56bc6d2041920589a1ef",
-                "reference": "6bef2b520610a1e3c10e56bc6d2041920589a1ef",
+                "url": "https://api.github.com/repos/afterlogic/MailSo/zipball/9cdda7bb146eb77c7e722fb3fee464a95f902355",
+                "reference": "9cdda7bb146eb77c7e722fb3fee464a95f902355",
                 "shasum": ""
             },
             "require": {
@@ -1459,9 +1459,9 @@
             "homepage": "https://github.com/afterlogic/mailso",
             "support": {
                 "issues": "https://github.com/afterlogic/MailSo/issues",
-                "source": "https://github.com/afterlogic/MailSo/tree/1.5.73"
+                "source": "https://github.com/afterlogic/MailSo/tree/1.5.74"
             },
-            "time": "2025-07-31T13:31:07+00:00"
+            "time": "2025-08-27T05:20:37+00:00"
         },
         {
             "name": "barryvdh/laravel-ide-helper",
