@@ -1,3 +1,9 @@
+[9.8.4]
+[*] Closed Secure Link vulnerability
+[*] iOS profile now uses external IMAP settings correctly
+[*] Fixed issue with importing dcntacts from VCF files
+[*] Security improvements
+
 [9.8.3]
 [*] Fixed opening attachement is attached .eml files
 [*] Fixed problem with reccurent events in external iCal feed
