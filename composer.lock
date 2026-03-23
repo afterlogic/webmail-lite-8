@@ -485,15 +485,15 @@
         },
         {
             "name": "afterlogic/aurora-module-mail-notes-plugin",
-            "version": "0.10.22",
+            "version": "0.10.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-mail-notes-plugin",
-                "reference": "tags/0.10.22"
+                "reference": "tags/0.10.23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-mail-notes-plugin/archive/0.10.22.zip"
+                "url": "https://github.com/afterlogic/aurora-module-mail-notes-plugin/archive/0.10.23.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0 || dev-master",
@@ -508,7 +508,7 @@
                     "/"
                 ]
             },
-            "time": "2025-01-24T19:23:34+00:00"
+            "time": "2025-09-26T15:33:13+00:00"
         },
         {
             "name": "afterlogic/aurora-module-mail-save-message-as-pdf-plugin",
@@ -978,15 +978,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail",
-            "version": "0.10.137",
+            "version": "0.10.138",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-mail",
-                "reference": "tags/0.10.137"
+                "reference": "tags/0.10.138"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.10.137.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.10.138.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0 || dev-master"
@@ -1000,7 +1000,7 @@
                     "/"
                 ]
             },
-            "time": "2026-03-20T12:13:20+00:00"
+            "time": "2026-03-23T12:08:27+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail-login-form",
