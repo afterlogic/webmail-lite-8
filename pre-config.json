@@ -76,6 +76,9 @@
 		"RecaptchaWebclientPlugin": {
 			"Disabled": true
 		},
+		"CloudflareTurnstileWebclientPlugin": {
+			"Disabled": true
+		},
 		"MailMasterPassword": {
 			"Disabled": true
 		},
