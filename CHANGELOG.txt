@@ -1,3 +1,14 @@
+[9.8.5]
+[+] Improved display of Outlook-formatted emails
+[+] Added support for elliptic curve cryptography (ECC) PGP keys
+[*] Fixed displaying PGP keys on user settings screen
+[*] Fixed XSS vulnerabilities
+[*] Fixed horizontal split mismatch from 9.8.4
+[*] Fixed external mail host not set in iOS profile
+[*] Misc. security improvements
+[*] Minor fixes and improvements in Files module
+[*] Minor UI improvements in Calendar module
+
 [9.8.4]
 [*] Closed Secure Link vulnerability
 [*] iOS profile now uses external IMAP settings correctly
