@@ -1,3 +1,18 @@
+[9.8.6]
+[+] Fully new mobile web version
+[*] Fixed SQL, XML and CSV injection vulnerabilities
+[*] Fixed user not being logged out from other sessions after changing account password
+[*] Restored AllowUsedDevices functionality
+[*] Fixed missing linebreaks in forwarded message headers
+[*] Fixed losing contact's friendly name when reopening a message draft
+[*] Improved performance of Mail folder loading
+[*] Fixed folder creation with a long name in Files
+[*] Fixed system user group returning an empty Email list
+[*] Fixed UpdateGroup not updating group contacts correctly
+[*] Fixed public calendar shown as empty
+[*] Fixed visual issues in the list of own PGP keys
+[*] Various fixes and improvements
+
 [9.8.5]
 [+] Improved display of Outlook-formatted emails
 [+] Added support for elliptic curve cryptography (ECC) PGP keys
