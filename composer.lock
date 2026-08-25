@@ -28,15 +28,15 @@
         },
         {
             "name": "afterlogic/aurora-framework",
-            "version": "0.10.148",
+            "version": "0.10.149",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-framework",
-                "reference": "tags/0.10.148"
+                "reference": "tags/0.10.149"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.148.zip"
+                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.149.zip"
             },
             "require": {
                 "afterlogic/mailso": "^1.4 || dev-master",
@@ -62,7 +62,7 @@
                     "Installer.php"
                 ]
             },
-            "time": "2026-08-24T10:59:40+00:00"
+            "time": "2026-08-24T14:48:05+00:00"
         },
         {
             "name": "afterlogic/aurora-module-admin-auth",
