@@ -42,6 +42,9 @@
 		"MailWebclient": {
 			"AllowSearchMessagesBySubject": true
 		},
+		"CustomMailHeadersReader": {
+			"Disabled": true
+		},
 		"OAuthIntegratorWebclient": {
 			"AllowNewUsersRegister": false
 		},
