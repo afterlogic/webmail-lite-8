@@ -1,3 +1,27 @@
+[9.8.7]
+[+] Mobile: mail login form migrated to the new Vue.js UI.
+[+] Mobile: added read/unread buttons.
+[+] Removed the unnecessary confirmation dialog when deleting a message.
+[+] Added Custom Mail Tags module.
+[+] Long folder names are now truncated in the Files drawer.
+[+] Added missing Contacts indexes, which fixes very slow performance.
+[+] Verified compatibility with PHP 8.4 and 8.5.
+[*] Fixed cross-user arbitrary file access.
+[*] Fixed the verify-security-key vulnerability.
+[*] Fixed JS/CSS/HTML injection in calendar events.
+[*] Mobile: fixed plain-text messages and linked images not being shown in emails.
+[*] Messages are moved to Trash instead of being removed permanently.
+[*] Fixed BCC with scheduled messages.
+[*] Fixed fresh contacts missing from the suggestion list.
+[*] Fixed the incorrect path when restoring a file from Trash.
+[*] Fixed creating public links and deleting file shortcuts.
+[*] Fixed removing the last instance of a recurring event.
+[*] Fixed the number of repetitions of recurring tasks.
+[*] Fixed using the calendar with an alias email address.
+[*] Fixed logging in as superadmin and deleting a user via the admin panel.
+[*] Fixed tenant admin access to users' data.
+[*] Users are no longer deleted when their mail server is deleted.
+
 [9.8.6]
 [+] Fully new mobile web version
 [*] Fixed SQL, XML and CSV injection vulnerabilities
