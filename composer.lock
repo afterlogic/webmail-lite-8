@@ -93,15 +93,15 @@
         },
         {
             "name": "afterlogic/aurora-module-contacts",
-            "version": "0.10.141",
+            "version": "0.10.142",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-contacts",
-                "reference": "tags/0.10.141"
+                "reference": "tags/0.10.142"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.141.zip"
+                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.142.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0 || dev-master",
@@ -117,7 +117,7 @@
                     "/"
                 ]
             },
-            "time": "2026-09-30T11:49:33+00:00"
+            "time": "2026-10-14T09:07:10+00:00"
         },
         {
             "name": "afterlogic/aurora-module-core",
@@ -1449,16 +1449,16 @@
         },
         {
             "name": "afterlogic/mailso",
-            "version": "1.5.77",
+            "version": "1.5.78",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/MailSo.git",
-                "reference": "efd954aa21dc75f0ca6bb9efcf6bdfdcdc32e525"
+                "reference": "373c9dfe7149e139c449cd5cb20243098de2cc7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/MailSo/zipball/efd954aa21dc75f0ca6bb9efcf6bdfdcdc32e525",
-                "reference": "efd954aa21dc75f0ca6bb9efcf6bdfdcdc32e525",
+                "url": "https://api.github.com/repos/afterlogic/MailSo/zipball/373c9dfe7149e139c449cd5cb20243098de2cc7e",
+                "reference": "373c9dfe7149e139c449cd5cb20243098de2cc7e",
                 "shasum": ""
             },
             "require": {
@@ -1488,9 +1488,9 @@
             "homepage": "https://github.com/afterlogic/mailso",
             "support": {
                 "issues": "https://github.com/afterlogic/MailSo/issues",
-                "source": "https://github.com/afterlogic/MailSo/tree/1.5.77"
+                "source": "https://github.com/afterlogic/MailSo/tree/1.5.78"
             },
-            "time": "2026-08-19T12:59:30+00:00"
+            "time": "2026-10-14T09:36:13+00:00"
         },
         {
             "name": "barryvdh/laravel-ide-helper",
