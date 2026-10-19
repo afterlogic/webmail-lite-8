@@ -6,6 +6,7 @@
 [+] Long folder names are now truncated in the Files drawer.
 [+] Added missing Contacts indexes, which fixes very slow performance.
 [+] Verified compatibility with PHP 8.4 and 8.5.
+[*] Extended the log entry format to include the user account, session hash
 [*] Fixed cross-user arbitrary file access.
 [*] Fixed the verify-security-key vulnerability.
 [*] Fixed JS/CSS/HTML injection in calendar events.
