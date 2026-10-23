@@ -206,15 +206,15 @@
         },
         {
             "name": "afterlogic/aurora-module-dav-contacts",
-            "version": "0.10.33",
+            "version": "0.10.34",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-dav-contacts",
-                "reference": "tags/0.10.33"
+                "reference": "tags/0.10.34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-dav-contacts/archive/0.10.33.zip"
+                "url": "https://github.com/afterlogic/aurora-module-dav-contacts/archive/0.10.34.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0 || dev-master",
@@ -231,7 +231,7 @@
                     "/"
                 ]
             },
-            "time": "2024-04-15T15:24:24+00:00"
+            "time": "2026-09-07T08:24:01+00:00"
         },
         {
             "name": "afterlogic/aurora-module-dropbox",
@@ -707,12 +707,12 @@
             "version": "0.10.33",
             "source": {
                 "type": "git",
-                "url": "https://github.com/afterlogic/aurora-module-standard-reset-password",
+                "url": "https://github.com/afterlogic/aurora-module-webclient-standard-reset-password",
                 "reference": "tags/0.10.33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-standard-reset-password/archive/0.10.33.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-standard-reset-password/archive/0.10.33.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0 || dev-master",
